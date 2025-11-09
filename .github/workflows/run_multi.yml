@@ -18,20 +18,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4  # Keep under 5 minutes to avoid overlap
     env:
-      # Use secret if non-empty, otherwise fall back to repository variable (vars). GitHub expressions allow short-circuit with &&/|| style pattern.
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_BOT_TOKEN || vars.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID != '' && secrets.TELEGRAM_CHAT_ID || vars.TELEGRAM_CHAT_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Debug env presence (masked)
+        run: |
+          echo "BOT TOKEN length: ${#TELEGRAM_BOT_TOKEN}"; echo "CHAT ID length: ${#TELEGRAM_CHAT_ID}"; [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "(EMPTY TOKEN)" || echo "(TOKEN SET)"; [ -z "$TELEGRAM_CHAT_ID" ] && echo "(EMPTY CHAT ID)" || echo "(CHAT ID SET)"
       - name: Fail-fast secrets check
         run: |
-          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
-            echo "Missing TELEGRAM_BOT_TOKEN (neither secret nor vars defined)."; exit 1; else echo "TELEGRAM_BOT_TOKEN present"; fi
-          if [ -z "$TELEGRAM_CHAT_ID" ]; then
-            echo "Missing TELEGRAM_CHAT_ID (neither secret nor vars defined)."; exit 1; else echo "TELEGRAM_CHAT_ID present"; fi
-          echo "Secrets/vars OK"
+          [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "Missing TELEGRAM_BOT_TOKEN secret (add in Settings > Secrets and variables > Actions)" && exit 1 || echo "TELEGRAM_BOT_TOKEN present"
+          [ -z "$TELEGRAM_CHAT_ID" ] && echo "Missing TELEGRAM_CHAT_ID secret (add in Settings > Secrets and variables > Actions)" && exit 1 || echo "TELEGRAM_CHAT_ID present"
+          echo "Secrets OK"
 
       - name: Set up Python
         uses: actions/setup-python@v5
