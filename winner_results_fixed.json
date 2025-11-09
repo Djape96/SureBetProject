@@ -1,0 +1,21 @@
+{
+  "match_url": "https://toptiket.rs/odds/football/match/441570",
+  "match_info": {},
+  "winner_odds": {
+    "Winner1": 1.33,
+    "Winner2": 3.25,
+    "best_bookmaker_w1": "Admiral",
+    "best_bookmaker_w2": "MerkurXtip"
+  },
+  "timestamp": "2025-09-20 00:25:08",
+  "status": "success",
+  "surebet_analysis": {
+    "is_surebet": false,
+    "total_probability": 1.059572006940428,
+    "profit_margin_percent": 0,
+    "stake_distribution": {
+      "winner1_percent": 0,
+      "winner2_percent": 0
+    }
+  }
+}

@@ -1,0 +1,241 @@
+Handball Matches (live) - 2025-10-18 17:33:37
+============================================================
+
+Szeged vs Csurgoi
+  1: 1.05 @ AUTO
+  X: 22.0 @ AUTO
+  2: 17.0 @ AUTO
+  Handicap1: 1.9 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Onnereds vs Hammarby
+  1: 5.2 @ AUTO
+  X: 11.5 @ AUTO
+  2: 1.3 @ AUTO
+  Handicap1: 3.5 @ AUTO
+  Handicap2: 1.8 @ AUTO
+
+Azoty Pulawy vs Zaglebie
+  1: 1.7 @ AUTO
+  X: 9.25 @ AUTO
+  2: 2.85 @ AUTO
+  Handicap1: 1.87 @ AUTO
+  Handicap2: 1.93 @ AUTO
+
+FTC Budapest vs Budakalasz
+  1: 1.11 @ AUTO
+  X: 17.5 @ AUTO
+  2: 11.0 @ AUTO
+  Handicap1: 1.98 @ AUTO
+  Handicap2: 1.78 @ AUTO
+
+Gyongyosi vs Komloi
+  1: 1.62 @ AUTO
+  X: 9.0 @ AUTO
+  2: 2.9 @ AUTO
+  Handicap1: 1.9 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+KPR Legionowo vs Kwidzyn
+  1: 2.7 @ AUTO
+  X: 9.1 @ AUTO
+  2: 1.8 @ AUTO
+  Handicap1: 1.5 @ AUTO
+  Handicap2: 2.1 @ AUTO
+
+Erlangen vs HSG Wetzlar
+  1: 1.4 @ AUTO
+  X: 10.5 @ AUTO
+  2: 3.85 @ AUTO
+  Handicap1: 2.03 @ AUTO
+  Handicap2: 2.0 @ AUTO
+
+Ademar vs Cuenca
+  1: 1.25 @ AUTO
+  X: 13.0 @ AUTO
+  2: 5.65 @ AUTO
+  Handicap1: 1.85 @ AUTO
+  Handicap2: 2.02 @ AUTO
+
+Baekkelaget vs Elverum
+  1: 12.0 @ AUTO
+  X: 18.5 @ AUTO
+  2: 1.11 @ AUTO
+
+Kiel vs MT Melsungen
+  1: 1.25 @ AUTO
+  X: 12.5 @ AUTO
+  2: 5.25 @ AUTO
+  Handicap1: 1.78 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Montpellier vs Nantes
+  1: 2.2 @ AUTO
+  X: 9.5 @ AUTO
+  2: 2.05 @ AUTO
+  Handicap1: 1.5 @ AUTO
+  Handicap2: 2.33 @ AUTO
+
+Toulouse vs Istres
+  1: 1.3 @ AUTO
+  X: 12.0 @ AUTO
+  2: 5.2 @ AUTO
+  Handicap1: 2.0 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Chambery Savoie vs St. Raphael
+  1: 2.15 @ AUTO
+  X: 9.2 @ AUTO
+  2: 2.12 @ AUTO
+  Handicap1: 1.72 @ AUTO
+  Handicap2: 1.82 @ AUTO
+
+Faroe Islands W vs Montenegro W
+  1: 6.25 @ AUTO
+  X: 13.5 @ AUTO
+  2: 1.23 @ AUTO
+  Handicap1: 4.5 @ AUTO
+  Handicap2: 2.0 @ AUTO
+
+BM Torrelavega vs Morrazo Cangas
+  1: 1.25 @ AUTO
+  X: 13.0 @ AUTO
+  2: 5.5 @ AUTO
+  Handicap1: 1.85 @ AUTO
+  Handicap2: 1.97 @ AUTO
+
+Viveros Herol Bm. Nava vs Puente Genil
+  1: 1.5 @ AUTO
+  X: 10.0 @ AUTO
+  2: 3.25 @ AUTO
+  Handicap1: 1.87 @ AUTO
+  Handicap2: 1.97 @ AUTO
+
+Vive Kielce vs Wisla Plock
+  1: 2.6 @ AUTO
+  X: 8.5 @ AUTO
+  2: 1.8 @ AUTO
+  Handicap1: 1.5 @ AUTO
+  Handicap2: 2.05 @ AUTO
+
+Stuttgart vs Fuchse Berlin
+  1: 9.5 @ AUTO
+  X: 19.0 @ AUTO
+  2: 1.15 @ AUTO
+
+GOG vs Mors
+  1: 1.4 @ AUTO
+  X: 10.5 @ AUTO
+  2: 3.85 @ AUTO
+  Handicap1: 2.0 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Lithuania W vs Sweden W
+  1: 22.0 @ AUTO
+  X: 25.0 @ AUTO
+  2: 1.01 @ AUTO
+
+Stal Mielec vs Piotrkowianin Piotrkow
+  1: 1.47 @ AUTO
+  X: 10.0 @ AUTO
+  2: 3.85 @ AUTO
+  Handicap1: 1.9 @ AUTO
+  Handicap2: 1.93 @ AUTO
+
+Wybrzeze Gdansk vs Gwardia Opole
+  1: 1.38 @ AUTO
+  X: 11.0 @ AUTO
+  2: 4.25 @ AUTO
+  Handicap1: 1.83 @ AUTO
+  Handicap2: 1.83 @ AUTO
+
+Alstermo IF vs Ystads IF
+  1: 4.34 @ AUTO
+  X: 11.0 @ AUTO
+  2: 1.37 @ AUTO
+  Handicap1: 3.5 @ AUTO
+  Handicap2: 2.0 @ AUTO
+
+Hamburg vs Gummersbach
+  1: 2.8 @ AUTO
+  X: 9.3 @ AUTO
+  2: 1.77 @ AUTO
+  Handicap1: 1.5 @ AUTO
+  Handicap2: 2.05 @ AUTO
+
+La Rioja vs Villa de Aranda
+  1: 1.23 @ AUTO
+  X: 13.0 @ AUTO
+  2: 5.5 @ AUTO
+  Handicap1: 1.87 @ AUTO
+  Handicap2: 1.92 @ AUTO
+
+Chartres 28 vs Paris SG
+  1: 13.0 @ AUTO
+  X: 27.0 @ AUTO
+  2: 1.08 @ AUTO
+
+Greece W vs Austria W
+  1: 16.0 @ AUTO
+  X: 20.0 @ AUTO
+  2: 1.03 @ AUTO
+
+Kosovo W vs Croatia W
+  1: 16.0 @ AUTO
+  X: 20.0 @ AUTO
+  2: 1.04 @ AUTO
+
+Minden vs Hannover Burgdorf
+  1: 5.7 @ AUTO
+  X: 11.5 @ AUTO
+  2: 1.32 @ AUTO
+  Handicap1: 3.5 @ AUTO
+  Handicap2: 1.95 @ AUTO
+
+Halden vs Fjellhammer
+  1: 1.8 @ AUTO
+  X: 8.0 @ AUTO
+  2: 2.6 @ AUTO
+  Handicap1: 1.75 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Drammen vs Arendal
+  1: 1.41 @ AUTO
+  X: 10.5 @ AUTO
+  2: 4.0 @ AUTO
+  Handicap1: 1.97 @ AUTO
+  Handicap2: 1.98 @ AUTO
+
+Follo HK vs Sandnes HK
+  1: 1.35 @ AUTO
+  X: 11.0 @ AUTO
+  2: 4.95 @ AUTO
+  Handicap1: 1.95 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+North Macedonia W vs Slovenia W
+  1: 4.9 @ AUTO
+  X: 12.5 @ AUTO
+  2: 1.32 @ AUTO
+  Handicap1: 3.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Ukraine W vs Serbia W
+  1: 10.5 @ AUTO
+  X: 16.5 @ AUTO
+  2: 1.15 @ AUTO
+
+Portugal W vs Iceland W
+  1: 1.52 @ AUTO
+  X: 10.5 @ AUTO
+  2: 3.35 @ AUTO
+  Handicap1: 1.78 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Rd Loka vs RK Slovenj Gradec
+  1: 2.85 @ AUTO
+  X: 8.4 @ AUTO
+  2: 1.65 @ AUTO
+  Handicap1: 1.5 @ AUTO
+  Handicap2: 1.87 @ AUTO
+

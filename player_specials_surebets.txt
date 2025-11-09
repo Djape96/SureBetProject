@@ -1,0 +1,17 @@
+TOPTIKET PLAYER SPECIALS ANALYSIS
+Total player specials: 49
+Surebets found: 1
+Pages scraped: 10
+
+SUREBETS (Risk-Free Profit)
+--------------------------------
+Parker J.
+   - Points: Margin 1.13% | ROI 1.15% | odds[Under=2.15, Over=1.91] | stakes(Under=47.04, Over=52.96)
+
+Generated on 2025-10-15 16:01:54
+Generated via mixed text+DOM parsing.
+
+STATISTICS:
+- Margin range: 1.13% to 1.13%
+- ROI range: 1.15% to 1.15%
+- Average ROI: 1.15%

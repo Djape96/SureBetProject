@@ -1,0 +1,5 @@
+NFL TOUCHDOWN SUREBET ANALYSIS
+Total players parsed (any book): 115
+Surebets found (ROI>=0.0%): 0
+
+No cross-book touchdown surebets detected.

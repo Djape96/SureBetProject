@@ -1,0 +1,7 @@
+TOPTIKET NFL ANALYSIS
+Total matches: 13
+Surebets found: 0
+
+No true surebets detected with single TopTiket feed. Add other bookmakers for cross-book 1/2 arbitrage.
+
+Generated via mixed text+DOM parsing.

@@ -1,0 +1,1034 @@
+{
+  "timestamp": 1758121092.1364331,
+  "surebets": [
+    {
+      "match": "Brazil M vs Carioca A",
+      "under": {
+        "odd": 4.0,
+        "book": "MOZZART"
+      },
+      "over": {
+        "odd": 5.0,
+        "book": "MOZZART"
+      },
+      "profit_percent": 55.0,
+      "stakes": {
+        "under": 55.56,
+        "over": 44.44,
+        "abs_profit": 122.22
+      }
+    },
+    {
+      "match": ". marta vs . Ekskluzivni beting partneri",
+      "under": {
+        "odd": 3.0,
+        "book": "MOZZART"
+      },
+      "over": {
+        "odd": 5.0,
+        "book": "MOZZART"
+      },
+      "profit_percent": 46.67,
+      "stakes": {
+        "under": 62.5,
+        "over": 37.5,
+        "abs_profit": 87.5
+      }
+    },
+    {
+      "match": "Bulgaria Third League - North-East HT + vs Spartak II Ludogorets III",
+      "under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 13.0,
+        "book": "MAXBET"
+      },
+      "profit_percent": 42.31,
+      "stakes": {
+        "under": 86.67,
+        "over": 13.33,
+        "abs_profit": 73.33
+      }
+    },
+    {
+      "match": "Svi sportovi vs Fudbal",
+      "under": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      },
+      "over": {
+        "odd": 8.0,
+        "book": "MOZZART"
+      },
+      "profit_percent": 37.5,
+      "stakes": {
+        "under": 80.0,
+        "over": 20.0,
+        "abs_profit": 60.0
+      }
+    },
+    {
+      "match": "Argentina vs rezerve",
+      "under": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      },
+      "over": {
+        "odd": 8.0,
+        "book": "MOZZART"
+      },
+      "profit_percent": 37.5,
+      "stakes": {
+        "under": 80.0,
+        "over": 20.0,
+        "abs_profit": 60.0
+      }
+    },
+    {
+      "match": "ARGENTINA vs - Women HT +",
+      "under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 4.4,
+        "book": "MAXBET"
+      },
+      "profit_percent": 27.27,
+      "stakes": {
+        "under": 68.75,
+        "over": 31.25,
+        "abs_profit": 37.5
+      }
+    },
+    {
+      "match": "ASIA AFC Champions League vs Arkadag Andijan",
+      "under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 4.05,
+        "book": "MAXBET"
+      },
+      "profit_percent": 25.31,
+      "stakes": {
+        "under": 66.94,
+        "over": 33.06,
+        "abs_profit": 33.88
+      }
+    },
+    {
+      "match": "Argentina Reserve League vs CA Atlanta Res. Defensores Unidos Res.",
+      "under": {
+        "odd": 1.5,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 8.4,
+        "book": "MAXBET"
+      },
+      "profit_percent": 21.43,
+      "stakes": {
+        "under": 84.85,
+        "over": 15.15,
+        "abs_profit": 27.27
+      }
+    },
+    {
+      "match": "Argentina Reserve League HT + vs Deportivo Armenio Res. Ferrocarril Midland Res.",
+      "under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 3.0,
+        "book": "MAXBET"
+      },
+      "profit_percent": 16.67,
+      "stakes": {
+        "under": 60.0,
+        "over": 40.0,
+        "abs_profit": 20.0
+      }
+    },
+    {
+      "match": "Deportivo Armenio Res. Ferrocarril Midland Res. vs - X -",
+      "under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 3.0,
+        "book": "MAXBET"
+      },
+      "profit_percent": 16.67,
+      "stakes": {
+        "under": 60.0,
+        "over": 40.0,
+        "abs_profit": 20.0
+      }
+    },
+    {
+      "match": "Argentina Reserve League HT + vs Chacarita Juniors Res. Nueva Chicago Res.",
+      "under": {
+        "odd": 1.33,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 10.5,
+        "book": "MAXBET"
+      },
+      "profit_percent": 15.29,
+      "stakes": {
+        "under": 88.76,
+        "over": 11.24,
+        "abs_profit": 18.05
+      }
+    },
+    {
+      "match": "ASIA AFC Champions League vs Goa Al Zawraa",
+      "under": {
+        "odd": 1.3,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 12.5,
+        "book": "MAXBET"
+      },
+      "profit_percent": 15.08,
+      "stakes": {
+        "under": 90.58,
+        "over": 9.42,
+        "abs_profit": 17.75
+      }
+    },
+    {
+      "match": "Bulgaria Third League - South-West HT + vs Oborishte Vitosha Bistrica",
+      "under": {
+        "odd": 1.2,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 14.0,
+        "book": "MAXBET"
+      },
+      "profit_percent": 9.52,
+      "stakes": {
+        "under": 92.11,
+        "over": 7.89,
+        "abs_profit": 10.53
+      }
+    },
+    {
+      "match": "Argentina Reserve League vs Defensores de Belgrano Res. Almirante Brown Res.",
+      "under": {
+        "odd": 1.17,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 9.5,
+        "book": "MAXBET"
+      },
+      "profit_percent": 4.0,
+      "stakes": {
+        "under": 89.03,
+        "over": 10.97,
+        "abs_profit": 4.17
+      }
+    },
+    {
+      "match": "min Novo Nsoft Lucky vs Novo Lightning L",
+      "under": {
+        "odd": 1.16,
+        "book": "MOZZART"
+      },
+      "over": {
+        "odd": 10.0,
+        "book": "MOZZART"
+      },
+      "profit_percent": 3.79,
+      "stakes": {
+        "under": 89.61,
+        "over": 10.39,
+        "abs_profit": 3.94
+      }
+    },
+    {
+      "match": "Uživo Jackpot vs Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+      "under": {
+        "odd": 1.16,
+        "book": "MOZZART"
+      },
+      "over": {
+        "odd": 10.0,
+        "book": "MOZZART"
+      },
+      "profit_percent": 3.79,
+      "stakes": {
+        "under": 89.61,
+        "over": 10.39,
+        "abs_profit": 3.94
+      }
+    },
+    {
+      "match": "Liga šampiona M vs HT +",
+      "under": {
+        "odd": 1.16,
+        "book": "MOZZART"
+      },
+      "over": {
+        "odd": 9.75,
+        "book": "MOZZART"
+      },
+      "profit_percent": 3.54,
+      "stakes": {
+        "under": 89.37,
+        "over": 10.63,
+        "abs_profit": 3.67
+      }
+    },
+    {
+      "match": "Chat + vs Konačan ishod Ukupno golova Sledeći gol ALBANIA",
+      "under": {
+        "odd": 1.11,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 14.0,
+        "book": "MAXBET"
+      },
+      "profit_percent": 2.77,
+      "stakes": {
+        "under": 92.65,
+        "over": 7.35,
+        "abs_profit": 2.85
+      }
+    },
+    {
+      "match": "ALBANIA vs ' Teuta Dinamo Tirana",
+      "under": {
+        "odd": 1.11,
+        "book": "MAXBET"
+      },
+      "over": {
+        "odd": 14.0,
+        "book": "MAXBET"
+      },
+      "profit_percent": 2.77,
+      "stakes": {
+        "under": 92.65,
+        "over": 7.35,
+        "abs_profit": 2.85
+      }
+    }
+  ],
+  "raw_counts": {
+    "MOZZART": 23,
+    "MAXBET": 17
+  },
+  "meta": {
+    "MOZZART": {
+      "count": 23,
+      "elapsed_sec": 21.14
+    },
+    "MAXBET": {
+      "count": 17,
+      "elapsed_sec": 15.48
+    }
+  },
+  "bookmaker_raw": {
+    "MOZZART": [
+      {
+        "home": "min Novo Nsoft Lucky",
+        "away": "Novo Lightning L",
+        "under": 1.16,
+        "over": 10.0
+      },
+      {
+        "home": "min Novo Nsoft Lucky",
+        "away": "Novo Lightning L",
+        "under": 1.16,
+        "over": 10.0
+      },
+      {
+        "home": "Svi sportovi",
+        "away": "Fudbal",
+        "under": 2.0,
+        "over": 8.0
+      },
+      {
+        "home": "Svi sportovi",
+        "away": "Fudbal",
+        "under": 2.0,
+        "over": 8.0
+      },
+      {
+        "home": "Svi sportovi",
+        "away": "Fudbal",
+        "under": 2.0,
+        "over": 8.0
+      },
+      {
+        "home": "Svi sportovi",
+        "away": "Fudbal",
+        "under": 2.0,
+        "over": 8.0
+      },
+      {
+        "home": "Svi sportovi",
+        "away": "Fudbal",
+        "under": 2.0,
+        "over": 8.0
+      },
+      {
+        "home": "Uživo Jackpot",
+        "away": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "under": 1.16,
+        "over": 10.0
+      },
+      {
+        "home": "Uživo Jackpot",
+        "away": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "under": 1.16,
+        "over": 10.0
+      },
+      {
+        "home": "Uživo Jackpot",
+        "away": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "under": 1.16,
+        "over": 10.0
+      },
+      {
+        "home": "Uživo Jackpot",
+        "away": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "under": 1.16,
+        "over": 10.0
+      },
+      {
+        "home": "Uživo Jackpot",
+        "away": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "under": 1.16,
+        "over": 10.0
+      },
+      {
+        "home": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "away": "Daje sledeći gol Daje sledeći gol",
+        "under": 1.16,
+        "over": 9.75
+      },
+      {
+        "home": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "away": "Daje sledeći gol Daje sledeći gol",
+        "under": 2.0,
+        "over": 2.0
+      },
+      {
+        "home": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+        "away": "Daje sledeći gol Daje sledeći gol",
+        "under": 2.0,
+        "over": 2.0
+      },
+      {
+        "home": "Konačan ishod Konačan ishod",
+        "away": "Daje sledeći gol Daje sledeći gol",
+        "under": 2.0,
+        "over": 2.0
+      },
+      {
+        "home": "Liga šampiona M",
+        "away": "HT +",
+        "under": 1.16,
+        "over": 9.75
+      },
+      {
+        "home": "Bayern M",
+        "away": "Chelsea M",
+        "under": 2.0,
+        "over": 2.0
+      },
+      {
+        "home": "Argentina",
+        "away": "rezerve",
+        "under": 2.0,
+        "over": 8.0
+      },
+      {
+        "home": "Brazil M",
+        "away": "Carioca A",
+        "under": 4.0,
+        "over": 5.0
+      },
+      {
+        "home": "Brazil M",
+        "away": "Carioca A",
+        "under": 4.0,
+        "over": 5.0
+      },
+      {
+        "home": ". marta",
+        "away": ". Ekskluzivni beting partneri",
+        "under": 3.0,
+        "over": 5.0
+      },
+      {
+        "home": ". marta",
+        "away": ". Ekskluzivni beting partneri",
+        "under": 3.0,
+        "over": 5.0
+      }
+    ],
+    "MAXBET": [
+      {
+        "home": "Chat +",
+        "away": "Konačan ishod Ukupno golova Sledeći gol ALBANIA",
+        "under": 1.11,
+        "over": 14.0
+      },
+      {
+        "home": "ALBANIA",
+        "away": "' Teuta Dinamo Tirana",
+        "under": 1.11,
+        "over": 14.0
+      },
+      {
+        "home": "ALBANIA",
+        "away": "' Teuta Dinamo Tirana",
+        "under": 1.11,
+        "over": 14.0
+      },
+      {
+        "home": "ALBANIA",
+        "away": "' Teuta Dinamo Tirana",
+        "under": 1.11,
+        "over": 14.0
+      },
+      {
+        "home": "ARGENTINA",
+        "away": "- Women HT +",
+        "under": 2.0,
+        "over": 4.4
+      },
+      {
+        "home": "ASIA AFC Champions League",
+        "away": "Arkadag Andijan",
+        "under": 2.0,
+        "over": 4.05
+      },
+      {
+        "home": "ASIA AFC Champions League",
+        "away": "Goa Al Zawraa",
+        "under": 1.3,
+        "over": 12.5
+      },
+      {
+        "home": "Argentina Reserve League",
+        "away": "Defensores de Belgrano Res. Almirante Brown Res.",
+        "under": 1.17,
+        "over": 9.5
+      },
+      {
+        "home": "Argentina Reserve League HT +",
+        "away": "Chacarita Juniors Res. Nueva Chicago Res.",
+        "under": 1.33,
+        "over": 10.5
+      },
+      {
+        "home": "Argentina Reserve League HT +",
+        "away": "Deportivo Armenio Res. Ferrocarril Midland Res.",
+        "under": 2.0,
+        "over": 3.0
+      },
+      {
+        "home": "Deportivo Armenio Res. Ferrocarril Midland Res.",
+        "away": "- X -",
+        "under": 2.0,
+        "over": 3.0
+      },
+      {
+        "home": "Argentina Reserve League",
+        "away": "CA Atlanta Res. Defensores Unidos Res.",
+        "under": 1.5,
+        "over": 8.4
+      },
+      {
+        "home": "BOSNIA & HERZ.",
+        "away": "HT +",
+        "under": 2.0,
+        "over": 2.0
+      },
+      {
+        "home": "Zrinjski Sloga Doboj",
+        "away": "- X -",
+        "under": 2.0,
+        "over": 2.0
+      },
+      {
+        "home": "Bulgaria Third League - North-East HT +",
+        "away": "Spartak II Ludogorets III",
+        "under": 2.0,
+        "over": 13.0
+      },
+      {
+        "home": "Bulgaria Third League - South-West HT +",
+        "away": "Oborishte Vitosha Bistrica",
+        "under": 1.2,
+        "over": 14.0
+      },
+      {
+        "home": "Bulgaria Third League - South-West HT +",
+        "away": "Levski Sofia II Gotse Delchev",
+        "under": 1.11,
+        "over": 7.0
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "match": "min Novo Nsoft Lucky vs Novo Lightning L",
+      "books": {
+        "MOZZART": {
+          "under": 1.16,
+          "over": 10.0
+        }
+      },
+      "best_under": {
+        "odd": 1.16,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 10.0,
+        "book": "MOZZART"
+      },
+      "potential_profit_percent": 3.79
+    },
+    {
+      "match": "Svi sportovi vs Fudbal",
+      "books": {
+        "MOZZART": {
+          "under": 2.0,
+          "over": 8.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 8.0,
+        "book": "MOZZART"
+      },
+      "potential_profit_percent": 37.5
+    },
+    {
+      "match": "Uživo Jackpot vs Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod",
+      "books": {
+        "MOZZART": {
+          "under": 1.16,
+          "over": 10.0
+        }
+      },
+      "best_under": {
+        "odd": 1.16,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 10.0,
+        "book": "MOZZART"
+      },
+      "potential_profit_percent": 3.79
+    },
+    {
+      "match": "Fudbal Sortirano po prioritetu Konačan ishod Konačan ishod vs Daje sledeći gol Daje sledeći gol",
+      "books": {
+        "MOZZART": {
+          "under": 2.0,
+          "over": 2.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      }
+    },
+    {
+      "match": "Konačan ishod Konačan ishod vs Daje sledeći gol Daje sledeći gol",
+      "books": {
+        "MOZZART": {
+          "under": 2.0,
+          "over": 2.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      }
+    },
+    {
+      "match": "Liga šampiona M vs HT +",
+      "books": {
+        "MOZZART": {
+          "under": 1.16,
+          "over": 9.75
+        }
+      },
+      "best_under": {
+        "odd": 1.16,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 9.75,
+        "book": "MOZZART"
+      },
+      "potential_profit_percent": 3.54
+    },
+    {
+      "match": "Bayern M vs Chelsea M",
+      "books": {
+        "MOZZART": {
+          "under": 2.0,
+          "over": 2.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      }
+    },
+    {
+      "match": "Argentina vs rezerve",
+      "books": {
+        "MOZZART": {
+          "under": 2.0,
+          "over": 8.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 8.0,
+        "book": "MOZZART"
+      },
+      "potential_profit_percent": 37.5
+    },
+    {
+      "match": "Brazil M vs Carioca A",
+      "books": {
+        "MOZZART": {
+          "under": 4.0,
+          "over": 5.0
+        }
+      },
+      "best_under": {
+        "odd": 4.0,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 5.0,
+        "book": "MOZZART"
+      },
+      "potential_profit_percent": 55.0
+    },
+    {
+      "match": ". marta vs . Ekskluzivni beting partneri",
+      "books": {
+        "MOZZART": {
+          "under": 3.0,
+          "over": 5.0
+        }
+      },
+      "best_under": {
+        "odd": 3.0,
+        "book": "MOZZART"
+      },
+      "best_over": {
+        "odd": 5.0,
+        "book": "MOZZART"
+      },
+      "potential_profit_percent": 46.67
+    },
+    {
+      "match": "Chat + vs Konačan ishod Ukupno golova Sledeći gol ALBANIA",
+      "books": {
+        "MAXBET": {
+          "under": 1.11,
+          "over": 14.0
+        }
+      },
+      "best_under": {
+        "odd": 1.11,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 14.0,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 2.77
+    },
+    {
+      "match": "ALBANIA vs ' Teuta Dinamo Tirana",
+      "books": {
+        "MAXBET": {
+          "under": 1.11,
+          "over": 14.0
+        }
+      },
+      "best_under": {
+        "odd": 1.11,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 14.0,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 2.77
+    },
+    {
+      "match": "ARGENTINA vs - Women HT +",
+      "books": {
+        "MAXBET": {
+          "under": 2.0,
+          "over": 4.4
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 4.4,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 27.27
+    },
+    {
+      "match": "ASIA AFC Champions League vs Arkadag Andijan",
+      "books": {
+        "MAXBET": {
+          "under": 2.0,
+          "over": 4.05
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 4.05,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 25.31
+    },
+    {
+      "match": "ASIA AFC Champions League vs Goa Al Zawraa",
+      "books": {
+        "MAXBET": {
+          "under": 1.3,
+          "over": 12.5
+        }
+      },
+      "best_under": {
+        "odd": 1.3,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 12.5,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 15.08
+    },
+    {
+      "match": "Argentina Reserve League vs Defensores de Belgrano Res. Almirante Brown Res.",
+      "books": {
+        "MAXBET": {
+          "under": 1.17,
+          "over": 9.5
+        }
+      },
+      "best_under": {
+        "odd": 1.17,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 9.5,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 4.0
+    },
+    {
+      "match": "Argentina Reserve League HT + vs Chacarita Juniors Res. Nueva Chicago Res.",
+      "books": {
+        "MAXBET": {
+          "under": 1.33,
+          "over": 10.5
+        }
+      },
+      "best_under": {
+        "odd": 1.33,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 10.5,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 15.29
+    },
+    {
+      "match": "Argentina Reserve League HT + vs Deportivo Armenio Res. Ferrocarril Midland Res.",
+      "books": {
+        "MAXBET": {
+          "under": 2.0,
+          "over": 3.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 3.0,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 16.67
+    },
+    {
+      "match": "Deportivo Armenio Res. Ferrocarril Midland Res. vs - X -",
+      "books": {
+        "MAXBET": {
+          "under": 2.0,
+          "over": 3.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 3.0,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 16.67
+    },
+    {
+      "match": "Argentina Reserve League vs CA Atlanta Res. Defensores Unidos Res.",
+      "books": {
+        "MAXBET": {
+          "under": 1.5,
+          "over": 8.4
+        }
+      },
+      "best_under": {
+        "odd": 1.5,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 8.4,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 21.43
+    },
+    {
+      "match": "BOSNIA & HERZ. vs HT +",
+      "books": {
+        "MAXBET": {
+          "under": 2.0,
+          "over": 2.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      }
+    },
+    {
+      "match": "Zrinjski Sloga Doboj vs - X -",
+      "books": {
+        "MAXBET": {
+          "under": 2.0,
+          "over": 2.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      }
+    },
+    {
+      "match": "Bulgaria Third League - North-East HT + vs Spartak II Ludogorets III",
+      "books": {
+        "MAXBET": {
+          "under": 2.0,
+          "over": 13.0
+        }
+      },
+      "best_under": {
+        "odd": 2.0,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 13.0,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 42.31
+    },
+    {
+      "match": "Bulgaria Third League - South-West HT + vs Oborishte Vitosha Bistrica",
+      "books": {
+        "MAXBET": {
+          "under": 1.2,
+          "over": 14.0
+        }
+      },
+      "best_under": {
+        "odd": 1.2,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 14.0,
+        "book": "MAXBET"
+      },
+      "potential_profit_percent": 9.52
+    },
+    {
+      "match": "Bulgaria Third League - South-West HT + vs Levski Sofia II Gotse Delchev",
+      "books": {
+        "MAXBET": {
+          "under": 1.11,
+          "over": 7.0
+        }
+      },
+      "best_under": {
+        "odd": 1.11,
+        "book": "MAXBET"
+      },
+      "best_over": {
+        "odd": 7.0,
+        "book": "MAXBET"
+      }
+    }
+  ]
+}

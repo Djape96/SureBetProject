@@ -1,0 +1,41 @@
+# Sensitive & environment
+.env
+*.env
+
+# Logs and debug output
+logs/
+*.log
+
+# Selenium drivers / cache
+chromedriver.exe
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env.local/
+
+# Scraped raw pages / large transient data
+tennis_3d_index_*.txt
+live_basketball_data.txt
+live_basketball_extracted.txt
+basketball_live_matches_*.txt
+basketball_live_surebets_*.txt
+
+# JSON data that can be regenerated
+tennis_dom_matches.json
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Jupyter checkpoints (if added later)
+.ipynb_checkpoints/
+
+# Backup files
+*.bak
+*.swp
