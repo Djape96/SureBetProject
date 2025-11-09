@@ -1,0 +1,73 @@
+name: Run multi script every 10 minutes
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: run-multi
+  cancel-in-progress: true
+
+jobs:
+  run-multi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8  # Ensure it finishes before next scheduled start
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies (if requirements.txt exists)
+        if: hashFiles('requirements.txt') != ''
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run script
+        env:
+          # Add any needed secrets via repository settings -> Secrets and variables -> Actions
+          # EXAMPLE_API_KEY: ${{ secrets.EXAMPLE_API_KEY }}
+        run: |
+          echo "Starting run at $(date)"
+          python run_multi.py --sequential | tee run_multi.log
+
+      - name: Upload run log artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run_multi_log
+          path: run_multi.log
+          retention-days: 7
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runId = process.env.GITHUB_RUN_ID;
+            const sha = process.env.GITHUB_SHA;
+            const repo = context.repo;
+            const url = `https://github.com/${repo.owner}/${repo.repo}/actions/runs/${runId}`;
+            const title = `run_multi failure ${new Date().toISOString()}`;
+            const body = `Workflow run failed.\nRun: ${url}\nCommit: ${sha}\nPlease inspect the artifact log for details.`;
+            await github.rest.issues.create({
+              owner: repo.owner,
+              repo: repo.repo,
+              title,
+              body
+            });
+
+      - name: Post-run summary
+        if: always()
+        run: |
+          echo "Completed with conclusion: ${{ job.status }}"

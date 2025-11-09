@@ -1,0 +1,9 @@
+# Core dependencies for SureBetProject automation & scraping
+requests
+python-dotenv
+selenium
+webdriver-manager
+beautifulsoup4
+fastapi  # used by API app (optional for scheduled script)
+# Optional runtime for FastAPI server (add if you serve the API):
+uvicorn[standard]
