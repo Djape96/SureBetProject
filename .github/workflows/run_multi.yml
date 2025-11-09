@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4  # Keep under 5 minutes to avoid overlap
     env:
-      # Use repository secrets if defined, otherwise fall back to environment-level variables (vars)
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || vars.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || vars.TELEGRAM_CHAT_ID }}
+      # Use secret if non-empty, otherwise fall back to repository variable (vars). GitHub expressions allow short-circuit with &&/|| style pattern.
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_BOT_TOKEN || vars.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID != '' && secrets.TELEGRAM_CHAT_ID || vars.TELEGRAM_CHAT_ID }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -48,7 +48,14 @@ jobs:
       - name: Run script
         run: |
           echo "Starting run at $(date)"
-          python run_multi.py --sequential | tee run_multi.log
+          set -o pipefail
+          python run_multi.py --sequential 2>&1 | tee run_multi.log
+
+      - name: List files after run
+        if: always()
+        run: |
+          echo "Workspace contents:";
+          ls -al . | head -100; echo "Logs dir (if any):"; ls -al logs || true; echo "Show log tail:"; tail -n 40 run_multi.log || echo "run_multi.log missing"
 
       - name: Upload run log artifact
         if: always()
