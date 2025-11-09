@@ -41,11 +41,11 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run script
+      - name: Run script (no aggregate summary)
         run: |
           echo "Starting run at $(date)"
           set -o pipefail
-          python run_multi.py --sequential 2>&1 | tee run_multi.log
+          python run_multi.py --sequential --no-aggregate 2>&1 | tee run_multi.log
 
       - name: List files after run
         if: always()
