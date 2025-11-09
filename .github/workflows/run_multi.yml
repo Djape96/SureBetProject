@@ -18,17 +18,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4  # Keep under 5 minutes to avoid overlap
     env:
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      # Use repository secrets if defined, otherwise fall back to environment-level variables (vars)
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || vars.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || vars.TELEGRAM_CHAT_ID }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Fail-fast secrets check
         run: |
-          [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "Missing TELEGRAM_BOT_TOKEN secret" && exit 1 || echo "TELEGRAM_BOT_TOKEN present"
-          [ -z "$TELEGRAM_CHAT_ID" ] && echo "Missing TELEGRAM_CHAT_ID secret" && exit 1 || echo "TELEGRAM_CHAT_ID present"
-          echo "Secrets OK"
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "Missing TELEGRAM_BOT_TOKEN (neither secret nor vars defined)."; exit 1; else echo "TELEGRAM_BOT_TOKEN present"; fi
+          if [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Missing TELEGRAM_CHAT_ID (neither secret nor vars defined)."; exit 1; else echo "TELEGRAM_CHAT_ID present"; fi
+          echo "Secrets/vars OK"
 
       - name: Set up Python
         uses: actions/setup-python@v5
