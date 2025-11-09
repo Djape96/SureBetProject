@@ -1,4 +1,4 @@
-name: Run multi script every 10 minutes
+name: Run multi script every 5 minutes
 
 on:
   schedule:
@@ -17,9 +17,18 @@ jobs:
   run-multi:
     runs-on: ubuntu-latest
     timeout-minutes: 4  # Keep under 5 minutes to avoid overlap
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Fail-fast secrets check
+        run: |
+          [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "Missing TELEGRAM_BOT_TOKEN secret" && exit 1 || echo "TELEGRAM_BOT_TOKEN present"
+          [ -z "$TELEGRAM_CHAT_ID" ] && echo "Missing TELEGRAM_CHAT_ID secret" && exit 1 || echo "TELEGRAM_CHAT_ID present"
+          echo "Secrets OK"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,9 +43,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run script
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           echo "Starting run at $(date)"
           python run_multi.py --sequential | tee run_multi.log
