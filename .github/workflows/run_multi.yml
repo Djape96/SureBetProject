@@ -35,8 +35,8 @@ jobs:
 
       - name: Run script
         env:
-          # Add any needed secrets via repository settings -> Secrets and variables -> Actions
-          # EXAMPLE_API_KEY: ${{ secrets.EXAMPLE_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           echo "Starting run at $(date)"
           python run_multi.py --sequential | tee run_multi.log
