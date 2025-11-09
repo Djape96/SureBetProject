@@ -1,8 +1,8 @@
-name: Run multi script every 10 minutes
+name: Run multi script every 5 minutes (looped)
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Every 10 minutes
+    - cron: '*/5 * * * *'  # Every 5 minutes
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run-multi:
     runs-on: ubuntu-latest
-    timeout-minutes: 8  # Allow up to 8 minutes, leaving buffer before next run
+  timeout-minutes: 8  # Loop inside; total should stay under 8 minutes
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fail-fast secrets check (one-time)
+      - name: Fail-fast secrets check
         run: |
           [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "Missing TELEGRAM_BOT_TOKEN secret" && exit 1 || echo "TELEGRAM_BOT_TOKEN present"
           [ -z "$TELEGRAM_CHAT_ID" ] && echo "Missing TELEGRAM_CHAT_ID secret" && exit 1 || echo "TELEGRAM_CHAT_ID present"
@@ -41,11 +41,16 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run script (no aggregate summary)
+      - name: Run script loop (3 cycles)
         run: |
-          echo "Starting run at $(date)"
+          echo "Loop start at $(date -u) UTC"
           set -o pipefail
-          python run_multi.py --sequential --no-aggregate 2>&1 | tee run_multi.log
+          for i in 1 2 3; do
+            echo "--- Cycle $i --- $(date -u)"
+            python run_multi.py --sequential --no-aggregate || echo "Cycle $i failed (continuing)"
+            echo "Sleeping 60s before next cycle..."
+            sleep 60
+          done 2>&1 | tee run_multi.log
 
       - name: List files after run
         if: always()
