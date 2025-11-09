@@ -2,7 +2,7 @@ name: Run multi script every 10 minutes
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'   # Every 5 minutes
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run-multi:
     runs-on: ubuntu-latest
-    timeout-minutes: 8  # Ensure it finishes before next scheduled start
+  timeout-minutes: 4  # Keep under 5 minutes to avoid overlap
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
