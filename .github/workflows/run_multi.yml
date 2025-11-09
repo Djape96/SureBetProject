@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run-multi:
     runs-on: ubuntu-latest
-  timeout-minutes: 4  # Keep under 5 minutes to avoid overlap
+    timeout-minutes: 4  # Keep under 5 minutes to avoid overlap
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
