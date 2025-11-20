@@ -302,6 +302,8 @@ def main():
     ap.add_argument('--all-pages', action='store_true', help='Auto-detect and scrape all pagination pages')
     ap.add_argument('--no-telegram', action='store_true', help='Disable Telegram sending for basketball run')
     ap.add_argument('--telegram-header', action='store_true', help='Include header lines in Telegram message')
+    ap.add_argument('--notify-min-roi', type=float, default=float(os.environ.get('BASKETBALL_NOTIFY_MIN_ROI','2.5')), help='Minimum profit%% (margin) to include in Telegram notification (default 2.5)')
+    ap.add_argument('--notify-max-roi', type=float, default=float(os.environ.get('BASKETBALL_NOTIFY_MAX_ROI','20')), help='Maximum profit%% to include; above treated as suspicious (default 20)')
     args = ap.parse_args()
 
     verbose=args.verbose
@@ -327,13 +329,19 @@ def main():
     else:
         print('No surebet opportunities identified.')
     # Telegram send (concise by default)
+    # Filter for notification ROI/profit range
+    filtered_notify = [sb for sb in surebets if args.notify_min_roi <= sb['profit'] <= args.notify_max_roi]
+    print(f"🔎 Basketball notify filter: profit between {args.notify_min_roi}% and {args.notify_max_roi}% -> {len(filtered_notify)} candidates")
     if not args.no_telegram and send_long_message:
-        try:
-            msg = format_basketball_summary(surebets, len(matches), include_header=args.telegram_header)
-            send_long_message(msg)
-            print('📨 Basketball Telegram summary attempted.')
-        except Exception as e:
-            print(f'⚠️ Basketball Telegram send failed: {e}')
+        if not filtered_notify:
+            print('ℹ️ No basketball surebets within desired profit range; skipping Telegram send.')
+        else:
+            try:
+                msg = format_basketball_summary(filtered_notify, len(matches), include_header=args.telegram_header)
+                send_long_message(msg)
+                print('📨 Basketball Telegram summary attempted (filtered).')
+            except Exception as e:
+                print(f'⚠️ Basketball Telegram send failed: {e}')
     elif not send_long_message:
         print('ℹ Telegram notifier not available (import failed).')
 

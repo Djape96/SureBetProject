@@ -31,6 +31,7 @@ LOG_DIR.mkdir(exist_ok=True)
 
 TENNIS_SCRIPT = ROOT / 'arbitrage_tennis_full.py'
 BASKETBALL_SCRIPT = ROOT / 'enhanced_basketball_analyzer.py'  # may not exist
+FOOTBALL_SCRIPT = ROOT / 'arbitrage_football.py'
 
 # ---------------------------------------------------------------------------
 # Utilities
@@ -87,7 +88,7 @@ def run_script(path: Path, extra_args: str = "") -> Dict[str, str]:
 # Concurrent runner
 # ---------------------------------------------------------------------------
 
-def run_concurrently(basketball_args: str = ""):
+def run_concurrently(basketball_args: str = "", football_args: str = ""):
     results = {}
     threads = []
 
@@ -96,6 +97,7 @@ def run_concurrently(basketball_args: str = ""):
 
     threads.append(threading.Thread(target=target, args=('tennis', TENNIS_SCRIPT, '')))
     threads.append(threading.Thread(target=target, args=('basketball', BASKETBALL_SCRIPT, basketball_args)))
+    threads.append(threading.Thread(target=target, args=('football', FOOTBALL_SCRIPT, football_args)))
 
     for t in threads: t.start()
     for t in threads: t.join()
@@ -157,10 +159,12 @@ def main():
     import argparse
     ap = argparse.ArgumentParser(description='Run multiple arbitrage scripts concurrently and send Telegram summary.')
     ap.add_argument('--basketball-args', default='--three-days --all-pages --pages 10 --min-profit 0 --verbose', help='Args passed to enhanced_basketball_analyzer.py (if present).')
+    ap.add_argument('--football-args', default='--notify-min-roi 2.5 --notify-max-roi 20', help='Args passed to arbitrage_football.py (if present).')
     ap.add_argument('--no-telegram', action='store_true', help='Do not send Telegram message, just print.')
     ap.add_argument('--sequential', action='store_true', help='Run scripts sequentially (avoid parallel WebDriver conflicts).')
     ap.add_argument('--skip-tennis', action='store_true', help='Skip running tennis script.')
     ap.add_argument('--skip-basketball', action='store_true', help='Skip running basketball script.')
+    ap.add_argument('--skip-football', action='store_true', help='Skip running football script.')
     ap.add_argument('--no-aggregate', action='store_true', help='Suppress multi-run aggregated summary and its Telegram message.')
     args = ap.parse_args()
 
@@ -169,28 +173,37 @@ def main():
     if args.sequential:
         print('🔁 Sequential mode enabled.')
         if not args.skip_tennis:
-            results['tennis'] = run_script(TENNIS_SCRIPT, '')
+            results['tennis'] = run_script(TENNIS_SCRIPT, '--notify-min-roi 2.5 --notify-max-roi 20')
         else:
             results['tennis'] = {'name': TENNIS_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
         if not args.skip_basketball:
-            results['basketball'] = run_script(BASKETBALL_SCRIPT, args.basketball_args)
+            results['basketball'] = run_script(BASKETBALL_SCRIPT, args.basketball_args + ' --notify-min-roi 2.5 --notify-max-roi 20')
         else:
             results['basketball'] = {'name': BASKETBALL_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
+        if not args.skip_football:
+            results['football'] = run_script(FOOTBALL_SCRIPT, args.football_args)
+        else:
+            results['football'] = {'name': FOOTBALL_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
     else:
-        if args.skip_tennis and args.skip_basketball:
+        if args.skip_tennis and args.skip_basketball and args.skip_football:
             print('⚠️ Both scripts skipped; nothing to run.')
         else:
             # Build threads conditionally
-            if args.skip_tennis:
+            if args.skip_tennis and args.skip_basketball and not args.skip_football:
+                # Only football
                 results['tennis'] = {'name': TENNIS_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
-                if not args.skip_basketball:
-                    # run only basketball
-                    results.update(run_concurrently(args.basketball_args))
-            elif args.skip_basketball:
-                # run only tennis
-                results.update(run_concurrently(''))
+                results['basketball'] = {'name': BASKETBALL_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
+                results['football'] = run_script(FOOTBALL_SCRIPT, args.football_args)
             else:
-                results = run_concurrently(args.basketball_args)
+                # Use concurrent runner with provided args (skips handled inside runner by path existence)
+                # We still need to build proper args list excluding skipped scripts; easiest: run concurrently and then overwrite skipped entries.
+                results = run_concurrently(args.basketball_args + ' --notify-min-roi 2.5 --notify-max-roi 20', args.football_args)
+                if args.skip_tennis:
+                    results['tennis'] = {'name': TENNIS_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
+                if args.skip_basketball:
+                    results['basketball'] = {'name': BASKETBALL_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
+                if args.skip_football:
+                    results['football'] = {'name': FOOTBALL_SCRIPT.name, 'status':'skipped','stdout':'','stderr':'(skipped by flag)','duration_s':'0'}
     if args.no_aggregate:
         print('ℹ Multi-run aggregate summary suppressed (--no-aggregate).')
     else:

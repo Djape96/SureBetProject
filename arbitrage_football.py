@@ -3,8 +3,9 @@ import glob
 import time
 import os
 import sys
-from selenium import webdriver
 import hashlib
+import json
+from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -13,7 +14,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
-import json
+try:
+    from telegram_notifier import send_surebets_summary
+except Exception:
+    send_surebets_summary = None  # graceful fallback if not available
 
 # Configuration flags
 THREE_DAY_ONLY = True  # If True, skip separate 'today' scrape and go straight to 3-day ("3 dana") view
@@ -615,113 +619,140 @@ def detect_surebets(matches):
                 })
     return results
 
-# --- Main ---
+NOTIFY_MIN_ROI = float(os.environ.get('FOOTBALL_NOTIFY_MIN_ROI','2.5'))
+NOTIFY_MAX_ROI = float(os.environ.get('FOOTBALL_NOTIFY_MAX_ROI','20'))
 
-print("🚀 Starting TopTiket Football Analyzer...")
-
-# Reuse existing data to validate margin formula without re-scraping
-USE_EXISTING = False  # Force fresh scraping per user request
-if USE_EXISTING:
-    print("♻️ Reusing existing dom_matches.json / index files.")
-else:
-    print("📥 Downloading fresh data from TopTiket...")
-    download_fresh_data()
-
-all_matches = []
-
-# Parse all index_*.txt files
-print("📊 Building match list (DOM preferred)...")
-dom_data = []
-if os.path.exists('dom_matches.json'):
+def _cli_arg_float(flag: str, default: float) -> float:
     try:
-        with open('dom_matches.json', 'r', encoding='utf-8') as jf:
-            dom_data = json.load(jf)
-        print(f"✅ Loaded DOM matches: {len(dom_data)}")
-    except Exception as e:
-        print(f"⚠️ Could not load dom_matches.json: {e}")
+        if flag in sys.argv:
+            i = sys.argv.index(flag)
+            return float(sys.argv[i+1])
+    except Exception:
+        return default
+    return default
 
-if dom_data:
-    # Dedupe DOM matches
-    seen = set()
-    for m in dom_data:
-        odds = m.get('odds', {})
-        key = (m.get('time'), m.get('team1'), m.get('team2'), m.get('range'), tuple(odds.get(k) for k in ['1','X','2','0-2','3+','GG','NG']))
-        if key in seen:
-            continue
-        seen.add(key)
-        # Normalize to legacy structure
-        all_matches.append({
-            'teams': f"{m.get('team1')} vs {m.get('team2')}",
-            'team1': m.get('team1'),
-            'team2': m.get('team2'),
-            'time': m.get('time'),
-            'page': m.get('page'),
-            'range': m.get('range','today'),
-            'odds': {'TopTiket': odds}
-        })
-    print(f"✅ Unique DOM matches retained: {len(all_matches)}")
-else:
-    print("⚠️ Falling back to text parsing (DOM empty)")
-    dedupe_key_set = set()
-    for filename in sorted(glob.glob("index_*.txt")):
-        raw_matches = parse_file(filename)
-        for m in raw_matches:
-            odds_tuple = tuple([m['odds']['TopTiket'].get(k) for k in ['1','X','2','0-2','3+','GG','NG']])
-            key = (m['time'], m['team1'], m['team2'], odds_tuple)
-            if key not in dedupe_key_set:
-                dedupe_key_set.add(key)
-                all_matches.append(m)
-    print(f"✅ Total unique matches (text mode): {len(all_matches)}")
+def _cli_flag(flag: str) -> bool:
+    return flag in sys.argv
 
-# Detect true arbitrage only
-print("🔍 Searching for true arbitrage (surebets)...")
-surebets = detect_surebets(all_matches)
+def main():
+    global NOTIFY_MIN_ROI, NOTIFY_MAX_ROI
+    # Allow CLI overrides
+    NOTIFY_MIN_ROI = _cli_arg_float('--notify-min-roi', NOTIFY_MIN_ROI)
+    NOTIFY_MAX_ROI = _cli_arg_float('--notify-max-roi', NOTIFY_MAX_ROI)
+    no_telegram = _cli_flag('--no-telegram')
 
-# Write results
-with open("football_surebets.txt", "w", encoding="utf-8") as f:
-    header = [
-        "TOPTIKET FOOTBALL ANALYSIS",
-        f"Total unique matches: {len(all_matches)}",
-        f"Surebets found: {len(surebets)}",
-        ""
-    ]
-    f.write('\n'.join(header) + '\n')
-
-    if surebets:
-        # Group by match identity
-        f.write("SUREBETS (Risk-Free Profit)\n")
-        f.write("--------------------------------\n")
-        grouped = {}
-        for sb in surebets:
-            m = sb['match']
-            ident = (m.get('range','today'), m.get('time'), m.get('teams'))
-            grouped.setdefault(ident, []).append(sb)
-        # Sort groups by best ROI inside
-        def best_roi(group):
-            return max(item['roi_pct'] for item in group)
-        for ident, group in sorted(grouped.items(), key=lambda kv: best_roi(kv[1]), reverse=True):
-            rng, tm, teams = ident
-            f.write(f"{tm} [{rng}] {teams}\n")
-            for bet in sorted(group, key=lambda x: x['type']):
-                if bet['type'] == '1X2':
-                    stakes_str = f"1={bet['stakes']['1']}, X={bet['stakes']['X']}, 2={bet['stakes']['2']}"
-                else:
-                    stakes_str = f"U={bet['stakes']['0-2']}, O={bet['stakes']['3+']}"
-                f.write(f"   - {bet['type']}: Margin {bet['margin_pct']}% | ROI {bet['roi_pct']}% | odds[{bet['odds']}] | stakes({stakes_str})\n")
-            f.write('\n')
+    print("🚀 Starting TopTiket Football Analyzer...")
+    USE_EXISTING = False
+    if USE_EXISTING:
+        print("♻️ Reusing existing dom_matches.json / index files.")
     else:
-        f.write("No true surebets (sum(1/odds)<1) detected with single TopTiket feed. Add other bookmakers to find cross-book arbitrage.\n\n")
+        print("📥 Downloading fresh data from TopTiket...")
+        download_fresh_data()
 
-    # (Sample matches section removed per user request)
+    all_matches = []
+    print("📊 Building match list (DOM preferred)...")
+    dom_data = []
+    if os.path.exists('dom_matches.json'):
+        try:
+            with open('dom_matches.json', 'r', encoding='utf-8') as jf:
+                dom_data = json.load(jf)
+            print(f"✅ Loaded DOM matches: {len(dom_data)}")
+        except Exception as e:
+            print(f"⚠️ Could not load dom_matches.json: {e}")
 
-    # Basic stats for surebets
-    if surebets:
-        margs = [b['margin_pct'] for b in surebets]
-        rois = [b['roi_pct'] for b in surebets]
-        f.write('\nSurebet Stats: margin% min={:.2f} max={:.2f} avg={:.2f} | ROI% min={:.2f} max={:.2f} avg={:.2f}\n'.format(min(margs), max(margs), sum(margs)/len(margs), min(rois), max(rois), sum(rois)/len(rois)))
+    if dom_data:
+        seen = set()
+        for m in dom_data:
+            odds = m.get('odds', {})
+            key = (m.get('time'), m.get('team1'), m.get('team2'), m.get('range'), tuple(odds.get(k) for k in ['1','X','2','0-2','3+','GG','NG']))
+            if key in seen:
+                continue
+            seen.add(key)
+            all_matches.append({
+                'teams': f"{m.get('team1')} vs {m.get('team2')}",
+                'team1': m.get('team1'),
+                'team2': m.get('team2'),
+                'time': m.get('time'),
+                'page': m.get('page'),
+                'range': m.get('range','today'),
+                'odds': {'TopTiket': odds}
+            })
+        print(f"✅ Unique DOM matches retained: {len(all_matches)}")
+    else:
+        print("⚠️ Falling back to text parsing (DOM empty)")
+        dedupe_key_set = set()
+        for filename in sorted(glob.glob("index_*.txt")):
+            raw_matches = parse_file(filename)
+            for m in raw_matches:
+                odds_tuple = tuple([m['odds']['TopTiket'].get(k) for k in ['1','X','2','0-2','3+','GG','NG']])
+                key = (m['time'], m['team1'], m['team2'], odds_tuple)
+                if key not in dedupe_key_set:
+                    dedupe_key_set.add(key)
+                    all_matches.append(m)
+        print(f"✅ Total unique matches (text mode): {len(all_matches)}")
 
-    f.write('\nGenerated via DOM scraping mode.\n')
+    print("🔍 Searching for true arbitrage (surebets)...")
+    surebets = detect_surebets(all_matches)
 
-print(f"✅ Analysis complete!")
-print(f"📁 Results saved to football_surebets.txt")
-print(f"🎯 Found {len(surebets)} surebets")
+    with open("football_surebets.txt", "w", encoding="utf-8") as f:
+        header = [
+            "TOPTIKET FOOTBALL ANALYSIS",
+            f"Total unique matches: {len(all_matches)}",
+            f"Surebets found: {len(surebets)}",
+            ""
+        ]
+        f.write('\n'.join(header) + '\n')
+
+        if surebets:
+            f.write("SUREBETS (Risk-Free Profit)\n")
+            f.write("--------------------------------\n")
+            grouped = {}
+            for sb in surebets:
+                m = sb['match']
+                ident = (m.get('range','today'), m.get('time'), m.get('teams'))
+                grouped.setdefault(ident, []).append(sb)
+            def best_roi(group):
+                return max(item['roi_pct'] for item in group)
+            for ident, group in sorted(grouped.items(), key=lambda kv: best_roi(kv[1]), reverse=True):
+                rng, tm, teams = ident
+                f.write(f"{tm} [{rng}] {teams}\n")
+                for bet in sorted(group, key=lambda x: x['type']):
+                    if bet['type'] == '1X2':
+                        stakes_str = f"1={bet['stakes']['1']}, X={bet['stakes']['X']}, 2={bet['stakes']['2']}"
+                    else:
+                        stakes_str = f"U={bet['stakes']['0-2']}, O={bet['stakes']['3+']}"
+                    f.write(f"   - {bet['type']}: Margin {bet['margin_pct']}% | ROI {bet['roi_pct']}% | odds[{bet['odds']}] | stakes({stakes_str})\n")
+                f.write('\n')
+        else:
+            f.write("No true surebets (sum(1/odds)<1) detected with single TopTiket feed. Add other bookmakers to find cross-book arbitrage.\n\n")
+
+        if surebets:
+            margs = [b['margin_pct'] for b in surebets]
+            rois = [b['roi_pct'] for b in surebets]
+            f.write('\nSurebet Stats: margin% min={:.2f} max={:.2f} avg={:.2f} | ROI% min={:.2f} max={:.2f} avg={:.2f}\n'.format(min(margs), max(margs), sum(margs)/len(margs), min(rois), max(rois), sum(rois)/len(rois)))
+
+        f.write('\nGenerated via DOM scraping mode.\n')
+
+    print(f"✅ Analysis complete!")
+    print(f"📁 Results saved to football_surebets.txt")
+    print(f"🎯 Found {len(surebets)} surebets")
+    # Filter for notification
+    filtered_notify = [sb for sb in surebets if NOTIFY_MIN_ROI <= sb['roi_pct'] <= NOTIFY_MAX_ROI]
+    print(f"🔎 Football notify filter: ROI between {NOTIFY_MIN_ROI}% and {NOTIFY_MAX_ROI}% -> {len(filtered_notify)} candidates")
+    if no_telegram:
+        print('ℹ️ Football Telegram disabled by --no-telegram flag.')
+        return
+    if not send_surebets_summary:
+        print('ℹ️ Telegram notifier unavailable (import failed).')
+        return
+    if not filtered_notify:
+        print('ℹ️ No football surebets within desired ROI range; skipping Telegram send.')
+        return
+    try:
+        send_surebets_summary(filtered_notify, len(all_matches))
+        print('📨 Football Telegram summary attempted (filtered).')
+    except Exception as e:
+        print(f'⚠️ Football Telegram send failed: {e}')
+
+if __name__ == '__main__':
+    main()

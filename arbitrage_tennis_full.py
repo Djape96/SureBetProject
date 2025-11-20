@@ -438,6 +438,13 @@ def detect_tennis_surebets(matches):
     return results
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(description='TopTiket Tennis Arbitrage Scraper')
+    ap.add_argument('--notify-min-roi', type=float, default=float(os.environ.get('TENNIS_NOTIFY_MIN_ROI', '2.5')), help='Minimum ROI%% required to send a Telegram notification (default 2.5)')
+    ap.add_argument('--notify-max-roi', type=float, default=float(os.environ.get('TENNIS_NOTIFY_MAX_ROI', '20')), help='Maximum ROI%% (upper bound) to notify; values above treated as likely data errors (default 20)')
+    ap.add_argument('--no-telegram', action='store_true', help='Skip Telegram sending entirely')
+    args = ap.parse_args()
+
     dom_matches = download_tennis()
     if not dom_matches:
         print('❌ No tennis DOM matches captured.')
@@ -466,18 +473,25 @@ def main():
             for ident, group in sorted(grouped.items(), key=lambda kv: best_roi(kv[1]), reverse=True):
                 tm, teams = ident
                 for bet in sorted(group, key=lambda x: x['type']):
-                    # Format mirrors simplified Telegram version
                     f.write(f"{tm or '?'} | {teams}\n  {bet['type']}: ROI {bet['roi_pct']}% | Margin {bet['margin_pct']}% | {bet['odds_str']}\n\n")
         else:
             f.write('No surebets.\n')
     print('✅ Tennis analysis complete!')
     print(f"🎯 Found {len(surebets)} tennis surebets")
-    # Telegram notification (safe: skips if env vars missing)
+    # Filter for notification
+    filtered_notify = [sb for sb in surebets if args.notify_min_roi <= sb['roi_pct'] <= args.notify_max_roi]
+    print(f"🔎 Tennis notify filter: ROI between {args.notify_min_roi}% and {args.notify_max_roi}% -> {len(filtered_notify)} candidates")
+    if args.no_telegram:
+        print('ℹ️ Tennis Telegram sending skipped by --no-telegram flag.')
+        return
+    if not filtered_notify:
+        print('ℹ️ No tennis surebets within desired ROI range; no Telegram message sent.')
+        return
     try:
-        send_surebets_summary(surebets, len(deduped))
-        print("📨 Telegram summary attempted.")
+        send_surebets_summary(filtered_notify, len(deduped))
+        print("📨 Tennis Telegram summary attempted (filtered).")
     except Exception as e:
-        print(f"⚠️ Telegram send failed: {e}")
+        print(f"⚠️ Tennis Telegram send failed: {e}")
 
 if __name__ == '__main__':
     main()
