@@ -43,7 +43,7 @@ def run_script(script_name):
             [sys.executable, script_name],
             capture_output=True,
             text=True,
-            timeout=600  # 10 minute timeout per script
+            timeout=120  # 2 minute timeout per script
         )
         
         if result.returncode == 0:
@@ -58,7 +58,7 @@ def run_script(script_name):
             return False
             
     except subprocess.TimeoutExpired:
-        log(f"⏱️  {script_name} timed out after 10 minutes")
+        log(f"⏱️  {script_name} timed out after 2 minutes")
         return False
     except Exception as e:
         log(f"❌ Error running {script_name}: {str(e)}")
@@ -72,6 +72,15 @@ def main():
     log(f"Check interval: {CHECK_INTERVAL} seconds ({CHECK_INTERVAL//60} minutes)")
     log(f"Scripts to run: {len(SCRIPTS_TO_RUN)}")
     log("")
+    
+    # Send startup notification
+    if TELEGRAM_AVAILABLE:
+        try:
+            startup_msg = "🚀 SureBet Runner Started!\n\nMonitoring:\n• Tennis\n• Basketball\n• Player Specials\n\nChecking every 5 minutes..."
+            send_raw_message(startup_msg)
+            log("📱 Startup notification sent to Telegram")
+        except Exception as e:
+            log(f"⚠️ Telegram startup notification failed: {e}")
     
     cycle_count = 0
     
