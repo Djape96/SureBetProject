@@ -8,7 +8,6 @@ RUN apt-get update && apt-get install -y \
     curl \
     xvfb \
     libxi6 \
-    libgconf-2-4 \
     libnss3 \
     libxss1 \
     libappindicator3-1 \
@@ -17,18 +16,17 @@ RUN apt-get update && apt-get install -y \
     libatk1.0-0 \
     libcups2 \
     libdbus-1-3 \
-    libgdk-pixbuf2.0-0 \
     libnspr4 \
     libxcomposite1 \
     libxcursor1 \
     libxdamage1 \
     libxfixes3 \
-    libxi6 \
     libxrandr2 \
     libxrender1 \
     libxtst6 \
     fonts-liberation \
     libgbm1 \
+    ca-certificates \
     && wget -q -O /tmp/google-chrome-stable_current_amd64.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
     && apt-get install -y /tmp/google-chrome-stable_current_amd64.deb \
     && rm /tmp/google-chrome-stable_current_amd64.deb \
