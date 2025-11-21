@@ -1,0 +1,190 @@
+Basketball Matches (live) - 2025-10-24 11:42:33
+============================================================
+
+Sonic Boom vs Goyang
+  1: 1.47 @ AUTO
+  2: 2.65 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.82 @ AUTO
+  H2: 1.86 @ AUTO
+  Under: 150.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+TNT KaTropa vs Titan Ultra Giant Risers
+  1: 1.21 @ AUTO
+  2: 4.5 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.87 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 199.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Ventspils vs Latvijas Universitate
+  1: 1.02 @ AUTO
+  2: 14.0 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 165.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Salon Vilpas vs KTP Kotka Basket
+  1: 1.41 @ AUTO
+  2: 2.9 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 1.83 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 175.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Bisons Loimaa vs UU Korihait Uusikaupunki
+  1: 1.76 @ AUTO
+  2: 2.05 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 1.7 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 170.5 @ AUTO
+  Handicap2: 1.95 @ AUTO
+
+Sloboda vs Kk Cacak 94
+  1: 1.26 @ AUTO
+  2: 3.7 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.76 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 158.5 @ AUTO
+  Handicap2: 1.8 @ AUTO
+
+KK Joker Sombor vs Zlatibor
+  1: 5.2 @ AUTO
+  2: 1.15 @ AUTO
+  H1: 1.76 @ AUTO
+  Handicap: 10.5 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 176.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+Nizhny Novgorod vs Zenit
+  1: 8.5 @ AUTO
+  2: 1.14 @ AUTO
+  H1: 1.95 @ AUTO
+  Handicap: 12.5 @ AUTO
+  H2: 1.97 @ AUTO
+  Under: 2.0 @ AUTO
+  Handicap2: 164.5 @ AUTO
+  Over: 1.93 @ AUTO
+
+Szolnoki Olaj vs Budapesti Honved SE
+  1: 1.15 @ AUTO
+  2: 5.3 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 1.87 @ AUTO
+  H2: 1.89 @ AUTO
+  Under: 166.5 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Rigas Zelli vs BK Liepaja
+  1: 1.07 @ AUTO
+  2: 9.5 @ AUTO
+  H1: 1.72 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 167.5 @ AUTO
+  Handicap2: 1.83 @ AUTO
+
+Minyor 2015 vs Spartak Pleven
+  1: 2.55 @ AUTO
+  2: 1.48 @ AUTO
+  H1: 1.75 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 166.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+KTE Duna vs NKA Universitas Pecs
+  1: 1.78 @ AUTO
+  2: 2.04 @ AUTO
+  H1: 1.59 @ AUTO
+  Handicap: 1.65 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 168.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+KK Kvarner 2010 vs KK Dinamo Zagreb
+  1: 2.54 @ AUTO
+  2: 1.47 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 1.83 @ AUTO
+  Handicap2: 157.5 @ AUTO
+  Over: 1.88 @ AUTO
+
+Valmiera Glass Via vs Keila Basket
+  1: 1.02 @ AUTO
+  2: 11.0 @ AUTO
+  H1: 1.75 @ AUTO
+  Handicap: 1.87 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 167.5 @ AUTO
+  Handicap2: 1.84 @ AUTO
+
+Bakken Bears vs Naestved
+  1: 1.22 @ AUTO
+  2: 4.7 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 186.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+KK Metalac vs Vojvodina Novi Sad
+  1: 4.3 @ AUTO
+  2: 1.24 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 8.5 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.93 @ AUTO
+  Handicap2: 157.5 @ AUTO
+  Over: 1.89 @ AUTO
+
+Wels vs Traiskirchen Lions
+  1: 1.34 @ AUTO
+  2: 3.3 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.93 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 156.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Final Genclik vs Ankara Kolejliler
+  1: 1.95 @ AUTO
+  2: 1.82 @ AUTO
+  H1: 1.7 @ AUTO
+  Handicap: 1.5 @ AUTO
+  H2: 1.91 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 158.5 @ AUTO
+  Over: 1.82 @ AUTO
+
+Koping Stars vs Norrkoping
+  1: 4.7 @ AUTO
+  2: 1.22 @ AUTO
+  H1: 1.75 @ AUTO
+  Handicap: 9.5 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 172.5 @ AUTO
+  Over: 1.85 @ AUTO
+
+Boras vs Jamtland
+  1: 1.28 @ AUTO
+  2: 3.9 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.93 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 172.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+

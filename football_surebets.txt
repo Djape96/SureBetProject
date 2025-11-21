@@ -1,40 +1,50 @@
 TOPTIKET FOOTBALL ANALYSIS
-Total unique matches: 416
-Surebets found: 10
+Total unique matches: 540
+Surebets found: 14
 
 SUREBETS (Risk-Free Profit)
 --------------------------------
-21:00 [3d] Celta Vigo vs Barcelona
-   - 1X2: Margin 1.25% | ROI 1.27% | odds[1=4.7, X=4.5, 2=1.81] | stakes(1=21.55, X=22.5, 2=55.95)
+16:15 [3d] Barcelona vs Athletic Bilbao
+   - 1X2: Margin 3.01% | ROI 3.1% | odds[1=1.55, X=5.3, 2=7.35] | stakes(1=66.52, X=19.45, 2=14.03)
 
-14:30 [3d] Dynamo Kiev vs LNZ Cherkasy
-   - 1X2: Margin 1.14% | ROI 1.15% | odds[1=1.95, X=3.6, 2=5.05] | stakes(1=51.87, X=28.1, 2=20.03)
+15:00 [3d] Udinese vs Bologna
+   - 1X2: Margin 2.87% | ROI 2.95% | odds[1=4.15, X=3.45, 2=2.27] | stakes(1=24.81, X=29.84, 2=45.35)
 
-20:45 [3d] Lyon vs PSG
-   - 1X2: Margin 0.95% | ROI 0.95% | odds[1=5.0, X=4.0, 2=1.85] | stakes(1=20.19, X=25.24, 2=54.57)
+14:00 [3d] Schott Mainz vs Bayern Alzenau
+   - 1X2: Margin 1.57% | ROI 1.59% | odds[1=2.03, X=4.25, 2=3.9] | stakes(1=50.05, X=23.9, 2=26.05)
 
-14:00 [3d] Basel vs Lugano
-   - 1X2: Margin 0.44% | ROI 0.44% | odds[1=1.88, X=4.23, 2=4.4] | stakes(1=53.43, X=23.75, 2=22.83)
+16:30 [3d] Akron Togliatti vs Sochi
+   - 1X2: Margin 1.17% | ROI 1.18% | odds[1=2.15, X=3.66, 2=4.0] | stakes(1=47.06, X=27.64, 2=25.29)
+   - O/U: Margin 0.02% | ROI 0.02% | odds[0-2=1.77, 3+=2.3] | stakes(U=56.51, O=43.49)
 
-15:00 [3d] Brentford vs Newcastle
-   - 1X2: Margin 0.44% | ROI 0.44% | odds[1=3.1, X=3.6, 2=2.53] | stakes(1=32.4, X=27.9, 2=39.7)
+18:30 [3d] Newcastle vs Manchester City
+   - 1X2: Margin 0.95% | ROI 0.96% | odds[1=4.0, X=3.85, 2=2.08] | stakes(1=25.24, X=26.22, 2=48.54)
 
-18:30 [3d] Mallorca vs Getafe
-   - O/U: Margin 0.4% | ROI 0.4% | odds[0-2=1.4, 3+=3.55] | stakes(U=71.72, O=28.28)
+17:30 [3d] Rubin Kazan vs Akhmat Grozny
+   - 1X2: Margin 0.94% | ROI 0.95% | odds[1=2.65, X=3.44, 2=3.1] | stakes(1=38.09, X=29.34, 2=32.56)
 
-16:15 [3d] Rayo Vallecano vs Real Madrid
-   - O/U: Margin 0.18% | ROI 0.18% | odds[0-2=2.55, 3+=1.65] | stakes(U=39.29, O=60.71)
+15:30 [3d] Heidenheim vs Borussia Monchengladbach
+   - 1X2: Margin 0.6% | ROI 0.6% | odds[1=3.45, X=3.85, 2=2.25] | stakes(1=29.16, X=26.13, 2=44.71)
 
-12:00 [3d] Oleksandriya vs Polissya Zhytomyr
-   - 1X2: Margin 0.08% | ROI 0.08% | odds[1=5.2, X=3.4, 2=1.95] | stakes(1=19.25, X=29.43, 2=51.32)
+17:00 [3d] Lens vs Strasbourg
+   - 1X2: Margin 0.49% | ROI 0.49% | odds[1=2.15, X=3.85, 2=3.7] | stakes(1=46.74, X=26.1, 2=27.16)
 
-13:00 [3d] Soma Spor vs Isparta 32 Spor
-   - 1X2: Margin 0.05% | ROI 0.05% | odds[1=13.0, X=5.5, 2=1.35] | stakes(1=7.7, X=18.19, 2=74.11)
+13:30 [3d] Burnley vs Chelsea
+   - 1X2: Margin 0.46% | ROI 0.47% | odds[1=7.75, X=4.9, 2=1.51] | stakes(1=12.96, X=20.5, 2=66.53)
 
-15:00 [3d] Malmo FF vs GAIS
-   - 1X2: Margin 0.0% | ROI 0.0% | odds[1=2.1, X=3.74, 2=3.9] | stakes(1=47.62, X=26.74, 2=25.64)
+21:05 [3d] PSG vs Le Havre
+   - 1X2: Margin 0.33% | ROI 0.33% | odds[1=1.21, X=8.5, 2=19.0] | stakes(1=82.92, X=11.8, 2=5.28)
+
+18:30 [3d] Osasuna vs Real Sociedad
+   - 1X2: Margin 0.24% | ROI 0.25% | odds[1=2.85, X=3.25, 2=2.95] | stakes(1=35.17, X=30.84, 2=33.98)
+
+20:30 [3d] Mainz vs Hoffenheim
+   - 1X2: Margin 0.22% | ROI 0.22% | odds[1=2.7, X=3.7, 2=2.8] | stakes(1=37.12, X=27.09, 2=35.79)
+
+16:00 [3d] Wolves vs Crystal Palace
+   - 1X2: Margin 0.18% | ROI 0.18% | odds[1=4.35, X=3.66, 2=2.02] | stakes(1=23.03, X=27.37, 2=49.6)
 
 
-Surebet Stats: margin% min=0.00 max=1.25 avg=0.49 | ROI% min=0.00 max=1.27 avg=0.50
+Surebet Stats: margin% min=0.02 max=3.01 avg=0.93 | ROI% min=0.02 max=3.10 avg=0.95
 
 Generated via DOM scraping mode.

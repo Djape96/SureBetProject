@@ -18,172 +18,160 @@ Ostali sportovi
 ​
 OMILJENE LIGE
 Engleska 1
-5
+9
 Francuska 1
-5
+9
 Italija 1
-5
-Nemačka 1
-3
-Srbija 1
-4
-Srbija 2
-6
-Španija 1
-5
-SVE LIGE
-Albanija
-2
-Alžir
-4
-Argentina
-14
-Austrija
-4
-Austrija Amateri
-1
-Azerbejdžan
-2
-Bahrein
-2
-Belgija
-4
-Belorusija
-3
-Bolivija
-3
-Bosna i Hercegovina
-3
-Brazil
-11
-Bugarska
-5
-Crna Gora
-5
-Danska
 8
-Egipat
-2
-Ekvador
-4
-El Salvador
-3
-Engleska
-28
-Engleska Amateri
+Nemačka 1
+9
+Srbija 1
+7
+Španija 1
+9
+SVE LIGE
+Alžir
+1
+Argentina
+9
+Australija
+12
+Austrija
+13
+Austrija Amateri
 6
-Finska
-3
-Francuska
-5
-Gana
-5
-Grčka
-11
-Gvatemala
+Azerbejdžan
+4
+Belgija
+14
+Belorusija
 2
+Bolivija
+8
+Bosna i Hercegovina
+4
+Brazil
+16
+Bugarska
+7
+Danska
+10
+Egipat
+6
+Ekvador
+8
+Engleska
+56
+Engleska Amateri
+24
+Estonija
+1
+Francuska
+25
+Gruzija
+1
+Grčka
+5
+Gvatemala
+1
 Holandija
-5
+19
 Hrvatska
-5
+11
 Indonezija
-3
-Irska
+5
+Irak
 1
 Italija
-26
-Izrael
-5
-Jamajka
-2
+45
+Japan
+11
 Jermenija
-2
+3
 Jordan
 1
 Južna Afrika
-1
-Kanada
-1
+4
+Južna Koreja
+13
 Katar
-2
+5
+Kina
+8
 Kipar
-3
+6
 Kolumbija
 4
-Letonija
+Kostarika
 4
 Litvanija
-8
-Malta
 1
 Mađarska
-11
-Meksiko
-2
-Nemačka
-9
-Nemačka Amateri
-12
-Nigerija
-2
-Norveška
 6
+Meksiko
+1
+Međunarodne klupske
+7
+Nemačka
+28
+Nemačka Amateri
+42
+Norveška
+10
 Paragvaj
 4
 Peru
-2
+6
 Poljska
-7
+17
 Portugalija
-9
+16
 Rumunija
-3
+6
 Rusija
-8
-S. Makedonija
-2
+15
 SAD
-1
-San Marino
-2
+4
+Saudijska Arabija
+7
+Severna Irska
+6
 Slovačka
-5
+6
 Slovenija
-5
+12
 Srbija
-10
+7
 Tajland
 8
 Tanzanija
 1
-Tunis
-4
 Turska
-7
-Turska Amateri
-7
+15
+UAE
+1
+Uganda
+1
 Ukrajina
-3
-Urugvaj
-4
-Uzbekistan
-2
-Venecuela
-2
-Vijetnam
-4
-Češka
 6
+Urugvaj
+1
+Vels
+4
+Venecuela
+1
+Češka
+8
 Čile
-3
+7
 Škotska
-4
-Španija
-41
-Švajcarska
-4
-Švedska
 16
+Španija
+39
+Švajcarska
+11
+Švedska
+3
 1h
 12h
 1 dan
@@ -198,245 +186,245 @@ X
 GG
 GG3+
 Naredne utakmice
-ned, 9. 11.
-17:00
-Brann
-KFUM Oslo
-1.69
-4.35
+sub, 22. 11.
+16:00
+Birmingham
+Norwich
+1.70
+4
 5.50
 1.95
 1.88
-1.89
+1.90
 2.38
 +295
-ned, 9. 11.
-17:00
-Shakhtar Donetsk
-SC Poltava
-1.07
-13.50
-38
-3.91
-1.28
-2.57
-2.73
-+293
-ned, 9. 11.
-17:00
-Jedinstvo Ub
-Usce
-1.77
-3.45
-5
-1.62
-2.24
-2.15
-2.92
-+295
-ned, 9. 11.
-17:00
-Corum
-Igdir
-1.92
-3.54
-3.96
-1.85
-1.94
-1.83
-2.36
-+295
-ned, 9. 11.
-17:00
-Macva Sabac
-Tekstilac
-1.92
-3.30
-4.25
-1.55
-2.49
-2.24
-3.16
-+295
-ned, 9. 11.
-17:15
-Metz
-Nice
+sub, 22. 11.
+16:00
+Fulham
+Sunderland
+2.20
 3.35
-3.74
-2.27
-2.23
-1.76
-1.61
+3.96
+1.73
+2.28
 2
+2.74
 +295
-ned, 9. 11.
-17:15
-Angers
-Auxerre
-2.72
-3.15
-3.02
-1.62
-2.55
+sub, 22. 11.
+16:00
+Leicester
+Stoke
 2.10
-2.91
-+295
-ned, 9. 11.
-17:15
-Strasbourg
-Lille
-2.85
+3.50
 3.65
-2.60
-2.23
+1.92
+1.92
 1.77
-1.65
-2.10
+2.30
 +295
-ned, 9. 11.
-17:15
-Pescara
-AC Monza
-6.25
+sub, 22. 11.
+16:00
+Leyton Orient
+Blackpool
+1.88
 3.80
-1.69
-1.81
-2.04
-2.05
-2.65
-+295
-ned, 9. 11.
-17:30
-Manchester City
-Liverpool
-2.01
-4.15
-3.80
-2.85
-1.48
-1.47
-1.71
-+295
-ned, 9. 11.
-17:30
-Celje
-Bravo
-1.57
-4.55
-5.90
-2.71
-1.43
-1.53
-1.78
-+295
-ned, 9. 11.
-17:30
-Stuttgart
-Augsburg
-1.58
 4.65
-6.09
-2.44
-1.65
-1.71
-2.03
+2
+1.82
+1.79
+2.26
 +295
-ned, 9. 11.
-17:30
-Nyiregyhaza
-Puskas Academy
-3.45
-3.30
-2.16
-1.76
-2.03
-1.84
-2.48
-+295
-ned, 9. 11.
-17:30
-Novara
-Lecco
-2.35
-3
-3.20
-1.56
-2.43
-2.07
-2.85
-+295
-ned, 9. 11.
-17:30
-Sorrento
-Audace Cerignola
-3.50
-3.25
-2.17
-1.75
-2.03
-1.83
-2.50
-+295
-ned, 9. 11.
-17:30
-Velez Mostar
-Radnik Bijeljina
-1.57
-3.76
-6.20
-1.78
-1.98
-2.12
-2.75
-+295
-ned, 9. 11.
-17:30
-Carpi
-Livorno
-2.20
-3.20
-3.32
-1.63
-2.19
-1.95
-2.71
-+295
-ned, 9. 11.
-17:30
-Monopoli
-Casertana
-2.33
-3
-3.32
-1.47
-2.62
-2.22
-3.24
-+295
-ned, 9. 11.
-17:30
-Pogon Szczecin
-Jagiellonia
-2.55
-3.70
-2.90
-2.39
-1.60
-1.53
-1.86
-+295
-ned, 9. 11.
-17:30
-Giana Erminio
-AlbinoLeffe
-2.20
+sub, 22. 11.
+16:00
+Mansfield
+Huddersfield
+2.45
+3.40
 3.10
+1.94
+1.88
+1.72
+2.24
++295
+sub, 22. 11.
+16:00
+Derby
+Watford
+2.67
+3.25
+2.95
+1.63
+2.30
+2
+2.77
++295
+sub, 22. 11.
+16:00
+Wycombe
+Lincoln
+2
 3.50
+4.21
+1.76
+2.13
+1.94
+2.55
++295
+sub, 22. 11.
+16:00
+Tranmere
+MK Dons
+3.10
+3.35
+2.40
+1.85
+1.99
+1.80
+2.40
++295
+sub, 22. 11.
+16:00
+Fleetwood
+Shrewsbury
+2.22
+3.30
+3.40
+1.76
+2.08
+1.87
+2.53
++295
+sub, 22. 11.
+16:00
+Cheltenham
+Bristol Rovers
+3.13
+3.45
+2.40
+1.87
+1.94
+1.77
+2.33
++295
+sub, 22. 11.
+16:00
+Crawley
+Accrington
+2.12
+3.60
+3.45
+2.02
+1.80
+1.69
+2.17
++295
+sub, 22. 11.
+16:00
+Wealdstone
+Forest Green
+4
+3.86
+1.95
+2.35
+1.60
+1.65
+1.95
++295
+sub, 22. 11.
+16:00
+Barrow
+Cambridge Utd
+3.41
+3.10
+2.30
+1.55
+2.46
+2.12
+3.02
++295
+sub, 22. 11.
+16:00
+Swindon
+Grimsby
+2.37
+3.55
+3
+2.04
+1.79
+1.66
+2.12
++295
+sub, 22. 11.
+16:00
+Ipswich
+Wrexham
+1.58
+4.15
+6.20
+1.97
+1.85
+1.95
+2.45
++295
+sub, 22. 11.
+16:00
+Crewe
+Chesterfield
+2.40
+3.40
+3.20
+1.95
+1.90
+1.72
+2.23
++295
+sub, 22. 11.
+16:00
+Gateshead
+Boreham
+5.20
+4.80
+1.58
+2.85
+1.45
+1.52
+1.80
++295
+sub, 22. 11.
+16:00
+Dag & Red
+Maidenhead
+3.05
+3.25
+2.37
+1.83
+1.95
+1.77
+2.30
++295
+sub, 22. 11.
+16:00
+Morecambe
+Yeovil
+2.05
+3.65
+3.51
+2.03
+1.75
+1.66
+2.11
++295
+sub, 22. 11.
+16:00
+Southend
+Altrincham
 1.53
-2.41
-2.10
-2.98
+4.35
+5.80
+2.30
+1.61
+1.70
+2.05
 +295
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
 1
@@ -445,7 +433,7 @@ Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicam
 14
 15
 …
-21
+35
 top
 tiket
 Mečevi

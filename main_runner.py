@@ -9,14 +9,20 @@ import sys
 from datetime import datetime
 import os
 
+# Try to import telegram notifier
+try:
+    from telegram_notifier import send_telegram_message
+    TELEGRAM_AVAILABLE = True
+except ImportError:
+    TELEGRAM_AVAILABLE = False
+    print("⚠️ Telegram notifier not available")
+
 # Configuration
 CHECK_INTERVAL = 300  # 5 minutes between checks (adjust as needed)
 SCRIPTS_TO_RUN = [
-    'enhanced_player_specials_analyzer.py',
-    'arbitrage_football.py',
     'arbitrage_tennis.py',
-    'arbitrage_hockey.py',
-    'arbitrage_nfl.py',
+    'enhanced_basketball_analyzer.py',
+    'enhanced_player_specials_analyzer.py',
 ]
 
 def log(message):
@@ -89,6 +95,19 @@ def main():
         
         log("")
         log(f"📊 Cycle #{cycle_count} complete - ✅ {successful} succeeded, ❌ {failed} failed")
+        
+        # Send Telegram notification after each cycle
+        if TELEGRAM_AVAILABLE:
+            try:
+                summary = f"🔄 Cycle #{cycle_count} Complete\n"
+                summary += f"✅ {successful} scripts succeeded\n"
+                summary += f"❌ {failed} scripts failed\n\n"
+                summary += f"Check surebet files for opportunities!"
+                send_telegram_message(summary)
+                log("📱 Telegram notification sent")
+            except Exception as e:
+                log(f"⚠️ Telegram notification failed: {e}")
+        
         log(f"⏳ Waiting {CHECK_INTERVAL} seconds until next cycle...")
         log("")
         

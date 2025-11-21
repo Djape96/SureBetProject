@@ -1,0 +1,121 @@
+[
+  {
+    "time": "16:30",
+    "player1": "Justo, Guido Ivan",
+    "player2": "Dutra Da Silva, Daniel",
+    "odds": {
+      "Home": 1.8,
+      "Away": 2.0,
+      "H1": 1.84,
+      "H2": 1.91,
+      "Under": 1.8,
+      "Over": 2.0
+    },
+    "handicap_line": "-0.5",
+    "total_line": "22.5",
+    "page": 1,
+    "range": "3d"
+  },
+  {
+    "time": "16:30",
+    "player1": "Prado Angelo, Juan Carlos",
+    "player2": "Sakamoto, Pedro",
+    "odds": {
+      "Home": 1.35,
+      "Away": 3.15,
+      "H1": 1.72,
+      "H2": 2.05,
+      "Under": 1.85,
+      "Over": 1.92
+    },
+    "handicap_line": "-3.5",
+    "total_line": "21.5",
+    "page": 1,
+    "range": "3d"
+  },
+  {
+    "time": "17:15",
+    "player1": "Gakhov, Ivan",
+    "player2": "Giustino, Lorenzo",
+    "odds": {
+      "Home": 2.45,
+      "Away": 1.55,
+      "H1": 1.97,
+      "H2": 1.83,
+      "Under": 1.8,
+      "Over": 2.0
+    },
+    "handicap_line": "2.5",
+    "total_line": "22.5",
+    "page": 1,
+    "range": "3d"
+  },
+  {
+    "time": "18:00",
+    "player1": "Engel, Justin",
+    "player2": "Guerrieri, Andrea",
+    "odds": {
+      "Home": 1.57,
+      "Away": 2.48,
+      "H1": 1.81,
+      "H2": 1.99,
+      "Under": 1.8,
+      "Over": 1.93
+    },
+    "handicap_line": "-2.5",
+    "total_line": "22.5",
+    "page": 1,
+    "range": "3d"
+  },
+  {
+    "time": "18:00",
+    "player1": "Collarini, Andrea",
+    "player2": "Ribeiro, Eduardo",
+    "odds": {
+      "Home": 1.43,
+      "Away": 2.95,
+      "H1": 1.9,
+      "H2": 1.93,
+      "Under": 1.88,
+      "Over": 1.88
+    },
+    "handicap_line": "-3.5",
+    "total_line": "21.5",
+    "page": 1,
+    "range": "3d"
+  },
+  {
+    "time": "20:05",
+    "player1": "Maestrelli, Francesco",
+    "player2": "Napolitano, Stefano",
+    "odds": {
+      "Home": 1.8,
+      "Away": 2.0,
+      "H1": 1.86,
+      "H2": 1.92,
+      "Under": 1.95,
+      "Over": 1.85
+    },
+    "handicap_line": "-0.5",
+    "total_line": "22.5",
+    "page": 1,
+    "range": "3d"
+  },
+  {
+    "time": "04:30",
+    "player1": "Santillan, Akira",
+    "player2": "Sakamoto, Rei",
+    "odds": {
+      "Home": 2.47,
+      "Away": 1.5,
+      "H1": 1.97,
+      "H2": 1.8,
+      "Under": 1.82,
+      "Over": 1.95
+    },
+    "handicap_line": "2.5",
+    "total_line": "22.5",
+    "page": 1,
+    "range": "3d"
+  }
+]

@@ -1,0 +1,465 @@
+Basketball Matches (live) - 2025-11-03 20:20:32
+============================================================
+
+Caxias Do Sul vs Rio Claro Basquete
+  1: 1.2 @ AUTO
+  2: 4.6 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.91 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 160.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Mogi vs Flamengo
+  1: 3.8 @ AUTO
+  2: 1.27 @ AUTO
+  H1: 1.72 @ AUTO
+  Handicap: 8.5 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 1.85 @ AUTO
+  Handicap2: 161.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Cruzeiro Basquete vs Bauru
+  1: 2.47 @ AUTO
+  2: 1.5 @ AUTO
+  H1: 1.81 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 1.98 @ AUTO
+  Under: 1.86 @ AUTO
+  Handicap2: 149.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Corinthians Paulista vs Botafogo
+  1: 17.0 @ AUTO
+  2: 1.66 @ AUTO
+  H1: 1.67 @ AUTO
+  Handicap: 1.83 @ AUTO
+  H2: 161.5 @ AUTO
+  Under: 1.84 @ AUTO
+
+Pinheiros Sp vs Basquete Osasco
+  1: 1.05 @ AUTO
+  2: 8.0 @ AUTO
+  H1: 1.86 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.86 @ AUTO
+  Under: 160.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Indiana Pacers vs Milwaukee Bucks
+  1: 2.96 @ AUTO
+  2: 1.46 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 7.5 @ AUTO
+  H2: 2.15 @ AUTO
+  Under: 1.93 @ AUTO
+  Handicap2: 2.04 @ AUTO
+
+Brooklyn Nets vs Minnesota Timberwolves
+  1: 4.08 @ AUTO
+  2: 1.3 @ AUTO
+  H1: 1.86 @ AUTO
+  Handicap: 9.5 @ AUTO
+  H2: 2.08 @ AUTO
+  Under: 2.03 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Instituto de Cordoba vs Obera Tenis Club
+  1: 1.23 @ AUTO
+  2: 4.2 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.81 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 161.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+New York Knicks vs Washington Wizards
+  1: 1.17 @ AUTO
+  2: 6.05 @ AUTO
+  H1: 1.96 @ AUTO
+  Handicap: 1.97 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 2.04 @ AUTO
+
+Boston vs Utah Jazz
+  1: 1.24 @ AUTO
+  2: 4.7 @ AUTO
+  H1: 1.96 @ AUTO
+  Handicap: 1.96 @ AUTO
+  H2: 1.91 @ AUTO
+  Under: 2.08 @ AUTO
+
+San Martin Corrientes vs Quimsa
+  1: 1.93 @ AUTO
+  2: 1.95 @ AUTO
+  H1: 1.78 @ AUTO
+  Handicap: 1.8 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 154.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Memphis vs Detroit Pistons
+  1: 2.65 @ AUTO
+  2: 1.58 @ AUTO
+  H1: 1.77 @ AUTO
+  Handicap: 5.5 @ AUTO
+  H2: 2.17 @ AUTO
+  Under: 2.04 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Houston Rockets vs Dallas Mavericks
+  1: 1.17 @ AUTO
+  2: 6.1 @ AUTO
+  H1: 1.92 @ AUTO
+  Handicap: 2.0 @ AUTO
+  H2: 2.0 @ AUTO
+  Under: 1.92 @ AUTO
+
+Denver vs Sacramento
+  1: 1.18 @ AUTO
+  2: 5.69 @ AUTO
+  H1: 1.92 @ AUTO
+  Handicap: 2.0 @ AUTO
+  H2: 1.96 @ AUTO
+  Under: 1.96 @ AUTO
+
+Portland Trail Blazers vs LA Lakers
+  1: 1.71 @ AUTO
+  2: 2.3 @ AUTO
+  H1: 2.04 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 2.04 @ AUTO
+
+LA Clippers vs Miami
+  1: 1.35 @ AUTO
+  2: 3.6 @ AUTO
+  H1: 2.05 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.96 @ AUTO
+  Under: 1.96 @ AUTO
+
+Seoul Knights vs KCC Egis
+  1: 2.55 @ AUTO
+  2: 1.5 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 1.89 @ AUTO
+  Handicap2: 151.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+BK Uralmash Yekaterinburg vs BC Samara
+  1: 1.04 @ AUTO
+  2: 14.0 @ AUTO
+  H1: 2.0 @ AUTO
+  Handicap: 2.1 @ AUTO
+  H2: 1.97 @ AUTO
+  Under: 167.5 @ AUTO
+  Handicap2: 2.0 @ AUTO
+
+Brno vs Kutaisi
+  1: 1.01 @ AUTO
+  2: 15.0 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.93 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 168.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Turk Telekom Ankara vs Panionios
+  1: 1.07 @ AUTO
+  2: 11.4 @ AUTO
+  H1: 1.91 @ AUTO
+  Handicap: 1.93 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 162.5 @ AUTO
+  Handicap2: 1.93 @ AUTO
+
+Suduva Mantinga Marijampole vs Plunges Olimpas
+  1: 1.34 @ AUTO
+  2: 3.4 @ AUTO
+  H1: 1.75 @ AUTO
+  Handicap: 1.75 @ AUTO
+  H2: 1.82 @ AUTO
+  Under: 159.5 @ AUTO
+  Handicap2: 1.95 @ AUTO
+
+Honka Espoo vs Kataja
+  1: 1.62 @ AUTO
+  2: 2.25 @ AUTO
+  H1: 2.0 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 171.5 @ AUTO
+  Handicap2: 1.82 @ AUTO
+
+Bisons Loimaa vs Helsinki Seagulls
+  1: 3.45 @ AUTO
+  2: 1.28 @ AUTO
+  H1: 1.83 @ AUTO
+  Handicap: 7.5 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 1.88 @ AUTO
+  Handicap2: 166.5 @ AUTO
+  Over: 1.85 @ AUTO
+
+Salon Vilpas vs UU Korihait Uusikaupunki
+  1: 1.26 @ AUTO
+  2: 3.7 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 180.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Rilski Sportist vs Murcia
+  1: 12.3 @ AUTO
+  2: 1.05 @ AUTO
+  H1: 1.92 @ AUTO
+  Handicap: 16.5 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 1.85 @ AUTO
+  Handicap2: 162.5 @ AUTO
+  Over: 1.95 @ AUTO
+
+Hapoel Holon vs Cholet
+  1: 1.67 @ AUTO
+  2: 2.21 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 166.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Fenerbahce W vs Valencia BC W
+  1: 1.14 @ AUTO
+  2: 5.7 @ AUTO
+  H1: 1.86 @ AUTO
+  Handicap: 1.89 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 148.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Uniqa Euroleasing Sopron W vs Schio W
+  1: 4.1 @ AUTO
+  2: 1.26 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 8.5 @ AUTO
+  H2: 1.86 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 143.5 @ AUTO
+  Over: 1.85 @ AUTO
+
+Galatasaray W vs Flammes Carolo Basket W
+  1: 1.06 @ AUTO
+  2: 8.0 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 138.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+VEF Riga vs BK Liepaja
+  1: 1.04 @ AUTO
+  2: 10.0 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 168.5 @ AUTO
+  Handicap2: 1.81 @ AUTO
+
+Anwil Wloclawek vs Braunschweig
+  1: 1.63 @ AUTO
+  2: 2.42 @ AUTO
+  H1: 1.95 @ AUTO
+  Handicap: 1.84 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 168.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Wurzburg vs Galatasaray
+  1: 2.27 @ AUTO
+  2: 1.65 @ AUTO
+  H1: 1.84 @ AUTO
+  Handicap: 3.5 @ AUTO
+  H2: 2.0 @ AUTO
+  Under: 1.92 @ AUTO
+  Handicap2: 165.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+Keila Korvpallikool vs Keila Basket
+  1: 3.3 @ AUTO
+  2: 1.37 @ AUTO
+  H1: 1.83 @ AUTO
+  Handicap: 6.5 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 172.5 @ AUTO
+  Over: 1.8 @ AUTO
+
+KB Bashkimi vs Cibona
+  1: 2.0 @ AUTO
+  2: 1.8 @ AUTO
+  H1: 1.75 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 2.0 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 167.5 @ AUTO
+  Over: 1.85 @ AUTO
+
+Holbaek Stenhus vs Copenhagen Basketball
+  1: 5.7 @ AUTO
+  2: 1.13 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 11.5 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 174.5 @ AUTO
+  Over: 1.8 @ AUTO
+
+Buducnost vs Besiktas
+  1: 2.04 @ AUTO
+  2: 1.85 @ AUTO
+  H1: 1.77 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 2.1 @ AUTO
+  Under: 1.97 @ AUTO
+  Handicap2: 169.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Koping Stars vs Uppsala Basket
+  1: 2.04 @ AUTO
+  2: 1.87 @ AUTO
+  H1: 1.97 @ AUTO
+  Handicap: 1.75 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 174.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Sodertalje vs Norrkoping
+  1: 4.1 @ AUTO
+  2: 1.24 @ AUTO
+  H1: 1.82 @ AUTO
+  Handicap: 8.5 @ AUTO
+  H2: 1.91 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 161.5 @ AUTO
+  Over: 1.8 @ AUTO
+
+Sloga Uppsala vs Boras
+  1: 8.5 @ AUTO
+  2: 1.07 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 13.5 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 171.5 @ AUTO
+  Over: 1.8 @ AUTO
+
+Nassjo vs Jamtland
+  1: 2.04 @ AUTO
+  2: 1.84 @ AUTO
+  H1: 1.65 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 2.05 @ AUTO
+  Under: 1.88 @ AUTO
+  Handicap2: 186.5 @ AUTO
+  Over: 1.83 @ AUTO
+
+JL Bourg vs BV Chemnitz 99Ers
+  1: 1.38 @ AUTO
+  2: 3.4 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.99 @ AUTO
+  H2: 2.03 @ AUTO
+  Under: 164.5 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Varese vs Virtus Bologna
+  1: 5.0 @ AUTO
+  2: 1.24 @ AUTO
+  H1: 1.93 @ AUTO
+  Handicap: 9.5 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.97 @ AUTO
+  Handicap2: 168.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Trento vs Lietkabelis
+  1: 1.5 @ AUTO
+  2: 2.9 @ AUTO
+  H1: 2.0 @ AUTO
+  Handicap: 2.01 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 166.5 @ AUTO
+  Handicap2: 2.0 @ AUTO
+
+Brescia vs Armani Milano
+  1: 2.55 @ AUTO
+  2: 1.59 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 2.0 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 166.5 @ AUTO
+  Over: 1.95 @ AUTO
+
+Benfica vs Le Mans
+  1: 4.1 @ AUTO
+  2: 1.27 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 7.5 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 165.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+Bursaspor vs Joventut Badalona
+  1: 4.7 @ AUTO
+  2: 1.18 @ AUTO
+  H1: 1.86 @ AUTO
+  Handicap: 9.5 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 161.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+Rytas Vilnius vs Heidelberg
+  1: 1.08 @ AUTO
+  2: 7.1 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.95 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 173.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Crvena Zvezda vs Panathinaikos
+  1: 1.71 @ AUTO
+  2: 2.3 @ AUTO
+  H1: 2.07 @ AUTO
+  Handicap: 2.0 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 170.5 @ AUTO
+  Handicap2: 1.93 @ AUTO
+
+Fenerbahce vs Asvel
+  1: 1.12 @ AUTO
+  2: 8.5 @ AUTO
+  H1: 1.93 @ AUTO
+  Handicap: 1.93 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 165.5 @ AUTO
+  Handicap2: 1.93 @ AUTO
+
+Dubai vs Hapoel Tel Aviv
+  1: 2.67 @ AUTO
+  2: 1.53 @ AUTO
+  H1: 1.78 @ AUTO
+  Handicap: 5.5 @ AUTO
+  H2: 2.08 @ AUTO
+  Under: 1.95 @ AUTO
+  Handicap2: 170.5 @ AUTO
+  Over: 1.93 @ AUTO
+

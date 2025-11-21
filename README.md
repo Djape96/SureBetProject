@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+"# SureBetProject" 
+=======
 # SureBet Project
 
 ## New: Lightweight API & Mobile-Friendly Web View
@@ -273,3 +276,5 @@ The analyzer supports the TopTiket player specials format:
 - Historical tracking of player performance vs. lines
 - Integration with main FastAPI endpoints (`/player_specials/surebets`)
 
+---
+>>>>>>> d0fff42 (Initial commit: tennis & basketball surebet scrapers, multi-run orchestrator, telegram integration)

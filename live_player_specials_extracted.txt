@@ -18,15 +18,17 @@ Ostali sportovi
 ​
 ​
 OMILJENE LIGE
-Španija 1
-22
-ABA Liga
-23
-Francuska 1
-8
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
 SVE LIGE
 Igrači ukupno
-76
+99+
+SAD
+99+
 1h
 12h
 1 dan
@@ -36,171 +38,174 @@ Presented by:
 manje
 više
 Naredne utakmice
-ned, 9. 11.
-12:00
-Simmons K.
-Baskonia
-1.75
-10.5
-2.05
-+2
-ned, 9. 11.
-12:00
-Sedekerskis T.
-Baskonia
-1.85
-8.5
-1.85
-+4
-ned, 9. 11.
-12:00
-Luwawu Cabarrot T.
-Baskonia
-1.90
-17.5
-1.90
-+2
-ned, 9. 11.
-12:00
-Diallo H.
-Baskonia
-1.90
-13.5
-1.90
-+2
-ned, 9. 11.
-12:00
-Spagnolo M.
-Baskonia
-1.95
-8.5
-1.90
-+2
-ned, 9. 11.
-12:00
-Batemon J.
-Forca Lleida
-1.85
-14.5
-1.85
-+4
-ned, 9. 11.
-12:00
-Caleb Agada
-Forca Lleida
-1.90
-13.5
-1.90
-+2
-ned, 9. 11.
-12:00
-Ejim M.
-Forca Lleida
-1.90
-10.5
-1.90
-+2
-ned, 9. 11.
-12:00
-Pauli O.
-Forca Lleida
-1.95
-8.5
-2.05
-+2
-ned, 9. 11.
-12:00
-Walden C.
-Forca Lleida
-1.90
-5.5
-1.90
-+2
-ned, 9. 11.
-12:15
-Clyburn W.
-Barcelona
-1.90
-12.5
-1.90
-+2
-ned, 9. 11.
-12:15
-Satoransky T.
-Barcelona
-1.90
-7.5
-1.95
-+2
-ned, 9. 11.
-12:15
-Punter K.
-Barcelona
-1.90
-12.5
-1.90
-+4
-ned, 9. 11.
-12:15
-Brizuela D.
-Barcelona
-2
-7.5
-1.80
-+2
-ned, 9. 11.
-12:15
-Parra J.
-Barcelona
-1.95
-7.5
-1.90
-+2
-ned, 9. 11.
-12:15
-Geben M.
-Girona
-1.90
-5.5
-1.90
-+2
-ned, 9. 11.
-12:15
-Martinez S.
-Girona
-1.90
-6.5
-1.90
-+2
-ned, 9. 11.
-12:15
-Hughes M.
-Girona
-1.90
+pet, 21. 11.
+20:00
+Alonzo Verge Jr.
+Vechta
+1.88
+20.5
+1.94
++8
+pet, 21. 11.
+20:00
+Tevin Brown
+Vechta
+1.98
 11.5
+1.85
++6
+pet, 21. 11.
+20:00
+Kolenda L.
+Rostock
 1.90
+13.5
+1.85
++6
+pet, 21. 11.
+20:00
+Van Vliet A.
+Rostock
+1.85
+8.5
+1.85
 +2
-ned, 9. 11.
-12:15
-Vildoza P.
-Girona
+pet, 21. 11.
+20:00
+Klassen O.
+Rostock
 1.90
 5.5
 1.90
-+2
-ned, 9. 11.
-12:15
-Needham D.
-Girona
++4
+pet, 21. 11.
+20:00
+Schwartz D.
+Rostock
 1.90
-9.5
+15.5
 1.90
-+2
++8
+pet, 21. 11.
+20:00
+Lansdowne D.
+Rostock
+1.90
+10.5
+1.90
++10
+pet, 21. 11.
+20:15
+Ntilikina F.
+Olympiacos
+1.92
+5.5
+1.99
++4
+pet, 21. 11.
+20:15
+Vezenkov S.
+Olympiacos
+1.86
+20.5
+1.94
++24
+pet, 21. 11.
+20:15
+Fournier E.
+Olympiacos
+2.05
+10.5
+1.92
++12
+pet, 21. 11.
+20:15
+Dorsey T.
+Olympiacos
+1.96
+15.5
+1.95
++12
+pet, 21. 11.
+20:15
+Milutinov N.
+Olympiacos
+2.05
+11.5
+1.85
++20
+pet, 21. 11.
+20:15
+Hall D.
+Olympiacos
+1.92
+7.5
+1.92
++12
+pet, 21. 11.
+20:15
+Walkup T.
+Olympiacos
+2.10
+5.5
+1.85
++10
+pet, 21. 11.
+20:15
+Peters A.
+Olympiacos
+1.92
+8.5
+2.02
++4
+pet, 21. 11.
+20:15
+Faye M.
+Paris
+1.92
+5.5
+1.92
++4
+pet, 21. 11.
+20:15
+Willis D.
+Paris
+2.02
+7.5
+1.90
++10
+pet, 21. 11.
+20:15
+Ouattara Y.
+Paris
+1.99
+6.5
+2.05
++12
+pet, 21. 11.
+20:15
+Herrera S.
+Paris
+1.92
+10.5
+1.92
++6
+pet, 21. 11.
+20:15
+Hifi N.
+Paris
+1.92
+19.5
+1.92
++14
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
 1
 2
 3
 4
+5
+…
+11
 top
 tiket
 Mečevi
@@ -239,15 +244,17 @@ Ostali sportovi
 ​
 ​
 OMILJENE LIGE
-Španija 1
-22
-ABA Liga
-23
-Francuska 1
-8
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
 SVE LIGE
 Igrači ukupno
-76
+99+
+SAD
+99+
 1h
 12h
 1 dan
@@ -257,392 +264,2208 @@ Presented by:
 manje
 više
 Naredne utakmice
-ned, 9. 11.
-12:15
-Hughes M.
-Girona
-1.90
-11.5
-1.90
-+2
-ned, 9. 11.
-12:15
-Vildoza P.
-Girona
-1.90
+pet, 21. 11.
+20:15
+Herrera S.
+Paris
+1.92
+10.5
+1.92
++6
+pet, 21. 11.
+20:15
+Robinson J.
+Paris
+2.40
+13.5
+1.50
++14
+pet, 21. 11.
+20:30
+Giffey N.
+Bayern Munich
+2
 5.5
-1.90
+1.85
 +2
-ned, 9. 11.
-15:00
+pet, 21. 11.
+20:30
+Jovic S.
+Bayern Munich
+1.92
+5.5
+1.99
++10
+pet, 21. 11.
+20:30
 Mike I.
 Bayern Munich
-1.85
-9.5
-1.85
-+4
-ned, 9. 11.
-15:00
-Obst A.
-Bayern Munich
-1.85
-11.5
-1.85
-+6
-ned, 9. 11.
-15:00
-Baldwin K.
-Bayern Munich
-1.85
-8.5
+1.92
+12.5
 1.95
-+2
-ned, 9. 11.
-15:00
++28
+pet, 21. 11.
+20:30
 Jessup J.
 Bayern Munich
-1.85
-9.5
-1.85
-+2
-ned, 9. 11.
-15:00
-Rebec M.
-Studentski Centar
 1.92
-10.5
+5.5
 1.92
 +4
-ned, 9. 11.
-15:00
-Ilic A.
-Studentski Centar
+pet, 21. 11.
+20:30
+Dinwiddie S.
+Bayern Munich
 1.92
-11.5
+13.5
 1.92
++18
+pet, 21. 11.
+20:30
+Da Silva O.
+Bayern Munich
+1.90
+8.5
+2
 +10
-ned, 9. 11.
-15:00
-Johnson D.
-Studentski Centar
-1.85
+pet, 21. 11.
+20:30
+Rathan-Mayes X.
+Bayern Munich
+1.90
+7.5
+1.90
++4
+pet, 21. 11.
+20:30
+Obst A.
+Bayern Munich
+2
 11.5
+1.92
++6
+pet, 21. 11.
+20:30
+Lucic V.
+Bayern Munich
+1.92
+8.5
+2.05
++8
+pet, 21. 11.
+20:30
+Jones T.
+Partizan
+2
+10.5
+2
++28
+pet, 21. 11.
+20:30
+Washington D.
+Partizan
+1.95
+15.5
+1.95
++20
+pet, 21. 11.
+20:30
+Milton S.
+Partizan
+1.88
+8.5
+2
++12
+pet, 21. 11.
+20:30
+Calathes N.
+Partizan
+2
+5.5
+2
++8
+pet, 21. 11.
+20:30
+Fernando B.
+Partizan
+1.99
+5.5
+1.90
++12
+pet, 21. 11.
+20:30
+Pokusevski A.
+Partizan
+1.95
+7.5
+1.95
++10
+pet, 21. 11.
+20:30
+Bonga I.
+Partizan
+2.05
+7.5
+2
++8
+pet, 21. 11.
+20:30
+Brown S.
+Partizan
+1.95
+14.5
+2.05
++22
+pet, 21. 11.
+20:30
+Brissett O.
+Maccabi Tel Aviv
+1.92
+8.5
+1.92
++8
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+2
+3
+4
+5
+…
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+pet, 21. 11.
+20:30
+Dowtin Jr J.
+Maccabi Tel Aviv
+1.92
+8.5
+1.95
++8
+pet, 21. 11.
+20:30
+Hoard J.
+Maccabi Tel Aviv
+2
+14.5
+1.92
++14
+pet, 21. 11.
+20:30
+Sorkin R.
+Maccabi Tel Aviv
+2
+12.5
+1.88
++20
+pet, 21. 11.
+20:30
+Blatt T.
+Maccabi Tel Aviv
+1.92
+6.5
+2.05
++10
+pet, 21. 11.
+20:30
+Brissett O.
+Maccabi Tel Aviv
+1.92
+8.5
+1.92
++8
+pet, 21. 11.
+20:30
+Horton Tucker T.
+Fenerbahce
+1.92
+14.5
+1.92
++18
+pet, 21. 11.
+20:30
+Biberovic T.
+Fenerbahce
+1.85
+8.5
+2
++4
+pet, 21. 11.
+20:30
+Colson B.
+Fenerbahce
+1.92
+9.5
+1.92
++12
+pet, 21. 11.
+20:30
+Baldwin W.
+Fenerbahce
+1.98
+12.5
+1.86
++32
+pet, 21. 11.
+20:30
+Hall D.
+Fenerbahce
+1.97
+9.5
+1.95
++8
+pet, 21. 11.
+20:30
+Melli N.
+Fenerbahce
+2.05
+5.5
+1.84
++18
+pet, 21. 11.
+20:30
+Alessandro Pajola
+Virtus
+1.88
+5.5
+2.02
++12
+pet, 21. 11.
+20:30
+Edwards C.
+Virtus
+2.05
+17.5
 1.85
 +12
-ned, 9. 11.
-15:00
-Dreznjak M.
-Studentski Centar
+pet, 21. 11.
+20:30
+Saliou Niang
+Virtus
+1.80
+8.5
+2
++22
+pet, 21. 11.
+20:30
+Matt Morgan
+Virtus
+1.98
+11.5
+1.95
++6
+pet, 21. 11.
+20:30
+Vildoza L.
+Virtus
+1.88
+6.5
+2.02
++14
+pet, 21. 11.
+20:30
+Jallow K.
+Virtus
+1.93
+8.5
+2.05
++8
+pet, 21. 11.
+20:30
+Diouf M.
+Virtus
+1.98
+9.5
+2
++10
+pet, 21. 11.
+20:30
+Simmons K.
+Baskonia
+1.90
+9.5
+1.94
++12
+pet, 21. 11.
+20:30
+Spagnolo M.
+Baskonia
+2
+6.5
+2
++6
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+2
+3
+4
+5
+…
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+pet, 21. 11.
+20:30
+Luwawu Cabarrot T.
+Baskonia
+1.92
+17.5
+2
++18
+pet, 21. 11.
+20:30
+Sedekerskis T.
+Baskonia
+1.84
+8.5
+2.05
++18
+pet, 21. 11.
+20:30
+Howard M.
+Baskonia
+1.95
+11.5
+1.92
++6
+pet, 21. 11.
+20:30
+Diallo H.
+Baskonia
+1.98
+13.5
+2
++20
+pet, 21. 11.
+20:30
+Bilan M.
+Brescia
+1.99
+13.5
+1.85
++10
+pet, 21. 11.
+20:30
+Rivers D.
+Brescia
+1.95
+8.5
+1.80
++2
+pet, 21. 11.
+20:30
+Ivanovic N.
+Brescia
+1.85
+14.5
+2
++6
+pet, 21. 11.
+20:30
+Ndour M.
+Brescia
+1.90
+11.5
+1.90
++6
+pet, 21. 11.
+20:30
+Burnell J.
+Brescia
+1.45
+13.5
+2.50
++4
+pet, 21. 11.
+20:30
+Della Valle A.
+Brescia
+1.93
+17.5
+1.90
++8
+pet, 21. 11.
+20:30
+Durham A.
+Vanoli Cremona
+1.90
+16.5
+1.95
++6
+pet, 21. 11.
+20:30
+Willis P.
+Vanoli Cremona
+1.85
+14.5
+2
++16
+pet, 21. 11.
+20:30
+Ndiaye O.
+Vanoli Cremona
+1.85
+13.5
+2
++6
+pet, 21. 11.
+20:30
+Casarin D.
+Vanoli Cremona
+1.85
+12.5
+1.85
++6
+pet, 21. 11.
+20:30
+Veronesi G.
+Vanoli Cremona
 1.85
 9.5
 1.85
-+4
-ned, 9. 11.
-15:00
-Hadzibegovic E.
-Studentski Centar
++2
+pet, 21. 11.
+20:30
+Jones T.
+Vanoli Cremona
+1.90
+9.5
+1.90
++2
+pet, 21. 11.
+21:00
+Butler Jar.
+Crvena zvezda
+1.91
+10.5
+1.90
++12
+pet, 21. 11.
+21:00
+Dobric O.
+Crvena zvezda
 2
 6.5
-1.85
+2
 +2
-ned, 9. 11.
-15:00
-Brown T.
-Vechta
+pet, 21. 11.
+21:00
+Miller-McIntyre C.
+Crvena zvezda
+1.91
+13.5
+1.90
++32
+pet, 21. 11.
+21:00
+Moneke C.
+Crvena zvezda
+2
+13.5
+1.86
++28
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+2
+3
+4
+5
+…
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+pet, 21. 11.
+21:00
+Motiejunas D.
+Crvena zvezda
+1.95
+7.5
+1.95
++8
+pet, 21. 11.
+21:00
+Kalinic N.
+Crvena zvezda
+1.95
+7.5
+2.05
++20
+pet, 21. 11.
+21:00
+Ojeleye S.
+Crvena zvezda
+2
+8.5
+1.85
++14
+pet, 21. 11.
+21:00
+Thompson D.
+Valencia
+1.90
+11.5
+1.94
++22
+pet, 21. 11.
+21:00
+Reuvers N.
+Valencia
+2
+7.5
+1.90
++10
+pet, 21. 11.
+21:00
+Costello M.
+Valencia
+1.92
+6.5
+1.92
++8
+pet, 21. 11.
+21:00
+Pradilla J.
+Valencia
+1.92
+5.5
+2.05
++8
+pet, 21. 11.
+21:00
+Badio B.
+Valencia
+1.95
+9.5
+1.90
++4
+pet, 21. 11.
+21:00
+Montero J.
+Valencia
+1.98
+12.5
+1.92
++18
+pet, 21. 11.
+21:00
+Moore O.
+Valencia
+1.97
+10.5
+1.92
++28
+pet, 21. 11.
+21:00
+Taylor K.
+Valencia
+1.98
+9.5
+1.90
++20
+sub, 22. 11.
+01:00
+Pascal Siakam
+Indiana Pacers
+1.91
+23.5
+1.90
++26
+sub, 22. 11.
+01:00
+Andrew Nembhard
+Indiana Pacers
+1.91
+16.5
+1.95
++20
+sub, 22. 11.
+01:00
+Bennedict Mathurin
+Indiana Pacers
+1.94
+20.5
+1.86
++20
+sub, 22. 11.
+01:00
+Isaiah Jackson
+Indiana Pacers
+1.88
+7.5
+1.96
++18
+sub, 22. 11.
+01:00
+Ben Sheppard
+Indiana Pacers
+2
+7.5
+1.87
++18
+sub, 22. 11.
+01:00
+T.J. McConnell
+Indiana Pacers
+1.90
+8.5
+1.95
++14
+sub, 22. 11.
+01:00
+Jarace Walker
+Indiana Pacers
+1.91
+8.5
+1.90
++20
+sub, 22. 11.
+01:00
+Darius Garland
+Cleveland Cavaliers
+1.90
+15.5
+1.94
++20
+sub, 22. 11.
+01:00
+Jarrett Allen
+Cleveland Cavaliers
+1.92
+14.5
+1.90
++20
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+…
+4
+5
+6
+…
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+sub, 22. 11.
+01:00
+De'Andre Hunter
+Cleveland Cavaliers
+1.90
+17.5
+1.90
++20
+sub, 22. 11.
+01:00
+Darius Garland
+Cleveland Cavaliers
+1.90
+15.5
+1.94
++20
+sub, 22. 11.
+01:00
+Jarrett Allen
+Cleveland Cavaliers
+1.92
+14.5
+1.90
++20
+sub, 22. 11.
+01:30
+Poeltl J.
+Toronto Raptors
+1.90
+13.5
+1.95
++22
+sub, 22. 11.
+01:30
+Immanuel Quickley
+Toronto Raptors
+1.95
+16.5
+1.87
++30
+sub, 22. 11.
+01:30
+Jamal Shead
+Toronto Raptors
+1.95
+7.5
+1.90
++14
+sub, 22. 11.
+01:30
+Barnes Scottie
+Toronto Raptors
+1.90
+19.5
+1.90
++24
+sub, 22. 11.
+01:30
+Brandon Ingram
+Toronto Raptors
+1.90
+21.5
+1.90
++20
+sub, 22. 11.
+01:30
+Barrett RJ
+Toronto Raptors
+1.95
+18.5
+1.87
++28
+sub, 22. 11.
+01:30
+Sandro Mamukelashvili
+Toronto Raptors
+1.87
+8.5
+2.02
++22
+sub, 22. 11.
+01:30
+Gradey Dick
+Toronto Raptors
+1.90
+8.5
+1.92
++10
+sub, 22. 11.
+01:30
+Michael Porter Jr.
+Brooklyn Nets
+1.90
+22.5
+1.90
++22
+sub, 22. 11.
+01:30
+Day'Ron Sharpe
+Brooklyn Nets
+1.85
+6.5
+2.05
++16
+sub, 22. 11.
+01:30
+Tyrese Martin
+Brooklyn Nets
+1.88
+7.5
+1.99
++16
+sub, 22. 11.
+01:30
+Egor Demin
+Brooklyn Nets
+1.90
+8.5
+2
++18
+sub, 22. 11.
+01:30
+Terance Mann
+Brooklyn Nets
+1.86
+9.5
+2.02
++18
+sub, 22. 11.
+01:30
+Ziaire Williams
+Brooklyn Nets
+1.90
+11.5
+1.90
++18
+sub, 22. 11.
+01:30
+Noah Clowney
+Brooklyn Nets
+1.90
+11.5
+1.90
++20
+sub, 22. 11.
+01:30
+Nic Claxton
+Brooklyn Nets
+1.89
+13.5
+2.10
++20
+sub, 22. 11.
+01:30
+Bilal Coulibaly
+Washington Wizards
+1.90
+10.5
+1.90
++20
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+…
+5
+6
+7
+…
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+sub, 22. 11.
+01:30
+Tre Johnson
+Washington Wizards
+1.93
+9.5
+1.89
++10
+sub, 22. 11.
+01:30
+Khris Middleton
+Washington Wizards
+1.86
+10.5
+1.95
++28
+sub, 22. 11.
+01:30
+Cam Whitmore
+Washington Wizards
+1.95
+9.5
+1.87
++16
+sub, 22. 11.
+01:30
+George Kys.
+Washington Wizards
+1.91
+15.5
+1.90
++22
+sub, 22. 11.
+01:30
+McCollum CJ
+Washington Wizards
+1.95
+16.5
+1.90
++22
+sub, 22. 11.
+01:30
+Alexandre Sarr
+Washington Wizards
+1.90
+18.5
+2
++24
+sub, 22. 11.
+01:30
+Carlton Carrington
+Washington Wizards
+1.86
+7.5
+2
++18
+sub, 22. 11.
+01:30
+Luka Garza
+Boston Celtics
+1.87
+7.5
+1.96
++12
+sub, 22. 11.
+01:30
+Neemias Queta
+Boston Celtics
+1.90
+9.5
+1.90
++18
+sub, 22. 11.
+01:30
+Anfernee Simons
+Boston Celtics
+1.99
+12.5
+1.89
++20
+sub, 22. 11.
+01:30
+Payton Pritchard
+Boston Celtics
+1.89
+17.5
+1.95
++26
+sub, 22. 11.
+01:30
+Derrick White
+Boston Celtics
+1.90
+17.5
+1.91
++22
+sub, 22. 11.
+01:30
+Jaylen Brown
+Boston Celtics
+1.90
+27.5
+1.91
++20
+sub, 22. 11.
+02:00
+Davion Mitchell
+Miami Heat
+1.98
+10.5
+1.81
++18
+sub, 22. 11.
+02:00
+Simone Fontecchio
+Miami Heat
+1.89
+11.5
+1.95
++20
+sub, 22. 11.
+02:00
+Kel'el Ware
+Miami Heat
+2
+10.5
+1.78
++20
+sub, 22. 11.
+02:00
+Pelle Larsson
+Miami Heat
+1.90
+12.5
+1.95
++20
+sub, 22. 11.
+02:00
+Jaime Jaquez
+Miami Heat
+1.95
+18.5
+1.86
++32
+sub, 22. 11.
+02:00
+Bam Adebayo
+Miami Heat
+1.90
+20.5
+1.91
++20
+sub, 22. 11.
+02:00
+Norman Powell
+Miami Heat
+1.90
+25.5
+1.91
++26
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+…
+6
+7
+8
+…
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+sub, 22. 11.
+02:00
+Isaac Okoro
+Chicago Bulls
+2
+6.5
+1.81
++14
+sub, 22. 11.
+02:00
+Matas Buzelis
+Chicago Bulls
+1.89
+14.5
+1.95
++20
+sub, 22. 11.
+02:00
+Nikola Vucevic
+Chicago Bulls
+1.90
+17.5
+1.90
++20
+sub, 22. 11.
+02:00
+Coby White
+Chicago Bulls
+1.90
+20.5
+1.90
++20
+sub, 22. 11.
+02:00
+Josh Giddey
+Chicago Bulls
+2
+19.5
+1.90
++32
+sub, 22. 11.
+02:30
+Zion Williamson
+New Orleans Pelicans
+1.90
+22.5
+1.98
++24
+sub, 22. 11.
+02:30
+Jordan Hawkins
+New Orleans Pelicans
+2.02
+5.5
+1.78
++10
+sub, 22. 11.
+02:30
+Alvarado J.
+New Orleans Pelicans
+1.90
+7.5
+1.95
++16
+sub, 22. 11.
+02:30
+Herbert Jones
+New Orleans Pelicans
+1.95
+7.5
+1.85
++14
+sub, 22. 11.
+02:30
+Saddiq Bey
+New Orleans Pelicans
+1.89
+9.5
+1.95
++18
+sub, 22. 11.
+02:30
+Jeremiah Fears
+New Orleans Pelicans
+1.84
+15.5
+1.97
++20
+sub, 22. 11.
+02:30
+Derik Queen
+New Orleans Pelicans
+1.90
+14.5
+1.95
++24
+sub, 22. 11.
+02:30
+Trey Murphy III
+New Orleans Pelicans
+1.94
+18.5
+1.87
++28
+sub, 22. 11.
+02:30
+Max Christie
+Dallas Mavericks
+1.85
+11.5
+1.95
++28
+sub, 22. 11.
+02:30
+Klay Thompson
+Dallas Mavericks
+1.95
+10.5
+1.85
++18
+sub, 22. 11.
+02:30
+D'Angelo Russell
+Dallas Mavericks
+1.98
+12.5
+1.85
++18
+sub, 22. 11.
+02:30
+Brandon Williams
+Dallas Mavericks
+1.90
+13.5
+1.90
++18
+sub, 22. 11.
+02:30
+PJ Washington
+Dallas Mavericks
+1.97
+15.5
+1.85
++20
+sub, 22. 11.
+02:30
+Cooper Flagg
+Dallas Mavericks
+1.95
+16.5
+1.90
++22
+sub, 22. 11.
+02:30
+Naji Marshall
+Dallas Mavericks
+1.90
+10.5
+1.95
++28
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+…
+7
+8
+9
+10
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+sub, 22. 11.
+02:30
+Daniel Gafford
+Dallas Mavericks
+1.90
+10.5
+1.90
++16
+sub, 22. 11.
+03:00
+Devin Booker
+Phoenix Suns
+1.93
+28.5
+1.90
++22
+sub, 22. 11.
+03:00
+Ryan Dunn
+Phoenix Suns
+1.89
+9.5
+1.93
++18
+sub, 22. 11.
+03:00
+Royce O'Neale
+Phoenix Suns
+1.95
+10.5
+1.89
++20
+sub, 22. 11.
+03:00
+Mark Williams
+Phoenix Suns
+1.90
+12.5
+1.90
++16
+sub, 22. 11.
+03:00
+Dillon Brooks
+Phoenix Suns
+1.90
+17.5
+1.91
++18
+sub, 22. 11.
+03:00
+Julius Randle
+Minnesota Timberwolves
+1.93
+23.5
+1.90
++28
+sub, 22. 11.
+03:00
+Anthony Edwards
+Minnesota Timberwolves
+1.90
+28.5
+1.90
++20
+sub, 22. 11.
+03:00
+Naz Reid
+Minnesota Timberwolves
+1.90
+13.5
+1.90
++22
+sub, 22. 11.
+03:00
+Rudy Gobert
+Minnesota Timberwolves
+1.90
+11.5
+1.90
++20
+sub, 22. 11.
+03:00
+Donte DiVincenzo
+Minnesota Timberwolves
+1.91
+13.5
+1.90
++28
+sub, 22. 11.
+03:00
+Jaden McDaniels
+Minnesota Timberwolves
+2
+13.5
+1.87
++26
+sub, 22. 11.
+03:30
+Kevin Durant
+Houston Rockets
+1.95
+26.5
+1.90
++22
+sub, 22. 11.
+03:30
+Smith Jabari
+Houston Rockets
+1.95
+12.5
+1.87
++26
+sub, 22. 11.
+03:30
+Amen Thompson
+Houston Rockets
+1.90
+17.5
+1.90
++20
+sub, 22. 11.
+03:30
+Alperen Sengun
+Houston Rockets
+1.89
+23.5
+1.95
++32
+sub, 22. 11.
+03:30
+Cameron Johnson
+Denver Nuggets
+1.93
+10.5
+1.90
++20
+sub, 22. 11.
+03:30
+Aaron Gordon
+Denver Nuggets
+1.87
+17.5
+1.95
++30
+sub, 22. 11.
+03:30
+Jamal Murray
+Denver Nuggets
+1.90
+21.5
+1.90
++28
+sub, 22. 11.
+03:30
+Nikola Jokic
+Denver Nuggets
+1.92
+28.5
+1.90
++30
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+…
+7
+8
+9
+10
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+sub, 22. 11.
+04:00
+Svi Mykhailiuk
+Utah Jazz
+1.90
+8.5
+1.95
++14
+sub, 22. 11.
+04:00
+Jusuf Nurkic
+Utah Jazz
+1.90
+9.5
+1.96
++16
+sub, 22. 11.
+04:00
+Ace Bailey
+Utah Jazz
+1.90
+10.5
+1.92
++20
+sub, 22. 11.
+04:00
+Keyonte George
+Utah Jazz
+1.90
+19.5
+2
++20
+sub, 22. 11.
+04:00
+Lauri Markkanen
+Utah Jazz
+1.90
+24.5
+1.92
++28
+sub, 22. 11.
+04:00
+Deni Avdija
+Portland Trail Blazers
+1.87
+25.5
+1.93
++20
+sub, 22. 11.
+04:00
+Donovan Clingan
+Portland Trail Blazers
+1.91
+9.5
+1.92
++16
+sub, 22. 11.
+04:00
+Toumani Camara
+Portland Trail Blazers
+1.98
+12.5
+1.82
++20
+sub, 22. 11.
+04:00
+Jrue Holiday
+Portland Trail Blazers
+1.91
+14.5
+1.90
++20
+sub, 22. 11.
+04:00
+Shaedon Sharpe
+Portland Trail Blazers
+1.90
+24.5
+1.90
++22
+sub, 22. 11.
+04:00
+Draymond Green
+Golden State Warriors
+1.99
+8.5
+1.90
++26
+sub, 22. 11.
+04:00
+Brandin Podziemski
+Golden State Warriors
+1.98
+11.5
+1.85
++26
+sub, 22. 11.
+04:00
+Moses Moody
+Golden State Warriors
+1.94
+12.5
+1.90
++28
+sub, 22. 11.
+04:00
+Jimmy Butler
+Golden State Warriors
+1.90
+22.5
+1.95
++22
+sub, 22. 11.
+04:00
+Stephen Curry
+Golden State Warriors
+1.90
+27.5
+1.92
++24
+sub, 22. 11.
+04:00
+Al Horford
+Golden State Warriors
+1.97
+7.5
+1.90
++16
+sub, 22. 11.
+04:00
+Buddy Hield
+Golden State Warriors
+2.05
+7.5
+1.86
++16
+sub, 22. 11.
+04:00
+Will Richard
+Golden State Warriors
+1.90
+6.5
+1.90
++18
+sub, 22. 11.
+04:00
+Chet Holmgren
+Oklahoma City Thunder
+1.90
+18.5
+1.90
++22
+sub, 22. 11.
+04:00
+Shai G.A.
+Oklahoma City Thunder
+1.90
+30.5
+1.90
++20
+Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
+1
+…
+7
+8
+9
+10
+11
+top
+tiket
+Mečevi
+0
+Dodaj mečeve
+I izaberi najbolje kvote
+top
+tiket
+O nama
+Kontakt
+Marketing
+Uslovi korišćenja
+18+
+© 2025 TopTiket - sva prava zadržana
+Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
+Prikaži više
+OK
+X
+Igrači specijal - Uporedi kvote | TopTiket
+You need to enable JavaScript to run this app.
+top
+tiket
+POČETNA
+KVOTE
+TOP PROGNOZER
+PROMOCIJE
+ULOGUJ SE
+Fudbal
+Košarka
+Tenis
+Igrači specijal
+Hokej
+Ostali sportovi
+/Kvote
+/Igrači specijal
+​
+​
+OMILJENE LIGE
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
+SVE LIGE
+Igrači ukupno
+99+
+SAD
+99+
+1h
+12h
+1 dan
+3 dana
+Igrači specijal
+Presented by:
+manje
+više
+Naredne utakmice
+sub, 22. 11.
+04:00
+Cason Wallace
+Oklahoma City Thunder
+1.93
+8.5
+1.90
++14
+sub, 22. 11.
+04:00
+Luguentz Dort
+Oklahoma City Thunder
+1.90
+9.5
+1.95
++16
+sub, 22. 11.
+04:00
+Isaiah Hartenstein
+Oklahoma City Thunder
+1.93
+11.5
+1.90
++22
+sub, 22. 11.
+04:00
+Ajay Mitchell
+Oklahoma City Thunder
+1.93
+15.5
+1.90
++20
+sub, 22. 11.
+07:30
+Sam Mennenga
+New Zealand Breakers
+1.80
+16.5
+1.90
++8
+sub, 22. 11.
+07:30
+Karim Lopez
+New Zealand Breakers
 1.85
 10.5
 1.85
 +6
-ned, 9. 11.
-15:00
-Verge Jr A.
-Vechta
+sub, 22. 11.
+07:30
+Izaiah Brockington
+New Zealand Breakers
+1.85
+13.5
+1.85
++10
+sub, 22. 11.
+07:30
+Jackson Cartwright P.
+New Zealand Breakers
 1.85
 18.5
 1.85
-+12
-ned, 9. 11.
-15:00
-Kuhse T.
-Vechta
-1.85
-17.5
-1.85
-+14
-ned, 9. 11.
-15:00
-Kondic K.
-Dubai
-1.92
-11.5
-1.92
 +6
-ned, 9. 11.
-15:00
-Sanli S.
-Dubai
-1.92
-7.5
-1.92
-+2
-ned, 9. 11.
-15:00
-Abass A.
-Dubai
-1.92
-8.5
-1.92
-+2
-ned, 9. 11.
-15:00
-Petrusev F.
-Dubai
-1.93
-12.5
-1.92
-+6
-ned, 9. 11.
-15:00
-Kamenjas K.
-Dubai
-1.93
-9.5
-1.92
-+2
-ned, 9. 11.
-16:30
-Blossomgame J.
-Monaco
+sub, 22. 11.
+07:30
+Jack McVeigh
+Cairns Taipans
 1.85
-8.5
-1.85
-+2
-Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
-1
-2
-3
-4
-top
-tiket
-Mečevi
-0
-Dodaj mečeve
-I izaberi najbolje kvote
-top
-tiket
-O nama
-Kontakt
-Marketing
-Uslovi korišćenja
-18+
-© 2025 TopTiket - sva prava zadržana
-Ova veb-stranica koristi kolačiće kako bismo personalizovali sadržaj i oglase, omogućili funkcije društvenih medija i analizirali saobraćaj.
-Prikaži više
-OK
-X
-Igrači specijal - Uporedi kvote | TopTiket
-You need to enable JavaScript to run this app.
-top
-tiket
-POČETNA
-KVOTE
-TOP PROGNOZER
-PROMOCIJE
-ULOGUJ SE
-Fudbal
-Košarka
-Tenis
-Igrači specijal
-Hokej
-Ostali sportovi
-/Kvote
-/Igrači specijal
-​
-​
-OMILJENE LIGE
-Španija 1
-22
-ABA Liga
-23
-Francuska 1
-8
-SVE LIGE
-Igrači ukupno
-76
-1h
-12h
-1 dan
-3 dana
-Igrači specijal
-Presented by:
-manje
-više
-Naredne utakmice
-ned, 9. 11.
-16:30
-Okobo E.
-Monaco
+20.5
+1.90
++10
+sub, 22. 11.
+07:30
+Admiral Schofield
+Cairns Taipans
 1.85
 13.5
 1.85
-+8
-ned, 9. 11.
-16:30
-Diallo A.
-Monaco
-1.85
-9.5
-1.85
-+4
-ned, 9. 11.
-16:30
-Strazel M.
-Monaco
-1.85
-9.5
-1.85
 +6
-ned, 9. 11.
-16:30
-Kessen M.
-Heidelberg
-1.85
-9.5
-1.85
-+2
-ned, 9. 11.
-16:30
-Weathers Marcus
-Heidelberg
-1.95
-8.5
-1.75
-+2
-ned, 9. 11.
-16:30
-Weathers M.
-Heidelberg
+sub, 22. 11.
+07:30
+Andrew Andrews
+Cairns Taipans
 1.85
 13.5
-1.85
-+8
-ned, 9. 11.
-16:30
-Seric M.
-Heidelberg
-1.75
-9.5
-1.95
-+2
-ned, 9. 11.
-16:30
-Ekiyor E.
-Saint Quentin
-1.85
-8.5
-1.95
-+2
-ned, 9. 11.
-16:30
-Jordan Caroline
-Saint Quentin
-1.85
-9.5
-1.85
-+4
-ned, 9. 11.
-16:30
-Johnson N.
-Saint Quentin
-1.95
-13.5
-1.75
-+6
-ned, 9. 11.
-16:30
-Giovan Oniangue
-Saint Quentin
-1.85
-9.5
-1.85
-+2
-ned, 9. 11.
-16:30
-King U.
-Trier
-1.85
-9.5
-1.85
-+6
-ned, 9. 11.
-16:30
-Brooks E.
-Trier
-1.85
-17.5
 1.85
 +10
-ned, 9. 11.
-16:30
-Zirbes M.
-Trier
-1.75
-6.5
-1.95
-+2
-ned, 9. 11.
-16:30
-Roland J.
-Trier
-1.85
-15.5
-1.85
-+12
-ned, 9. 11.
-18:00
-Mintz D.
-Wurzburg
-1.85
+sub, 22. 11.
+07:30
+Mojave King
+Cairns Taipans
+1.90
 15.5
 1.85
 +6
-ned, 9. 11.
-18:00
-Marcus Carr
-Wurzburg
+sub, 22. 11.
+10:00
+Angus Glover
+South East Melbourne
 1.85
-17.5
-1.85
-+14
-ned, 9. 11.
-18:00
-Eddy Edigin
-Wurzburg
-1.75
-8.5
-1.95
-+2
-ned, 9. 11.
-18:00
-Thompson C.
-Wurzburg
-1.45
 12.5
-2.50
-+4
-ned, 9. 11.
-18:00
-Klassen O.
-Rostock
 1.85
-6.5
++6
+sub, 22. 11.
+10:00
+Jordan Hunter
+South East Melbourne
+1.80
+10.5
 1.95
-+4
++8
+sub, 22. 11.
+10:00
+Owen Foxwell
+South East Melbourne
+1.85
+11.5
+1.90
++8
+sub, 22. 11.
+10:00
+Nathan Sobey
+South East Melbourne
+1.85
+19.5
+1.85
++8
+sub, 22. 11.
+10:00
+Dejan Vasiljevic
+Adelaide 36ers
+1.82
+11.5
+1.88
++6
+sub, 22. 11.
+10:00
+Zylan Cheatham
+Adelaide 36ers
+1.80
+13.5
+1.90
++6
+sub, 22. 11.
+10:00
+Bryce Cotton
+Adelaide 36ers
+1.85
+27.5
+1.85
++6
+sub, 22. 11.
+10:00
+Isaac Humphries
+Adelaide 36ers
+1.85
+14.5
+1.85
++6
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
 1
-2
-3
-4
+…
+7
+8
+9
+10
+11
 top
 tiket
 Mečevi
@@ -681,15 +2504,17 @@ Ostali sportovi
 ​
 ​
 OMILJENE LIGE
-Španija 1
-22
-ABA Liga
-23
-Francuska 1
-8
+Evroliga
+72
+Italija 1
+12
+NBA
+99+
 SVE LIGE
 Igrači ukupno
-76
+99+
+SAD
+99+
 1h
 12h
 1 dan
@@ -698,140 +2523,104 @@ Igrači specijal
 Presented by:
 manje
 više
-Naredne utakmice
-ned, 9. 11.
-18:00
-Van Vliet A.
-Rostock
-1.75
+Italija 1
+pet, 21. 11.
+20:30
+Bilan M.
+Brescia
+1.99
+13.5
+1.85
++4
+pet, 21. 11.
+20:30
+Ivanovic N.
+Brescia
+1.85
+14.5
+2
++2
+pet, 21. 11.
+20:30
+Rivers D.
+Brescia
+1.95
+8.5
+1.80
++2
+pet, 21. 11.
+20:30
+Della Valle A.
+Brescia
+1.93
+17.5
+1.90
++4
+pet, 21. 11.
+20:30
+Burnell J.
+Brescia
+1.45
+13.5
+2.50
++2
+pet, 21. 11.
+20:30
+Ndour M.
+Brescia
+1.90
+11.5
+1.90
++2
+pet, 21. 11.
+20:30
+Jones T.
+Vanoli Cremona
+1.90
 9.5
+1.90
++2
+pet, 21. 11.
+20:30
+Willis P.
+Vanoli Cremona
+1.85
+14.5
+2
++6
+pet, 21. 11.
+20:30
+Ndiaye O.
+Vanoli Cremona
+1.85
+13.5
+2
++2
+pet, 21. 11.
+20:30
+Casarin D.
+Vanoli Cremona
+1.85
+12.5
+1.85
++2
+pet, 21. 11.
+20:30
+Veronesi G.
+Vanoli Cremona
+1.85
+9.5
+1.85
++2
+pet, 21. 11.
+20:30
+Durham A.
+Vanoli Cremona
+1.90
+16.5
 1.95
 +2
-ned, 9. 11.
-18:00
-Lansdowne D.
-Rostock
-1.85
-11.5
-1.85
-+12
-ned, 9. 11.
-18:00
-Schwartz D.
-Rostock
-1.85
-15.5
-1.85
-+8
-ned, 9. 11.
-19:30
-Kennedy T.
-Cedevita Olimpija
-1.77
-9.5
-1.93
-+4
-ned, 9. 11.
-19:30
-Umoja Gibson
-Cedevita Olimpija
-1.92
-12.5
-1.92
-+8
-ned, 9. 11.
-19:30
-Joseph Girard
-Cedevita Olimpija
-1.92
-9.5
-1.92
-+2
-ned, 9. 11.
-19:30
-Jaka Blazic
-Cedevita Olimpija
-1.92
-7.5
-1.92
-+2
-ned, 9. 11.
-19:30
-Aleksej Nikolic
-Cedevita Olimpija
-1.76
-14.5
-1.94
-+12
-ned, 9. 11.
-19:30
-Stewart DJ
-Cedevita Olimpija
-1.92
-12.5
-1.92
-+8
-ned, 9. 11.
-19:30
-David Skara
-Cedevita Olimpija
-1.92
-9.5
-1.92
-+2
-ned, 9. 11.
-19:30
-Jarumbauskas S.
-Vienna
-1.96
-7.5
-1.74
-+4
-ned, 9. 11.
-19:30
-Asceric L.
-Vienna
-1.92
-8.5
-1.92
-+2
-ned, 9. 11.
-19:30
-Mahalbasic R.
-Vienna
-1.92
-8.5
-1.92
-+2
-ned, 9. 11.
-19:30
-Cotton T.
-Vienna
-1.93
-7.5
-1.92
-+2
-ned, 9. 11.
-19:30
-Hunter S.A.
-Vienna
-1.92
-6.5
-1.92
-+2
-ned, 9. 11.
-19:30
-Glas G.
-Vienna
-1.79
-16.5
-1.91
-+12
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
-1
-2
-3
-4
 top
 tiket
 Mečevi

@@ -18,172 +18,160 @@ Ostali sportovi
 ​
 OMILJENE LIGE
 Engleska 1
-5
+9
 Francuska 1
-5
+9
 Italija 1
-5
-Nemačka 1
-3
-Srbija 1
-4
-Srbija 2
-6
-Španija 1
-5
-SVE LIGE
-Albanija
-2
-Alžir
-4
-Argentina
-14
-Austrija
-4
-Austrija Amateri
-1
-Azerbejdžan
-2
-Bahrein
-2
-Belgija
-4
-Belorusija
-3
-Bolivija
-3
-Bosna i Hercegovina
-3
-Brazil
-11
-Bugarska
-5
-Crna Gora
-5
-Danska
 8
-Egipat
-2
-Ekvador
-4
-El Salvador
-3
-Engleska
-28
-Engleska Amateri
+Nemačka 1
+9
+Srbija 1
+7
+Španija 1
+9
+SVE LIGE
+Alžir
+1
+Argentina
+9
+Australija
+12
+Austrija
+13
+Austrija Amateri
 6
-Finska
-3
-Francuska
-5
-Gana
-5
-Grčka
-11
-Gvatemala
+Azerbejdžan
+4
+Belgija
+14
+Belorusija
 2
+Bolivija
+8
+Bosna i Hercegovina
+4
+Brazil
+16
+Bugarska
+7
+Danska
+10
+Egipat
+6
+Ekvador
+8
+Engleska
+56
+Engleska Amateri
+24
+Estonija
+1
+Francuska
+25
+Gruzija
+1
+Grčka
+5
+Gvatemala
+1
 Holandija
-5
+19
 Hrvatska
-5
+11
 Indonezija
-3
-Irska
+5
+Irak
 1
 Italija
-26
-Izrael
-5
-Jamajka
-2
+45
+Japan
+11
 Jermenija
-2
+3
 Jordan
 1
 Južna Afrika
-1
-Kanada
-1
+4
+Južna Koreja
+13
 Katar
-2
+5
+Kina
+8
 Kipar
-3
+6
 Kolumbija
 4
-Letonija
+Kostarika
 4
 Litvanija
-8
-Malta
 1
 Mađarska
-11
-Meksiko
-2
-Nemačka
-9
-Nemačka Amateri
-12
-Nigerija
-2
-Norveška
 6
+Meksiko
+1
+Međunarodne klupske
+7
+Nemačka
+28
+Nemačka Amateri
+42
+Norveška
+10
 Paragvaj
 4
 Peru
-2
+6
 Poljska
-7
+17
 Portugalija
-9
+16
 Rumunija
-3
+6
 Rusija
-8
-S. Makedonija
-2
+15
 SAD
-1
-San Marino
-2
+4
+Saudijska Arabija
+7
+Severna Irska
+6
 Slovačka
-5
+6
 Slovenija
-5
+12
 Srbija
-10
+7
 Tajland
 8
 Tanzanija
 1
-Tunis
-4
 Turska
-7
-Turska Amateri
-7
+15
+UAE
+1
+Uganda
+1
 Ukrajina
-3
-Urugvaj
-4
-Uzbekistan
-2
-Venecuela
-2
-Vijetnam
-4
-Češka
 6
+Urugvaj
+1
+Vels
+4
+Venecuela
+1
+Češka
+8
 Čile
-3
+7
 Škotska
-4
-Španija
-41
-Švajcarska
-4
-Švedska
 16
+Španija
+39
+Švajcarska
+11
+Švedska
+3
 1h
 12h
 1 dan
@@ -198,254 +186,254 @@ X
 GG
 GG3+
 Naredne utakmice
-pon, 10. 11.
-00:00
-Club Santos Laguna
-CF Pachuca
-3.67
-4.10
-1.95
-2.65
-1.50
-1.53
-1.74
-+295
-pon, 10. 11.
-00:00
-Tapatio
-Dorados de Sinaloa
-1.55
-4.25
-6
-2.20
+sub, 22. 11.
+17:30
+Rakow
+Piast Gliwice
+1.90
+3.50
+4.90
 1.65
-1.73
-2.10
-+295
-pon, 10. 11.
-00:00
-Deportivo Guastatoya
-Antigua
-2.85
-3.15
-2.59
-1.69
-2.13
-1.89
-2.60
-+295
-pon, 10. 11.
-00:00
-Carabobo
-Caracas
-2.15
-3.15
-3.73
-1.56
-2.35
-2.07
-2.91
-+295
-pon, 10. 11.
-00:00
-Orense SC
-Barcelona SC
-2.80
-3.21
-2.61
-1.65
-2.20
-1.93
-2.67
-+295
-pon, 10. 11.
-00:00
-Alianza
-Zacatecoluca FC
-1.40
-4.55
-8.90
-1.96
-1.85
-2.25
-2.71
-+295
-pon, 10. 11.
-00:20
-America de Cali
-U. Magdalena
-1.32
-5
-11
-1.85
-1.92
-2.65
-3.33
-+295
-pon, 10. 11.
-00:30
-Aurora
-Jorge Wilstermann
-1.65
-4.10
-5.10
-2.29
-1.60
-1.68
-2.04
-+295
-pon, 10. 11.
-00:30
-Mirassol
-Palmeiras
-3.93
-3.40
-2.03
-1.76
+2.27
 2.12
-1.92
-2.56
+2.87
 +295
-pon, 10. 11.
-00:30
-Paysandu PA
-Coritiba
-7.25
-4
-1.55
-1.67
-2.16
+sub, 22. 11.
+17:30
+Virtus Verona
+Triestina
+3.26
+3.10
 2.35
-3.09
-+295
-pon, 10. 11.
-00:30
-Fortaleza
-Gremio
-2.16
-3.46
-3.70
-1.83
-2.02
-1.85
-2.45
-+295
-pon, 10. 11.
-01:30
-Tigre
-Estudiantes de La Plata
-3.72
-2.77
-2.48
-1.35
-3.32
-2.62
-4.15
-+295
-pon, 10. 11.
-01:30
-Atletico Tucuman
-Godoy Cruz
-2.25
-3.20
-3.64
-1.55
-2.53
-2.18
-3.12
-+295
-pon, 10. 11.
-02:30
-Santa Fe
-Deportivo Cali
-1.85
-3.48
-4.54
 1.70
-2.11
-2
+2.27
+1.97
+2.65
++295
+sub, 22. 11.
+17:30
+Ravenna
+AS Gubbio 1910
+1.98
+3.25
+4.05
+1.54
+2.36
+2.15
+2.97
++295
+sub, 22. 11.
+17:30
+Monopoli
+Picerno
+2.10
+3.30
+3.80
+1.69
+2.12
+1.93
 2.64
 +295
-pon, 10. 11.
-03:00
-San Diego FC
-Portland Timbers
-1.62
-4.60
-4.86
-2.90
-1.47
-1.50
-1.75
-+295
-pon, 10. 11.
-14:00
-Chelyabinsk
-Ufa
-2.18
-3.18
-3.90
-1.47
-2.68
-2.27
-3.36
-+295
-pon, 10. 11.
-14:30
-Sporting Ben Arous
-Sfax Railways
-1.71
-3.15
-5.01
-1.40
-2.56
-2.36
-/
-+50
-pon, 10. 11.
-16:30
-Dunav Ruse
-Fratria
-1.68
-3.50
-5.30
-1.69
-2.15
-2.10
-2.79
-+294
-pon, 10. 11.
+sub, 22. 11.
 17:30
-Fakel Voronezh
-Spartak Kostroma
-1.95
-3.28
-4.65
-1.47
-2.75
-2.41
-3.49
+Al Sadd SC
+Al Sailiya
+1.28
+6.25
+9.85
+3.54
+1.30
+1.65
+1.82
 +295
-pon, 10. 11.
-18:00
-MS Football Hapoel Kiryat Yam
-Maccabi Jaffa Kabilyo
-1.70
-3.77
-4.85
-2.03
-1.73
-1.77
+sub, 22. 11.
+17:30
+ArzignanoChiampo
+Dolomiti Bellunesi
+2.13
+3.20
+3.55
+1.63
 2.21
+1.98
+2.75
++295
+sub, 22. 11.
+17:30
+Pianese
+Forli
+3
+2.95
+2.55
+1.53
+2.38
+2.04
+2.90
++295
+sub, 22. 11.
+17:30
+Rubin Kazan
+Akhmat Grozny
+2.65
+3.44
+3.10
+1.74
+2.26
+1.95
+2.68
++295
+sub, 22. 11.
+18:00
+Rijeka
+Hajduk Split
+2.68
+3.12
+2.90
+1.56
+2.45
+2.09
+2.97
++295
+sub, 22. 11.
+18:00
+Slavia Prague
+Bohemians 1905
+1.33
+6
+9.15
+2.75
+1.47
+1.80
+2.06
++294
+sub, 22. 11.
+18:00
+Kosice
+Trnava
+4.50
+4
+1.80
+2.27
+1.65
+1.68
+2.05
++295
+sub, 22. 11.
+18:00
+Luzern
+Servette
+2.57
+3.85
+2.80
+2.42
+1.57
+1.51
+1.83
++295
+sub, 22. 11.
+18:00
+Young Boys
+Winterthur
+1.40
+5.50
+7.75
+3.01
+1.42
+1.60
+1.87
++295
+sub, 22. 11.
+18:00
+Lausanne Ouchy
+Xamax
+1.97
+3.82
+3.60
+2.35
+1.58
+1.58
+1.87
++295
+sub, 22. 11.
+18:00
+Fiorentina
+Juventus
+4
+3.52
+2.11
+1.80
+2.17
+1.93
+2.59
++295
+sub, 22. 11.
+18:00
+Olympiakos Nicosia
+AEK Larnaca
+6.25
+4.05
+1.54
+1.90
+1.88
+2
+2.53
++295
+sub, 22. 11.
+18:00
+Galatasaray
+Genclerbirligi
+1.17
+8.95
+18
+3.15
+1.37
+2.06
+2.30
++295
+sub, 22. 11.
+18:00
+Molde
+Brann
+2.75
+3.80
+2.55
+2.32
+1.64
+1.54
+1.88
++295
+sub, 22. 11.
+18:00
+Stromsgodset
+Sandefjord Fotball
+3.35
+3.93
+2.18
+2.70
+1.48
+1.46
+1.72
++295
+sub, 22. 11.
+18:00
+Aarau
+Stade Nyonnais
+1.30
+5.75
+9
+2.58
+1.50
+1.88
+2.19
 +295
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
 1
 …
-17
 18
 19
 20
-21
+…
+35
 top
 tiket
 Mečevi

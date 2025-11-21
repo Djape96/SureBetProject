@@ -8,7 +8,6 @@ on:
 permissions:
   contents: read
   issues: write
-  actions: write  # needed for self-dispatch chaining
 
 concurrency:
   group: run-multi
@@ -17,7 +16,7 @@ concurrency:
 jobs:
   run-multi:
     runs-on: ubuntu-latest
-    timeout-minutes: 350  # Max practical job length (~6h) for near-continuous looping
+    timeout-minutes: 30  # Shorter run; sustainable and less likely to queue stall
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -42,38 +41,15 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Long-running loop
-        env:
-          LOOP_SLEEP_SECONDS: 60
-          MAX_MINUTES: 330  # safety buffer before timeout
+      - name: Run script loop (5 cycles)
         run: |
-          echo "Starting long loop at $(date -u) UTC"; start_ts=$(date +%s)
+          echo "Loop start at $(date -u) UTC"
           set -o pipefail
-          cycle=0
-          while true; do
-            now=$(date +%s)
-            elapsed=$(( (now - start_ts) / 60 ))
-            if [ $elapsed -ge $MAX_MINUTES ]; then echo "Reached MAX_MINUTES ($MAX_MINUTES). Exiting loop."; break; fi
-            cycle=$((cycle+1))
-            echo "=== Cycle $cycle (elapsed ${elapsed}m) $(date -u) ==="
-            python run_multi.py --sequential --no-aggregate || echo "Cycle $cycle failed (continuing)"
-            echo "Sleeping ${LOOP_SLEEP_SECONDS}s..."; sleep $LOOP_SLEEP_SECONDS
+          for i in 1 2 3 4 5; do
+            echo "--- Cycle $i --- $(date -u)"
+            python run_multi.py --sequential --no-aggregate || echo "Cycle $i failed (continuing)"
+            if [ $i -lt 5 ]; then echo "Sleeping 60s..."; sleep 60; fi
           done 2>&1 | tee run_multi.log
-
-      - name: Dispatch next run (chain)
-        if: always()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const {owner, repo} = context.repo;
-            const workflow_id = 'run_multi.yml';
-            await github.rest.actions.createWorkflowDispatch({
-              owner,
-              repo,
-              workflow_id,
-              ref: '${{ github.ref_name }}'
-            });
-            core.info('Queued next workflow run for continuous execution.')
 
       - name: List files after run
         if: always()

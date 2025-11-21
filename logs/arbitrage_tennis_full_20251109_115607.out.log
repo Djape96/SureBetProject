@@ -1,0 +1,15 @@
+🚀 Starting TopTiket Tennis Arbitrage Scraper...
+🌐 Opening tennis odds page ...
+🔀 Switching to 3-day view...
+✅ Saved tennis_3d_index_1.txt | DOM matches 20
+📄 Initial tennis max page detected: 3
+➡️ Clicked tennis page 2
+✅ Saved tennis_3d_index_2.txt | DOM matches 20
+➡️ Clicked tennis page 3
+✅ Saved tennis_3d_index_3.txt | DOM matches 7
+⚠️ Tennis pagination stopped at page 3
+🏁 Tennis pagination ended at page 3; max seen 3
+✅ Tennis unique DOM matches: 47
+✅ Tennis analysis complete!
+🎯 Found 2 tennis surebets
+📨 Telegram summary attempted.

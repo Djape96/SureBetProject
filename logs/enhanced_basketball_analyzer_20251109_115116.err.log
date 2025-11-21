@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Jelena\Downloads\SureBet_Project_update\SureBet_Project\SureBet_Project\enhanced_basketball_analyzer.py", line 296, in <module>
+    main()
+  File "C:\Users\Jelena\Downloads\SureBet_Project_update\SureBet_Project\SureBet_Project\enhanced_basketball_analyzer.py", line 273, in main
+    ok = download_live_basketball(headless=not args.no_headless, retries=args.retries, pages=args.pages, verbose=verbose, three_days=args.three_days, all_pages=args.all_pages)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jelena\Downloads\SureBet_Project_update\SureBet_Project\SureBet_Project\enhanced_basketball_analyzer.py", line 35, in download_live_basketball
+    print("\U0001f3c0 Attempting to download live data from TopTiket (Basketball)...")
+  File "c:\Users\Jelena\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f3c0' in position 0: character maps to <undefined>

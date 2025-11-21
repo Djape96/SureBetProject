@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\Jelena\Downloads\SureBet_Project_update\SureBet_Project\SureBet_Project\arbitrage_tennis_full.py", line 30, in <module>
+    print("\U0001f680 Starting TopTiket Tennis Arbitrage Scraper...")
+  File "c:\Users\Jelena\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 0: character maps to <undefined>

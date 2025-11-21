@@ -66,7 +66,7 @@ def check_surebet(odds):
 
 # ----------------- Live Download -----------------
 
-def download_live_player_specials(headless=True, retries=2, selenium_wait=15, scroll_steps=6, pages=4, verbose=False):
+def download_live_player_specials(headless=True, retries=2, selenium_wait=15, scroll_steps=6, pages=None, verbose=False):
     """Download player specials data from TopTiket using requests first, then Selenium fallback.
 
     Features added:
@@ -161,11 +161,26 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
                 page_content = driver.page_source
                 combined = page_content
 
-                # Pagination
-                if pages > 1 and verbose:
-                    print(f'↪️ Player specials pagination pages = {pages}')
-                if pages > 1:
-                    for p in range(2, pages + 1):
+                # Determine pagination automatically if pages not provided
+                pages_to_scrape = pages
+                if pages_to_scrape is None:
+                    try:
+                        detected = driver.execute_script("return Array.from(document.querySelectorAll('button,a,span,div')).map(e=>e.textContent.trim()).filter(t=>/^\\d+$/.test(t)).map(Number)")
+                        if detected:
+                            pages_to_scrape = max(detected)
+                        else:
+                            pages_to_scrape = 1
+                    except Exception:
+                        pages_to_scrape = 1
+                    if verbose:
+                        print(f'↪️ Auto-detected player specials pagination pages = {pages_to_scrape}')
+                else:
+                    if verbose:
+                        print(f'↪️ Player specials pagination pages (requested) = {pages_to_scrape}')
+
+                # Pagination loop
+                if pages_to_scrape > 1:
+                    for p in range(2, pages_to_scrape + 1):
                         try:
                             # locate page control
                             btn = None
@@ -289,7 +304,7 @@ def parse_player_specials_flat(lines, verbose=False):
         r'^(?:'
         r'(?:[A-ZΑ-Ω][a-zά-ώα-ω]+\s+[A-ZΑ-Ω][a-zά-ώα-ω]+(?:\s+[A-ZΑ-Ω][a-zά-ώα-ω]+)*)'      # Full name(s)
         r'|(?:[A-ZΑ-Ω]\.?\s+[A-ZΑ-Ω][a-zά-ώα-ω]+(?:\s+[A-ZΑ-Ω][a-zά-ώα-ω]+)*)'                   # Initial + surname
-        r'|(?:[A-ZΑ-Ω][a-zά-ώα-ω]+\s+[A-ZΑ-Ω]\.? )'                                              # Surname + initial (will trim later)
+        r'|(?:[A-ZΑ-Ω][a-zά-ώα-ω]+\s+[A-ZΑ-Ω]\.?\s?)'                                            # Surname + initial (space optional)
         r'|(?:[A-ZΑ-Ω]\.?\s+[A-ZΑ-Ω]{2,})'                                                       # K. SLOUKAS
         r'|(?:[A-ZΑ-Ω][a-zά-ώα-ω]+\s+[A-ZΑ-Ω]{2,})'                                               # Kostas SLOUKAS
         r'|(?:[A-ZΑ-Ω]{2,}\s+[A-ZΑ-Ω]{2,})'                                                       # SLOUKAS KOSTAS
@@ -563,7 +578,7 @@ def main():
     """Main execution function."""
     parser = argparse.ArgumentParser(description='Enhanced Player Specials Odds Analyzer')
     parser.add_argument('--verbose', action='store_true', help='Enable verbose output')
-    parser.add_argument('--pages', type=int, default=4, help='Number of pages to scrape (default: 4)')
+    parser.add_argument('--pages', type=int, help='Number of pages to scrape; omit to auto-detect maximum')
     parser.add_argument('--min-profit', type=float, default=0.0, help='Minimum profit percentage for surebets')
     parser.add_argument('--no-headless', action='store_true', help='Run browser in visible mode')
     parser.add_argument('--retries', type=int, default=2, help='Number of retry attempts')

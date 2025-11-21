@@ -1,0 +1,224 @@
+Basketball Matches (live) - 2025-10-19 21:35:38
+============================================================
+
+Penarol vs La Union
+  1: 1.51 @ AUTO
+  2: 2.65 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 1.92 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 164.5 @ AUTO
+  Handicap2: 1.93 @ AUTO
+
+San Martin Corrientes vs Union de Santa Fe
+  1: 1.37 @ AUTO
+  2: 3.3 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 149.5 @ AUTO
+  Handicap2: 1.95 @ AUTO
+
+LG Sakers vs Daegu Pegasus
+  1: 1.31 @ AUTO
+  2: 3.4 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 147.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Gaziantep vs Mamak Belediyesi Yeni Mamak Spor
+  1: 1.11 @ AUTO
+  2: 6.5 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.86 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 157.5 @ AUTO
+  Handicap2: 1.8 @ AUTO
+
+Kahramanmaras Istiklal vs Balikesir Belediye Spor
+  1: 1.09 @ AUTO
+  2: 7.0 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 168.5 @ AUTO
+  Handicap2: 1.8 @ AUTO
+
+Podcetrtek vs Rogaska
+  1: 2.3 @ AUTO
+  2: 1.59 @ AUTO
+  H1: 1.72 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 2.0 @ AUTO
+  Under: 1.83 @ AUTO
+  Handicap2: 165.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Hapoel HaEmek vs Bnei Herzelia
+  1: 1.59 @ AUTO
+  2: 2.42 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.91 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 165.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Pinar Karsiyaka vs Anadolu Efes
+  1: 6.9 @ AUTO
+  2: 1.17 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 11.5 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 1.87 @ AUTO
+  Handicap2: 163.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Csm Targu Mures vs Csu Atlassib Sibiu
+  1: 1.23 @ AUTO
+  2: 4.1 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 170.5 @ AUTO
+  Handicap2: 1.82 @ AUTO
+
+Crvena Zvezda vs KD Ilirija
+  1: 1.03 @ AUTO
+  2: 12.0 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 1.93 @ AUTO
+  H2: 1.91 @ AUTO
+  Under: 167.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Rilski Sportist vs Cherno More IG
+  1: 1.38 @ AUTO
+  2: 3.0 @ AUTO
+  H1: 1.78 @ AUTO
+  Handicap: 1.7 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 165.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Szczecin vs Ostrow Wielkopolski
+  1: 1.27 @ AUTO
+  2: 3.7 @ AUTO
+  H1: 1.82 @ AUTO
+  Handicap: 1.95 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 167.5 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Zenit vs BK Uralmash Yekaterinburg
+  1: 1.07 @ AUTO
+  2: 8.0 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 2.0 @ AUTO
+  H2: 1.97 @ AUTO
+  Under: 165.5 @ AUTO
+  Handicap2: 1.95 @ AUTO
+
+Vienna Basket vs Wels
+  1: 1.76 @ AUTO
+  2: 2.04 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 1.87 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 163.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Bordo BK vs Cayirova Belediyesi
+  1: 2.0 @ AUTO
+  2: 1.74 @ AUTO
+  H1: 1.8 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 1.85 @ AUTO
+  Handicap2: 164.5 @ AUTO
+  Over: 1.86 @ AUTO
+
+Sbb Baskets Wolmirstedt vs Baskets Koblenz
+  1: 1.57 @ AUTO
+  2: 2.3 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 168.5 @ AUTO
+  Handicap2: 1.95 @ AUTO
+
+Rheinstars Cologne vs Tubingen
+  1: 2.95 @ AUTO
+  2: 1.35 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 6.5 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 1.84 @ AUTO
+  Handicap2: 165.5 @ AUTO
+  Over: 1.86 @ AUTO
+
+Partizan vs FMP Beograd
+  1: 1.03 @ AUTO
+  2: 13.0 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 1.98 @ AUTO
+  H2: 1.97 @ AUTO
+  Under: 166.5 @ AUTO
+  Handicap2: 1.92 @ AUTO
+
+Bayern Munich vs Braunschweig
+  1: 1.06 @ AUTO
+  2: 11.4 @ AUTO
+  H1: 1.75 @ AUTO
+  Handicap: 1.89 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 166.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Virtus Bologna vs Vanoli Cremona
+  1: 1.13 @ AUTO
+  2: 8.1 @ AUTO
+  H1: 2.0 @ AUTO
+  Handicap: 1.87 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 162.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Maccabi Rishon vs Hapoel Tel Aviv
+  1: 5.2 @ AUTO
+  2: 1.14 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 10.5 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 1.81 @ AUTO
+  Handicap2: 172.5 @ AUTO
+  Over: 1.95 @ AUTO
+
+Oklahoma City Thunder vs Houston Rockets
+  1: 1.35 @ AUTO
+  2: 3.57 @ AUTO
+  H1: 1.96 @ AUTO
+  Handicap: 1.96 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 2.04 @ AUTO
+
+LA Lakers vs Golden State Warriors
+  1: 2.14 @ AUTO
+  2: 1.8 @ AUTO
+  H1: 1.78 @ AUTO
+  Handicap: 3.5 @ AUTO
+  H2: 2.2 @ AUTO
+  Under: 1.96 @ AUTO
+  Handicap2: 1.96 @ AUTO
+
+Maccabi Tel Aviv vs Real Madrid
+  1: 2.67 @ AUTO
+  2: 1.53 @ AUTO
+  H1: 1.78 @ AUTO
+  Handicap: 5.5 @ AUTO
+  H2: 2.08 @ AUTO
+  Under: 1.97 @ AUTO
+  Handicap2: 174.5 @ AUTO
+  Over: 1.9 @ AUTO
+

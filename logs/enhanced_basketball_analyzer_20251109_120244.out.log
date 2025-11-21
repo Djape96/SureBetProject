@@ -1,0 +1,772 @@
+🏀 Attempting to download live data from TopTiket (Basketball)...
+⛹️  (Basketball) Selenium attempt 1/3...
+🍪 Basketball cookies accepted
+🗓️ Attempting 3-day filter (Basketball)
+✅ 3-day filter clicked (Basketball)
+↪️  Basketball pagination pages= 10
+  • Basketball page 6 control not found
+✅ Basketball live data via Selenium
+[basketball] Basquet Girona vs Barcelona 1=3.7
+[basketball] Basquet Girona vs Barcelona 2=1.33
+[basketball] Basquet Girona vs Barcelona H1=1.92
+[basketball] Basquet Girona vs Barcelona Handicap=7.5
+[basketball] Basquet Girona vs Barcelona H2=1.96
+[basketball] Basquet Girona vs Barcelona Under=1.93
+[basketball] Basquet Girona vs Barcelona Handicap2=173.5
+[basketball] Basquet Girona vs Barcelona Over=1.92
+[basketball] Basquet Girona vs Barcelona -> 1=3.7, 2=1.33, H1=1.92, Handicap=7.5, H2=1.96, Under=1.93, Handicap2=173.5, Over=1.92
+[basketball] Trefl Sopot vs Gdynia 1=1.25
+[basketball] Trefl Sopot vs Gdynia 2=4.1
+[basketball] Trefl Sopot vs Gdynia H1=1.9
+[basketball] Trefl Sopot vs Gdynia Handicap=1.89
+[basketball] Trefl Sopot vs Gdynia H2=1.86
+[basketball] Trefl Sopot vs Gdynia Under=169.5
+[basketball] Trefl Sopot vs Gdynia Handicap2=1.9
+[basketball] Trefl Sopot vs Gdynia -> 1=1.25, 2=4.1, H1=1.9, Handicap=1.89, H2=1.86, Under=169.5, Handicap2=1.9
+[basketball] Pesaro vs Scafati 1=1.47
+[basketball] Pesaro vs Scafati 2=2.9
+[basketball] Pesaro vs Scafati H1=1.98
+[basketball] Pesaro vs Scafati Handicap=1.88
+[basketball] Pesaro vs Scafati H2=1.87
+[basketball] Pesaro vs Scafati Under=165.5
+[basketball] Pesaro vs Scafati Handicap2=1.88
+[basketball] Pesaro vs Scafati -> 1=1.47, 2=2.9, H1=1.98, Handicap=1.88, H2=1.87, Under=165.5, Handicap2=1.88
+[basketball] Final Genclik vs ITU BK 1=1.61
+[basketball] Final Genclik vs ITU BK 2=2.2
+[basketball] Final Genclik vs ITU BK H1=1.85
+[basketball] Final Genclik vs ITU BK Handicap=1.81
+[basketball] Final Genclik vs ITU BK H2=1.9
+[basketball] Final Genclik vs ITU BK Under=159.5
+[basketball] Final Genclik vs ITU BK Handicap2=1.88
+[basketball] Final Genclik vs ITU BK -> 1=1.61, 2=2.2, H1=1.85, Handicap=1.81, H2=1.9, Under=159.5, Handicap2=1.88
+[basketball] Socar Petkim Spor vs Esenler Erokspor 1=1.85
+[basketball] Socar Petkim Spor vs Esenler Erokspor 2=1.95
+[basketball] Socar Petkim Spor vs Esenler Erokspor H1=2.05
+[basketball] Socar Petkim Spor vs Esenler Erokspor Handicap=1.65
+[basketball] Socar Petkim Spor vs Esenler Erokspor H2=1.95
+[basketball] Socar Petkim Spor vs Esenler Erokspor Under=165.5
+[basketball] Socar Petkim Spor vs Esenler Erokspor Handicap2=1.86
+[basketball] Socar Petkim Spor vs Esenler Erokspor -> 1=1.85, 2=1.95, H1=2.05, Handicap=1.65, H2=1.95, Under=165.5, Handicap2=1.86
+[basketball] MBA Moscow vs Nizhny Novgorod 1=1.14
+[basketball] MBA Moscow vs Nizhny Novgorod 2=6.01
+[basketball] MBA Moscow vs Nizhny Novgorod H1=2.0
+[basketball] MBA Moscow vs Nizhny Novgorod Handicap=2.01
+[basketball] MBA Moscow vs Nizhny Novgorod H2=1.93
+[basketball] MBA Moscow vs Nizhny Novgorod Under=157.5
+[basketball] MBA Moscow vs Nizhny Novgorod Handicap2=1.97
+[basketball] MBA Moscow vs Nizhny Novgorod -> 1=1.14, 2=6.01, H1=2.0, Handicap=2.01, H2=1.93, Under=157.5, Handicap2=1.97
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A 1=9.5
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A 2=1.04
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A H1=1.88
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A Handicap=15.5
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A H2=1.95
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A Under=1.88
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A Handicap2=173.5
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A Over=2.0
+[basketball] Rotterdam City Basketball vs Kortrijk Spurs Hse A -> 1=9.5, 2=1.04, H1=1.88, Handicap=15.5, H2=1.95, Under=1.88, Handicap2=173.5, Over=2.0
+[basketball] KK Kvarner 2010 vs KK Dubrovnik 1=1.63
+[basketball] KK Kvarner 2010 vs KK Dubrovnik 2=2.2
+[basketball] KK Kvarner 2010 vs KK Dubrovnik H1=1.87
+[basketball] KK Kvarner 2010 vs KK Dubrovnik Handicap=1.92
+[basketball] KK Kvarner 2010 vs KK Dubrovnik H2=1.87
+[basketball] KK Kvarner 2010 vs KK Dubrovnik Under=158.5
+[basketball] KK Kvarner 2010 vs KK Dubrovnik Handicap2=1.87
+[basketball] KK Kvarner 2010 vs KK Dubrovnik -> 1=1.63, 2=2.2, H1=1.87, Handicap=1.92, H2=1.87, Under=158.5, Handicap2=1.87
+[basketball] Bordo BK vs Gaziantep 1=2.1
+[basketball] Bordo BK vs Gaziantep 2=1.67
+[basketball] Bordo BK vs Gaziantep H1=1.75
+[basketball] Bordo BK vs Gaziantep Handicap=2.5
+[basketball] Bordo BK vs Gaziantep H2=1.99
+[basketball] Bordo BK vs Gaziantep Under=1.85
+[basketball] Bordo BK vs Gaziantep Handicap2=158.5
+[basketball] Bordo BK vs Gaziantep Over=1.88
+[basketball] Bordo BK vs Gaziantep -> 1=2.1, 2=1.67, H1=1.75, Handicap=2.5, H2=1.99, Under=1.85, Handicap2=158.5, Over=1.88
+[basketball] Vechta vs Bayern Munich 1=4.7
+[basketball] Vechta vs Bayern Munich 2=1.23
+[basketball] Vechta vs Bayern Munich H1=1.94
+[basketball] Vechta vs Bayern Munich Handicap=9.5
+[basketball] Vechta vs Bayern Munich H2=1.92
+[basketball] Vechta vs Bayern Munich Under=1.97
+[basketball] Vechta vs Bayern Munich Handicap2=165.5
+[basketball] Vechta vs Bayern Munich Over=1.91
+[basketball] Vechta vs Bayern Munich -> 1=4.7, 2=1.23, H1=1.94, Handicap=9.5, H2=1.92, Under=1.97, Handicap2=165.5, Over=1.91
+[basketball] Dziki Warshawa vs Dabrowa Gornicza 1=1.43
+[basketball] Dziki Warshawa vs Dabrowa Gornicza 2=2.9
+[basketball] Dziki Warshawa vs Dabrowa Gornicza H1=1.92
+[basketball] Dziki Warshawa vs Dabrowa Gornicza Handicap=1.85
+[basketball] Dziki Warshawa vs Dabrowa Gornicza H2=2.0
+[basketball] Dziki Warshawa vs Dabrowa Gornicza Under=169.5
+[basketball] Dziki Warshawa vs Dabrowa Gornicza Handicap2=1.87
+[basketball] Dziki Warshawa vs Dabrowa Gornicza -> 1=1.43, 2=2.9, H1=1.92, Handicap=1.85, H2=2.0, Under=169.5, Handicap2=1.87
+[basketball] Bayreuth vs Crailsheim Merlins 1=3.2
+[basketball] Bayreuth vs Crailsheim Merlins 2=1.36
+[basketball] Bayreuth vs Crailsheim Merlins H1=1.92
+[basketball] Bayreuth vs Crailsheim Merlins Handicap=6.5
+[basketball] Bayreuth vs Crailsheim Merlins H2=1.91
+[basketball] Bayreuth vs Crailsheim Merlins Under=1.95
+[basketball] Bayreuth vs Crailsheim Merlins Handicap2=176.5
+[basketball] Bayreuth vs Crailsheim Merlins Over=1.95
+[basketball] Bayreuth vs Crailsheim Merlins -> 1=3.2, 2=1.36, H1=1.92, Handicap=6.5, H2=1.91, Under=1.95, Handicap2=176.5, Over=1.95
+[basketball] Giessen vs Bayer Giants Leverkusen 1=1.22
+[basketball] Giessen vs Bayer Giants Leverkusen 2=4.4
+[basketball] Giessen vs Bayer Giants Leverkusen H1=1.78
+[basketball] Giessen vs Bayer Giants Leverkusen Handicap=1.9
+[basketball] Giessen vs Bayer Giants Leverkusen H2=1.95
+[basketball] Giessen vs Bayer Giants Leverkusen Under=162.5
+[basketball] Giessen vs Bayer Giants Leverkusen Handicap2=1.82
+[basketball] Giessen vs Bayer Giants Leverkusen -> 1=1.22, 2=4.4, H1=1.78, Handicap=1.9, H2=1.95, Under=162.5, Handicap2=1.82
+[basketball] Gottingen vs VfL Sparkassenstars Bochum 1=1.24
+[basketball] Gottingen vs VfL Sparkassenstars Bochum 2=4.3
+[basketball] Gottingen vs VfL Sparkassenstars Bochum H1=1.88
+[basketball] Gottingen vs VfL Sparkassenstars Bochum Handicap=1.9
+[basketball] Gottingen vs VfL Sparkassenstars Bochum H2=1.9
+[basketball] Gottingen vs VfL Sparkassenstars Bochum Under=175.5
+[basketball] Gottingen vs VfL Sparkassenstars Bochum Handicap2=1.95
+[basketball] Gottingen vs VfL Sparkassenstars Bochum -> 1=1.24, 2=4.3, H1=1.88, Handicap=1.9, H2=1.9, Under=175.5, Handicap2=1.95
+[basketball] Kolossos Rhodes vs Promitheas 1=1.72
+[basketball] Kolossos Rhodes vs Promitheas 2=2.2
+[basketball] Kolossos Rhodes vs Promitheas H1=1.93
+[basketball] Kolossos Rhodes vs Promitheas Handicap=1.78
+[basketball] Kolossos Rhodes vs Promitheas H2=1.88
+[basketball] Kolossos Rhodes vs Promitheas Under=161.5
+[basketball] Kolossos Rhodes vs Promitheas Handicap2=2.0
+[basketball] Kolossos Rhodes vs Promitheas -> 1=1.72, 2=2.2, H1=1.93, Handicap=1.78, H2=1.88, Under=161.5, Handicap2=2.0
+[basketball] Pinheiros Sp vs Caxias Do Sul 1=1.25
+[basketball] Pinheiros Sp vs Caxias Do Sul 2=4.0
+[basketball] Pinheiros Sp vs Caxias Do Sul H1=1.92
+[basketball] Pinheiros Sp vs Caxias Do Sul Handicap=1.88
+[basketball] Pinheiros Sp vs Caxias Do Sul H2=1.93
+[basketball] Pinheiros Sp vs Caxias Do Sul Under=151.5
+[basketball] Pinheiros Sp vs Caxias Do Sul Handicap2=1.88
+[basketball] Pinheiros Sp vs Caxias Do Sul -> 1=1.25, 2=4.0, H1=1.92, Handicap=1.88, H2=1.93, Under=151.5, Handicap2=1.88
+[basketball] Dubai vs Studentski Centar 1=1.05
+[basketball] Dubai vs Studentski Centar 2=11.4
+[basketball] Dubai vs Studentski Centar H1=1.95
+[basketball] Dubai vs Studentski Centar Handicap=1.86
+[basketball] Dubai vs Studentski Centar H2=1.93
+[basketball] Dubai vs Studentski Centar Under=167.5
+[basketball] Dubai vs Studentski Centar Handicap2=1.9
+[basketball] Dubai vs Studentski Centar -> 1=1.05, 2=11.4, H1=1.95, Handicap=1.86, H2=1.93, Under=167.5, Handicap2=1.9
+[basketball] Rytas Vilnius vs Jonava 1=1.02
+[basketball] Rytas Vilnius vs Jonava 2=12.0
+[basketball] Rytas Vilnius vs Jonava H1=1.75
+[basketball] Rytas Vilnius vs Jonava Handicap=1.9
+[basketball] Rytas Vilnius vs Jonava H2=1.9
+[basketball] Rytas Vilnius vs Jonava Under=178.5
+[basketball] Rytas Vilnius vs Jonava Handicap2=1.85
+[basketball] Rytas Vilnius vs Jonava -> 1=1.02, 2=12.0, H1=1.75, Handicap=1.9, H2=1.9, Under=178.5, Handicap2=1.85
+[basketball] Finke Baskets Paderborn vs Bremerhaven 1=3.1
+[basketball] Finke Baskets Paderborn vs Bremerhaven 2=1.35
+[basketball] Finke Baskets Paderborn vs Bremerhaven H1=1.75
+[basketball] Finke Baskets Paderborn vs Bremerhaven Handicap=6.5
+[basketball] Finke Baskets Paderborn vs Bremerhaven H2=1.91
+[basketball] Finke Baskets Paderborn vs Bremerhaven Under=1.95
+[basketball] Finke Baskets Paderborn vs Bremerhaven Handicap2=162.5
+[basketball] Finke Baskets Paderborn vs Bremerhaven Over=1.95
+[basketball] Finke Baskets Paderborn vs Bremerhaven -> 1=3.1, 2=1.35, H1=1.75, Handicap=6.5, H2=1.91, Under=1.95, Handicap2=162.5, Over=1.95
+[basketball] Brescia vs Pallacanestro Trieste 1=1.39
+[basketball] Brescia vs Pallacanestro Trieste 2=3.3
+[basketball] Brescia vs Pallacanestro Trieste H1=1.9
+[basketball] Brescia vs Pallacanestro Trieste Handicap=1.91
+[basketball] Brescia vs Pallacanestro Trieste H2=1.9
+[basketball] Brescia vs Pallacanestro Trieste Under=175.5
+[basketball] Brescia vs Pallacanestro Trieste Handicap2=1.93
+[basketball] Brescia vs Pallacanestro Trieste -> 1=1.39, 2=3.3, H1=1.9, Handicap=1.91, H2=1.9, Under=175.5, Handicap2=1.93
+[basketball] Galatasaray vs Mersin BB 1=1.42
+[basketball] Galatasaray vs Mersin BB 2=3.0
+[basketball] Galatasaray vs Mersin BB H1=1.95
+[basketball] Galatasaray vs Mersin BB Handicap=1.74
+[basketball] Galatasaray vs Mersin BB H2=1.9
+[basketball] Galatasaray vs Mersin BB Under=172.5
+[basketball] Galatasaray vs Mersin BB Handicap2=1.9
+[basketball] Galatasaray vs Mersin BB -> 1=1.42, 2=3.0, H1=1.95, Handicap=1.74, H2=1.9, Under=172.5, Handicap2=1.9
+[basketball] Fenerbahce Koleji vs Orman Genclik 1=2.85
+[basketball] Fenerbahce Koleji vs Orman Genclik 2=1.43
+[basketball] Fenerbahce Koleji vs Orman Genclik H1=1.73
+[basketball] Fenerbahce Koleji vs Orman Genclik Handicap=5.5
+[basketball] Fenerbahce Koleji vs Orman Genclik H2=1.93
+[basketball] Fenerbahce Koleji vs Orman Genclik Under=1.85
+[basketball] Fenerbahce Koleji vs Orman Genclik Handicap2=156.5
+[basketball] Fenerbahce Koleji vs Orman Genclik Over=1.89
+[basketball] Fenerbahce Koleji vs Orman Genclik -> 1=2.85, 2=1.43, H1=1.73, Handicap=5.5, H2=1.93, Under=1.85, Handicap2=156.5, Over=1.89
+[basketball] Heidelberg vs TBB Trier 1=1.61
+[basketball] Heidelberg vs TBB Trier 2=2.42
+[basketball] Heidelberg vs TBB Trier H1=1.92
+[basketball] Heidelberg vs TBB Trier Handicap=1.92
+[basketball] Heidelberg vs TBB Trier H2=1.95
+[basketball] Heidelberg vs TBB Trier Under=173.5
+[basketball] Heidelberg vs TBB Trier Handicap2=1.95
+[basketball] Heidelberg vs TBB Trier -> 1=1.61, 2=2.42, H1=1.92, Handicap=1.92, H2=1.95, Under=173.5, Handicap2=1.95
+[basketball] SC Braga vs UD Oliveirense 1=3.7
+[basketball] SC Braga vs UD Oliveirense 2=1.31
+[basketball] SC Braga vs UD Oliveirense H1=1.8
+[basketball] SC Braga vs UD Oliveirense Handicap=6.5
+[basketball] SC Braga vs UD Oliveirense H2=1.85
+[basketball] SC Braga vs UD Oliveirense Under=1.87
+[basketball] SC Braga vs UD Oliveirense Handicap2=159.5
+[basketball] SC Braga vs UD Oliveirense Over=1.88
+[basketball] SC Braga vs UD Oliveirense -> 1=3.7, 2=1.31, H1=1.8, Handicap=6.5, H2=1.85, Under=1.87, Handicap2=159.5, Over=1.88
+[basketball] Monaco vs Saint Quentin 1=1.05
+[basketball] Monaco vs Saint Quentin 2=13.0
+[basketball] Monaco vs Saint Quentin H1=1.9
+[basketball] Monaco vs Saint Quentin Handicap=1.91
+[basketball] Monaco vs Saint Quentin H2=1.97
+[basketball] Monaco vs Saint Quentin Under=169.5
+[basketball] Monaco vs Saint Quentin Handicap2=1.91
+[basketball] Monaco vs Saint Quentin -> 1=1.05, 2=13.0, H1=1.9, Handicap=1.91, H2=1.97, Under=169.5, Handicap2=1.91
+[basketball] Granada vs Valencia 1=6.5
+[basketball] Granada vs Valencia 2=1.15
+[basketball] Granada vs Valencia H1=1.91
+[basketball] Granada vs Valencia Handicap=12.5
+[basketball] Granada vs Valencia H2=1.95
+[basketball] Granada vs Valencia Under=1.9
+[basketball] Granada vs Valencia Handicap2=180.5
+[basketball] Granada vs Valencia Over=2.01
+[basketball] Granada vs Valencia -> 1=6.5, 2=1.15, H1=1.91, Handicap=12.5, H2=1.95, Under=1.9, Handicap2=180.5, Over=2.01
+[basketball] Sokol Pisek vs Pardubice 1=3.4
+[basketball] Sokol Pisek vs Pardubice 2=1.36
+[basketball] Sokol Pisek vs Pardubice H1=2.0
+[basketball] Sokol Pisek vs Pardubice Handicap=6.5
+[basketball] Sokol Pisek vs Pardubice H2=1.85
+[basketball] Sokol Pisek vs Pardubice Under=1.85
+[basketball] Sokol Pisek vs Pardubice Handicap2=176.5
+[basketball] Sokol Pisek vs Pardubice Over=1.95
+[basketball] Sokol Pisek vs Pardubice -> 1=3.4, 2=1.36, H1=2.0, Handicap=6.5, H2=1.85, Under=1.85, Handicap2=176.5, Over=1.95
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions 1=1.48
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions 2=2.59
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions H1=1.88
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions Handicap=1.75
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions H2=1.9
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions Under=164.5
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions Handicap2=1.88
+[basketball] Rent4Office Nurnberg vs PS Karlsruhe Lions -> 1=1.48, 2=2.59, H1=1.88, Handicap=1.75, H2=1.9, Under=164.5, Handicap2=1.88
+[basketball] Artland Dragons vs Phoenix Hagen 1=3.0
+[basketball] Artland Dragons vs Phoenix Hagen 2=1.35
+[basketball] Artland Dragons vs Phoenix Hagen H1=1.75
+[basketball] Artland Dragons vs Phoenix Hagen Handicap=6.5
+[basketball] Artland Dragons vs Phoenix Hagen H2=1.9
+[basketball] Artland Dragons vs Phoenix Hagen Under=1.9
+[basketball] Artland Dragons vs Phoenix Hagen Handicap2=171.5
+[basketball] Artland Dragons vs Phoenix Hagen Over=1.95
+[basketball] Artland Dragons vs Phoenix Hagen -> 1=3.0, 2=1.35, H1=1.75, Handicap=6.5, H2=1.9, Under=1.9, Handicap2=171.5, Over=1.95
+[basketball] Dubrava vs Gkk Sibenka 1=1.77
+[basketball] Dubrava vs Gkk Sibenka 2=2.04
+[basketball] Dubrava vs Gkk Sibenka H1=1.87
+[basketball] Dubrava vs Gkk Sibenka Handicap=1.75
+[basketball] Dubrava vs Gkk Sibenka H2=1.87
+[basketball] Dubrava vs Gkk Sibenka Under=163.5
+[basketball] Dubrava vs Gkk Sibenka Handicap2=1.87
+[basketball] Dubrava vs Gkk Sibenka -> 1=1.77, 2=2.04, H1=1.87, Handicap=1.75, H2=1.87, Under=163.5, Handicap2=1.87
+[basketball] CA Queluz vs Benfica 1=13.0
+[basketball] CA Queluz vs Benfica 2=1.03
+[basketball] CA Queluz vs Benfica H1=1.88
+[basketball] CA Queluz vs Benfica Handicap=16.5
+[basketball] CA Queluz vs Benfica H2=1.88
+[basketball] CA Queluz vs Benfica Under=1.85
+[basketball] CA Queluz vs Benfica Handicap2=164.5
+[basketball] CA Queluz vs Benfica Over=1.92
+[basketball] CA Queluz vs Benfica -> 1=13.0, 2=1.03, H1=1.88, Handicap=16.5, H2=1.88, Under=1.85, Handicap2=164.5, Over=1.92
+[basketball] Mladost Zemun vs OKK Beograd 1=1.82
+[basketball] Mladost Zemun vs OKK Beograd 2=2.04
+[basketball] Mladost Zemun vs OKK Beograd H1=1.92
+[basketball] Mladost Zemun vs OKK Beograd Handicap=1.7
+[basketball] Mladost Zemun vs OKK Beograd H2=1.9
+[basketball] Mladost Zemun vs OKK Beograd Under=178.5
+[basketball] Mladost Zemun vs OKK Beograd Handicap2=1.83
+[basketball] Mladost Zemun vs OKK Beograd -> 1=1.82, 2=2.04, H1=1.92, Handicap=1.7, H2=1.9, Under=178.5, Handicap2=1.83
+[basketball] Ammerud vs Fyllingen BK 1=13.0
+[basketball] Ammerud vs Fyllingen BK 2=1.01
+[basketball] Ammerud vs Fyllingen BK H1=1.85
+[basketball] Ammerud vs Fyllingen BK Handicap=25.5
+[basketball] Ammerud vs Fyllingen BK H2=1.86
+[basketball] Ammerud vs Fyllingen BK Under=1.88
+[basketball] Ammerud vs Fyllingen BK Handicap2=169.5
+[basketball] Ammerud vs Fyllingen BK Over=1.83
+[basketball] Ammerud vs Fyllingen BK -> 1=13.0, 2=1.01, H1=1.85, Handicap=25.5, H2=1.86, Under=1.88, Handicap2=169.5, Over=1.83
+[basketball] Armani Milano vs Treviso 1=1.1
+[basketball] Armani Milano vs Treviso 2=9.5
+[basketball] Armani Milano vs Treviso H1=1.95
+[basketball] Armani Milano vs Treviso Handicap=1.91
+[basketball] Armani Milano vs Treviso H2=1.91
+[basketball] Armani Milano vs Treviso Under=169.5
+[basketball] Armani Milano vs Treviso Handicap2=1.92
+[basketball] Armani Milano vs Treviso -> 1=1.1, 2=9.5, H1=1.95, Handicap=1.91, H2=1.91, Under=169.5, Handicap2=1.92
+[basketball] VfL Kirchheim Knights vs Tubingen 1=2.3
+[basketball] VfL Kirchheim Knights vs Tubingen 2=1.6
+[basketball] VfL Kirchheim Knights vs Tubingen H1=1.75
+[basketball] VfL Kirchheim Knights vs Tubingen Handicap=3.5
+[basketball] VfL Kirchheim Knights vs Tubingen H2=1.93
+[basketball] VfL Kirchheim Knights vs Tubingen Under=2.0
+[basketball] VfL Kirchheim Knights vs Tubingen Handicap2=160.5
+[basketball] VfL Kirchheim Knights vs Tubingen Over=1.85
+[basketball] VfL Kirchheim Knights vs Tubingen -> 1=2.3, 2=1.6, H1=1.75, Handicap=3.5, H2=1.93, Under=2.0, Handicap2=160.5, Over=1.85
+[basketball] Zielona Gora vs Legia 1=3.3
+[basketball] Zielona Gora vs Legia 2=1.38
+[basketball] Zielona Gora vs Legia H1=1.82
+[basketball] Zielona Gora vs Legia Handicap=6.5
+[basketball] Zielona Gora vs Legia H2=1.9
+[basketball] Zielona Gora vs Legia Under=1.9
+[basketball] Zielona Gora vs Legia Handicap2=159.5
+[basketball] Zielona Gora vs Legia Over=1.95
+[basketball] Zielona Gora vs Legia -> 1=3.3, 2=1.38, H1=1.82, Handicap=6.5, H2=1.9, Under=1.9, Handicap2=159.5, Over=1.95
+[basketball] Swans Gmunden vs Graz UBSC 1=1.52
+[basketball] Swans Gmunden vs Graz UBSC 2=2.6
+[basketball] Swans Gmunden vs Graz UBSC H1=1.75
+[basketball] Swans Gmunden vs Graz UBSC Handicap=1.95
+[basketball] Swans Gmunden vs Graz UBSC H2=1.93
+[basketball] Swans Gmunden vs Graz UBSC Under=164.5
+[basketball] Swans Gmunden vs Graz UBSC Handicap2=1.88
+[basketball] Swans Gmunden vs Graz UBSC -> 1=1.52, 2=2.6, H1=1.75, Handicap=1.95, H2=1.93, Under=164.5, Handicap2=1.88
+[basketball] Oberwart Gunners vs BBC Nord Dragonz 1=1.02
+[basketball] Oberwart Gunners vs BBC Nord Dragonz 2=12.5
+[basketball] Oberwart Gunners vs BBC Nord Dragonz H1=1.93
+[basketball] Oberwart Gunners vs BBC Nord Dragonz Handicap=1.92
+[basketball] Oberwart Gunners vs BBC Nord Dragonz H2=1.95
+[basketball] Oberwart Gunners vs BBC Nord Dragonz Under=160.5
+[basketball] Oberwart Gunners vs BBC Nord Dragonz Handicap2=1.87
+[basketball] Oberwart Gunners vs BBC Nord Dragonz -> 1=1.02, 2=12.5, H1=1.93, Handicap=1.92, H2=1.95, Under=160.5, Handicap2=1.87
+[basketball] Melilla vs Lucentum Alicante 1=2.31
+[basketball] Melilla vs Lucentum Alicante 2=1.62
+[basketball] Melilla vs Lucentum Alicante H1=1.73
+[basketball] Melilla vs Lucentum Alicante Handicap=3.5
+[basketball] Melilla vs Lucentum Alicante H2=1.9
+[basketball] Melilla vs Lucentum Alicante Under=1.88
+[basketball] Melilla vs Lucentum Alicante Handicap2=157.5
+[basketball] Melilla vs Lucentum Alicante Over=1.9
+[basketball] Melilla vs Lucentum Alicante -> 1=2.31, 2=1.62, H1=1.73, Handicap=3.5, H2=1.9, Under=1.88, Handicap2=157.5, Over=1.9
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona 1=1.58
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona 2=2.42
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona H1=1.88
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona Handicap=1.75
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona H2=1.95
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona Under=159.5
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona Handicap2=1.85
+[basketball] Hapoel Galil Elion Safed vs Nes Ziona -> 1=1.58, 2=2.42, H1=1.88, Handicap=1.75, H2=1.95, Under=159.5, Handicap2=1.85
+[basketball] Trento vs Napoli Basket 1=1.38
+[basketball] Trento vs Napoli Basket 2=3.4
+[basketball] Trento vs Napoli Basket H1=1.9
+[basketball] Trento vs Napoli Basket Handicap=1.97
+[basketball] Trento vs Napoli Basket H2=1.93
+[basketball] Trento vs Napoli Basket Under=172.5
+[basketball] Trento vs Napoli Basket Handicap2=1.9
+[basketball] Trento vs Napoli Basket -> 1=1.38, 2=3.4, H1=1.9, Handicap=1.97, H2=1.93, Under=172.5, Handicap2=1.9
+[basketball] Pistoia vs Basket Mestre 1958 1=1.29
+[basketball] Pistoia vs Basket Mestre 1958 2=3.9
+[basketball] Pistoia vs Basket Mestre 1958 H1=1.87
+[basketball] Pistoia vs Basket Mestre 1958 Handicap=1.87
+[basketball] Pistoia vs Basket Mestre 1958 H2=1.95
+[basketball] Pistoia vs Basket Mestre 1958 Under=163.5
+[basketball] Pistoia vs Basket Mestre 1958 Handicap2=1.85
+[basketball] Pistoia vs Basket Mestre 1958 -> 1=1.29, 2=3.9, H1=1.87, Handicap=1.87, H2=1.95, Under=163.5, Handicap2=1.85
+[basketball] Zabok vs Split 1=3.3
+[basketball] Zabok vs Split 2=1.34
+[basketball] Zabok vs Split H1=1.75
+[basketball] Zabok vs Split Handicap=6.5
+[basketball] Zabok vs Split H2=1.87
+[basketball] Zabok vs Split Under=1.88
+[basketball] Zabok vs Split Handicap2=163.5
+[basketball] Zabok vs Split Over=1.87
+[basketball] Zabok vs Split -> 1=3.3, 2=1.34, H1=1.75, Handicap=6.5, H2=1.87, Under=1.88, Handicap2=163.5, Over=1.87
+[basketball] Galitos Barreiro vs Sporting CP 1=8.0
+[basketball] Galitos Barreiro vs Sporting CP 2=1.11
+[basketball] Galitos Barreiro vs Sporting CP H1=2.15
+[basketball] Galitos Barreiro vs Sporting CP Handicap=11.5
+[basketball] Galitos Barreiro vs Sporting CP H2=1.8
+[basketball] Galitos Barreiro vs Sporting CP Under=1.92
+[basketball] Galitos Barreiro vs Sporting CP Handicap2=173.5
+[basketball] Galitos Barreiro vs Sporting CP Over=1.88
+[basketball] Galitos Barreiro vs Sporting CP -> 1=8.0, 2=1.11, H1=2.15, Handicap=11.5, H2=1.8, Under=1.92, Handicap2=173.5, Over=1.88
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti 1=1.47
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti 2=2.85
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti H1=1.87
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti Handicap=1.79
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti H2=1.85
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti Under=151.5
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti Handicap2=1.85
+[basketball] CS Valcea 1924 Rm Valcea vs Bcmu Pitesti -> 1=1.47, 2=2.85, H1=1.87, Handicap=1.79, H2=1.85, Under=151.5, Handicap2=1.85
+[basketball] Verona vs Real Sebastiani Rieti 1=1.34
+[basketball] Verona vs Real Sebastiani Rieti 2=3.3
+[basketball] Verona vs Real Sebastiani Rieti H1=1.75
+[basketball] Verona vs Real Sebastiani Rieti Handicap=1.9
+[basketball] Verona vs Real Sebastiani Rieti H2=1.87
+[basketball] Verona vs Real Sebastiani Rieti Under=155.5
+[basketball] Verona vs Real Sebastiani Rieti Handicap2=1.88
+[basketball] Verona vs Real Sebastiani Rieti -> 1=1.34, 2=3.3, H1=1.75, Handicap=1.9, H2=1.87, Under=155.5, Handicap2=1.88
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni 1=1.38
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni 2=3.0
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni H1=1.81
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni Handicap=1.87
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni H2=1.9
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni Under=167.5
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni Handicap2=1.87
+[basketball] BLU Basket 1971 Treviglio vs Juvi Cremona 1952 Ferraroni -> 1=1.38, 2=3.0, H1=1.81, Handicap=1.87, H2=1.9, Under=167.5, Handicap2=1.87
+[basketball] Wurzburg vs Rostock Seawolves 1=1.37
+[basketball] Wurzburg vs Rostock Seawolves 2=3.3
+[basketball] Wurzburg vs Rostock Seawolves H1=1.94
+[basketball] Wurzburg vs Rostock Seawolves Handicap=1.92
+[basketball] Wurzburg vs Rostock Seawolves H2=1.98
+[basketball] Wurzburg vs Rostock Seawolves Under=164.5
+[basketball] Wurzburg vs Rostock Seawolves Handicap2=1.93
+[basketball] Wurzburg vs Rostock Seawolves -> 1=1.37, 2=3.3, H1=1.94, Handicap=1.92, H2=1.98, Under=164.5, Handicap2=1.93
+[basketball] Pall. Roseto 1946 vs Ueb Cividale 1=2.04
+[basketball] Pall. Roseto 1946 vs Ueb Cividale 2=1.8
+[basketball] Pall. Roseto 1946 vs Ueb Cividale H1=1.75
+[basketball] Pall. Roseto 1946 vs Ueb Cividale Handicap=1.5
+[basketball] Pall. Roseto 1946 vs Ueb Cividale H2=1.92
+[basketball] Pall. Roseto 1946 vs Ueb Cividale Under=1.9
+[basketball] Pall. Roseto 1946 vs Ueb Cividale Handicap2=163.5
+[basketball] Pall. Roseto 1946 vs Ueb Cividale Over=1.87
+[basketball] Pall. Roseto 1946 vs Ueb Cividale -> 1=2.04, 2=1.8, H1=1.75, Handicap=1.5, H2=1.92, Under=1.9, Handicap2=163.5, Over=1.87
+[basketball] Rinascita Basket Rimini vs Torino 1=1.24
+[basketball] Rinascita Basket Rimini vs Torino 2=5.0
+[basketball] Rinascita Basket Rimini vs Torino H1=1.85
+[basketball] Rinascita Basket Rimini vs Torino Handicap=2.0
+[basketball] Rinascita Basket Rimini vs Torino H2=1.87
+[basketball] Rinascita Basket Rimini vs Torino Under=155.5
+[basketball] Rinascita Basket Rimini vs Torino Handicap2=1.9
+[basketball] Rinascita Basket Rimini vs Torino -> 1=1.24, 2=5.0, H1=1.85, Handicap=2.0, H2=1.87, Under=155.5, Handicap2=1.9
+[basketball] Bilbao vs Tecnyconta Zaragoza 1=1.7
+[basketball] Bilbao vs Tecnyconta Zaragoza 2=2.23
+[basketball] Bilbao vs Tecnyconta Zaragoza H1=2.05
+[basketball] Bilbao vs Tecnyconta Zaragoza Handicap=1.92
+[basketball] Bilbao vs Tecnyconta Zaragoza H2=1.95
+[basketball] Bilbao vs Tecnyconta Zaragoza Under=172.5
+[basketball] Bilbao vs Tecnyconta Zaragoza Handicap2=1.9
+[basketball] Bilbao vs Tecnyconta Zaragoza -> 1=1.7, 2=2.23, H1=2.05, Handicap=1.92, H2=1.95, Under=172.5, Handicap2=1.9
+[basketball] Derthona Basket vs Varese 1=1.25
+[basketball] Derthona Basket vs Varese 2=5.1
+[basketball] Derthona Basket vs Varese H1=1.9
+[basketball] Derthona Basket vs Varese Handicap=1.95
+[basketball] Derthona Basket vs Varese H2=1.9
+[basketball] Derthona Basket vs Varese Under=175.5
+[basketball] Derthona Basket vs Varese Handicap2=1.92
+[basketball] Derthona Basket vs Varese -> 1=1.25, 2=5.1, H1=1.9, Handicap=1.95, H2=1.9, Under=175.5, Handicap2=1.92
+[basketball] Zadar vs KK Dinamo Zagreb 1=1.06
+[basketball] Zadar vs KK Dinamo Zagreb 2=9.5
+[basketball] Zadar vs KK Dinamo Zagreb H1=1.87
+[basketball] Zadar vs KK Dinamo Zagreb Handicap=1.82
+[basketball] Zadar vs KK Dinamo Zagreb H2=1.87
+[basketball] Zadar vs KK Dinamo Zagreb Under=164.5
+[basketball] Zadar vs KK Dinamo Zagreb Handicap2=1.9
+[basketball] Zadar vs KK Dinamo Zagreb -> 1=1.06, 2=9.5, H1=1.87, Handicap=1.82, H2=1.87, Under=164.5, Handicap2=1.9
+[basketball] Nevezis vs Zalgiris Kaunas 1=10.0
+[basketball] Nevezis vs Zalgiris Kaunas 2=1.05
+[basketball] Nevezis vs Zalgiris Kaunas H1=1.77
+[basketball] Nevezis vs Zalgiris Kaunas Handicap=14.5
+[basketball] Nevezis vs Zalgiris Kaunas H2=1.88
+[basketball] Nevezis vs Zalgiris Kaunas Under=1.9
+[basketball] Nevezis vs Zalgiris Kaunas Handicap2=168.5
+[basketball] Nevezis vs Zalgiris Kaunas Over=1.88
+[basketball] Nevezis vs Zalgiris Kaunas -> 1=10.0, 2=1.05, H1=1.77, Handicap=14.5, H2=1.88, Under=1.9, Handicap2=168.5, Over=1.88
+[basketball] Besiktas vs Anadolu Efes 1=1.62
+[basketball] Besiktas vs Anadolu Efes 2=2.43
+[basketball] Besiktas vs Anadolu Efes H1=1.56
+[basketball] Besiktas vs Anadolu Efes Handicap=1.56
+[basketball] Besiktas vs Anadolu Efes H2=1.87
+[basketball] Besiktas vs Anadolu Efes Under=166.5
+[basketball] Besiktas vs Anadolu Efes Handicap2=1.87
+[basketball] Besiktas vs Anadolu Efes -> 1=1.62, 2=2.43, H1=1.56, Handicap=1.56, H2=1.87, Under=166.5, Handicap2=1.87
+[basketball] Usti n. Labem vs Nymburk 1=13.0
+[basketball] Usti n. Labem vs Nymburk 2=1.02
+[basketball] Usti n. Labem vs Nymburk H1=1.85
+[basketball] Usti n. Labem vs Nymburk Handicap=18.5
+[basketball] Usti n. Labem vs Nymburk H2=1.95
+[basketball] Usti n. Labem vs Nymburk Under=1.9
+[basketball] Usti n. Labem vs Nymburk Handicap2=173.5
+[basketball] Usti n. Labem vs Nymburk Over=1.95
+[basketball] Usti n. Labem vs Nymburk -> 1=13.0, 2=1.02, H1=1.85, Handicap=18.5, H2=1.95, Under=1.9, Handicap2=173.5, Over=1.95
+[basketball] Estudiantes vs Leyma Coruna 1=1.55
+[basketball] Estudiantes vs Leyma Coruna 2=2.55
+[basketball] Estudiantes vs Leyma Coruna H1=1.85
+[basketball] Estudiantes vs Leyma Coruna Handicap=1.8
+[basketball] Estudiantes vs Leyma Coruna H2=1.88
+[basketball] Estudiantes vs Leyma Coruna Under=170.5
+[basketball] Estudiantes vs Leyma Coruna Handicap2=1.9
+[basketball] Estudiantes vs Leyma Coruna -> 1=1.55, 2=2.55, H1=1.85, Handicap=1.8, H2=1.88, Under=170.5, Handicap2=1.9
+[basketball] Virtus Bologna vs Reggiana 1=1.18
+[basketball] Virtus Bologna vs Reggiana 2=7.1
+[basketball] Virtus Bologna vs Reggiana H1=1.95
+[basketball] Virtus Bologna vs Reggiana Handicap=2.01
+[basketball] Virtus Bologna vs Reggiana H2=2.0
+[basketball] Virtus Bologna vs Reggiana Under=160.5
+[basketball] Virtus Bologna vs Reggiana Handicap2=1.88
+[basketball] Virtus Bologna vs Reggiana -> 1=1.18, 2=7.1, H1=1.95, Handicap=2.01, H2=2.0, Under=160.5, Handicap2=1.88
+[basketball] Gipuzkoa vs Mallorca Palma 1=1.44
+[basketball] Gipuzkoa vs Mallorca Palma 2=2.9
+[basketball] Gipuzkoa vs Mallorca Palma H1=1.81
+[basketball] Gipuzkoa vs Mallorca Palma Handicap=1.9
+[basketball] Gipuzkoa vs Mallorca Palma H2=1.87
+[basketball] Gipuzkoa vs Mallorca Palma Under=157.5
+[basketball] Gipuzkoa vs Mallorca Palma Handicap2=1.9
+[basketball] Gipuzkoa vs Mallorca Palma -> 1=1.44, 2=2.9, H1=1.81, Handicap=1.9, H2=1.87, Under=157.5, Handicap2=1.9
+[basketball] Joventut Badalona vs Real Madrid 1=2.65
+[basketball] Joventut Badalona vs Real Madrid 2=1.54
+[basketball] Joventut Badalona vs Real Madrid H1=1.77
+[basketball] Joventut Badalona vs Real Madrid Handicap=5.5
+[basketball] Joventut Badalona vs Real Madrid H2=2.07
+[basketball] Joventut Badalona vs Real Madrid Under=1.96
+[basketball] Joventut Badalona vs Real Madrid Handicap2=168.5
+[basketball] Joventut Badalona vs Real Madrid Over=1.92
+[basketball] Joventut Badalona vs Real Madrid -> 1=2.65, 2=1.54, H1=1.77, Handicap=5.5, H2=2.07, Under=1.96, Handicap2=168.5, Over=1.92
+[basketball] Flamengo vs Pato Basquete 1=1.03
+[basketball] Flamengo vs Pato Basquete 2=13.0
+[basketball] Flamengo vs Pato Basquete H1=1.88
+[basketball] Flamengo vs Pato Basquete Handicap=1.85
+[basketball] Flamengo vs Pato Basquete H2=1.94
+[basketball] Flamengo vs Pato Basquete Under=162.5
+[basketball] Flamengo vs Pato Basquete Handicap2=1.88
+[basketball] Flamengo vs Pato Basquete -> 1=1.03, 2=13.0, H1=1.88, Handicap=1.85, H2=1.94, Under=162.5, Handicap2=1.88
+[basketball] Paris vs Limoges 1=1.04
+[basketball] Paris vs Limoges 2=12.2
+[basketball] Paris vs Limoges H1=1.93
+[basketball] Paris vs Limoges Handicap=1.9
+[basketball] Paris vs Limoges H2=1.88
+[basketball] Paris vs Limoges Under=176.5
+[basketball] Paris vs Limoges Handicap2=1.95
+[basketball] Paris vs Limoges -> 1=1.04, 2=12.2, H1=1.93, Handicap=1.9, H2=1.88, Under=176.5, Handicap2=1.95
+[basketball] Venezia vs Sassari 1=1.27
+[basketball] Venezia vs Sassari 2=4.1
+[basketball] Venezia vs Sassari H1=1.93
+[basketball] Venezia vs Sassari Handicap=1.9
+[basketball] Venezia vs Sassari H2=1.93
+[basketball] Venezia vs Sassari Under=169.5
+[basketball] Venezia vs Sassari Handicap2=1.9
+[basketball] Venezia vs Sassari -> 1=1.27, 2=4.1, H1=1.93, Handicap=1.9, H2=1.93, Under=169.5, Handicap2=1.9
+[basketball] Basquete Osasco vs Paulistano 1=3.5
+[basketball] Basquete Osasco vs Paulistano 2=1.26
+[basketball] Basquete Osasco vs Paulistano H1=1.93
+[basketball] Basquete Osasco vs Paulistano Handicap=7.5
+[basketball] Basquete Osasco vs Paulistano H2=1.8
+[basketball] Basquete Osasco vs Paulistano Under=1.83
+[basketball] Basquete Osasco vs Paulistano Handicap2=155.5
+[basketball] Basquete Osasco vs Paulistano Over=1.88
+[basketball] Basquete Osasco vs Paulistano -> 1=3.5, 2=1.26, H1=1.93, Handicap=7.5, H2=1.8, Under=1.83, Handicap2=155.5, Over=1.88
+[basketball] Pall. 2.015 Forli vs Urania Milano 1=1.38
+[basketball] Pall. 2.015 Forli vs Urania Milano 2=2.9
+[basketball] Pall. 2.015 Forli vs Urania Milano H1=1.87
+[basketball] Pall. 2.015 Forli vs Urania Milano Handicap=1.91
+[basketball] Pall. 2.015 Forli vs Urania Milano H2=1.87
+[basketball] Pall. 2.015 Forli vs Urania Milano Under=154.5
+[basketball] Pall. 2.015 Forli vs Urania Milano Handicap2=1.9
+[basketball] Pall. 2.015 Forli vs Urania Milano -> 1=1.38, 2=2.9, H1=1.87, Handicap=1.91, H2=1.87, Under=154.5, Handicap2=1.9
+[basketball] Alkar Sinj vs Kk Samobor 1=1.63
+[basketball] Alkar Sinj vs Kk Samobor 2=2.18
+[basketball] Alkar Sinj vs Kk Samobor H1=1.71
+[basketball] Alkar Sinj vs Kk Samobor Handicap=1.9
+[basketball] Alkar Sinj vs Kk Samobor H2=1.88
+[basketball] Alkar Sinj vs Kk Samobor Under=160.5
+[basketball] Alkar Sinj vs Kk Samobor Handicap2=1.87
+[basketball] Alkar Sinj vs Kk Samobor -> 1=1.63, 2=2.18, H1=1.71, Handicap=1.9, H2=1.88, Under=160.5, Handicap2=1.87
+[basketball] Cedevita Olimpija vs Vienna Basket 1=1.08
+[basketball] Cedevita Olimpija vs Vienna Basket 2=9.5
+[basketball] Cedevita Olimpija vs Vienna Basket H1=1.83
+[basketball] Cedevita Olimpija vs Vienna Basket Handicap=1.9
+[basketball] Cedevita Olimpija vs Vienna Basket H2=1.97
+[basketball] Cedevita Olimpija vs Vienna Basket Under=166.5
+[basketball] Cedevita Olimpija vs Vienna Basket Handicap2=1.89
+[basketball] Cedevita Olimpija vs Vienna Basket -> 1=1.08, 2=9.5, H1=1.83, Handicap=1.9, H2=1.97, Under=166.5, Handicap2=1.89
+[basketball] Esgueira / Oli vs Vasco Da Gama 1=1.38
+[basketball] Esgueira / Oli vs Vasco Da Gama 2=2.9
+[basketball] Esgueira / Oli vs Vasco Da Gama H1=1.85
+[basketball] Esgueira / Oli vs Vasco Da Gama Handicap=1.85
+[basketball] Esgueira / Oli vs Vasco Da Gama H2=1.83
+[basketball] Esgueira / Oli vs Vasco Da Gama Under=173.5
+[basketball] Esgueira / Oli vs Vasco Da Gama Handicap2=1.88
+[basketball] Esgueira / Oli vs Vasco Da Gama -> 1=1.38, 2=2.9, H1=1.85, Handicap=1.85, H2=1.83, Under=173.5, Handicap2=1.88
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana 1=2.0
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana 2=1.88
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana H1=1.67
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana Handicap=1.5
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana H2=1.98
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana Under=1.93
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana Handicap2=164.5
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana Over=1.87
+[basketball] Hapoel Beer Sheva vs Maccabi Raanana -> 1=2.0, 2=1.88, H1=1.67, Handicap=1.5, H2=1.98, Under=1.93, Handicap2=164.5, Over=1.87
+[basketball] Cantu vs Udine 1=1.6
+[basketball] Cantu vs Udine 2=2.43
+[basketball] Cantu vs Udine H1=2.0
+[basketball] Cantu vs Udine Handicap=1.95
+[basketball] Cantu vs Udine H2=1.95
+[basketball] Cantu vs Udine Under=168.5
+[basketball] Cantu vs Udine Handicap2=1.95
+[basketball] Cantu vs Udine -> 1=1.6, 2=2.43, H1=2.0, Handicap=1.95, H2=1.95, Under=168.5, Handicap2=1.95
+[basketball] Milwaukee Bucks vs Houston Rockets 1=2.55
+[basketball] Milwaukee Bucks vs Houston Rockets 2=1.62
+[basketball] Milwaukee Bucks vs Houston Rockets H1=1.86
+[basketball] Milwaukee Bucks vs Houston Rockets Handicap=4.5
+[basketball] Milwaukee Bucks vs Houston Rockets H2=2.08
+[basketball] Milwaukee Bucks vs Houston Rockets Under=1.92
+[basketball] Milwaukee Bucks vs Houston Rockets Handicap2=2.04
+[basketball] Milwaukee Bucks vs Houston Rockets -> 1=2.55, 2=1.62, H1=1.86, Handicap=4.5, H2=2.08, Under=1.92, Handicap2=2.04
+[basketball] Orlando Magic vs Boston 1=1.65
+[basketball] Orlando Magic vs Boston 2=2.44
+[basketball] Orlando Magic vs Boston H1=2.2
+[basketball] Orlando Magic vs Boston Handicap=1.92
+[basketball] Orlando Magic vs Boston H2=1.96
+[basketball] Orlando Magic vs Boston Under=1.96
+[basketball] Orlando Magic vs Boston -> 1=1.65, 2=2.44, H1=2.2, Handicap=1.92, H2=1.96, Under=1.96
+[basketball] New York Knicks vs Brooklyn Nets 1=1.1
+[basketball] New York Knicks vs Brooklyn Nets 2=9.5
+[basketball] New York Knicks vs Brooklyn Nets H1=1.96
+[basketball] New York Knicks vs Brooklyn Nets Handicap=1.96
+[basketball] New York Knicks vs Brooklyn Nets H2=1.92
+[basketball] New York Knicks vs Brooklyn Nets Under=2.0
+[basketball] New York Knicks vs Brooklyn Nets -> 1=1.1, 2=9.5, H1=1.96, Handicap=1.96, H2=1.92, Under=2.0
+[basketball] Memphis vs Oklahoma City Thunder 1=5.2
+[basketball] Memphis vs Oklahoma City Thunder 2=1.23
+[basketball] Memphis vs Oklahoma City Thunder H1=2.01
+[basketball] Memphis vs Oklahoma City Thunder Handicap=10.5
+[basketball] Memphis vs Oklahoma City Thunder H2=1.92
+[basketball] Memphis vs Oklahoma City Thunder Under=1.97
+[basketball] Memphis vs Oklahoma City Thunder Handicap2=1.95
+[basketball] Memphis vs Oklahoma City Thunder -> 1=5.2, 2=1.23, H1=2.01, Handicap=10.5, H2=1.92, Under=1.97, Handicap2=1.95
+[basketball] Racing de Chivilcoy vs Platense 1=1.45
+[basketball] Racing de Chivilcoy vs Platense 2=2.8
+[basketball] Racing de Chivilcoy vs Platense H1=1.83
+[basketball] Racing de Chivilcoy vs Platense Handicap=1.75
+[basketball] Racing de Chivilcoy vs Platense H2=1.88
+[basketball] Racing de Chivilcoy vs Platense Under=164.5
+[basketball] Racing de Chivilcoy vs Platense Handicap2=1.91
+[basketball] Racing de Chivilcoy vs Platense -> 1=1.45, 2=2.8, H1=1.83, Handicap=1.75, H2=1.88, Under=164.5, Handicap2=1.91
+[basketball] Gimnasia de Comodoro vs Regatas 1=1.8
+[basketball] Gimnasia de Comodoro vs Regatas 2=2.04
+[basketball] Gimnasia de Comodoro vs Regatas H1=1.63
+[basketball] Gimnasia de Comodoro vs Regatas Handicap=1.65
+[basketball] Gimnasia de Comodoro vs Regatas H2=1.9
+[basketball] Gimnasia de Comodoro vs Regatas Under=150.5
+[basketball] Gimnasia de Comodoro vs Regatas Handicap2=1.95
+[basketball] Gimnasia de Comodoro vs Regatas -> 1=1.8, 2=2.04, H1=1.63, Handicap=1.65, H2=1.9, Under=150.5, Handicap2=1.95
+[basketball] Quimsa vs Union de Santa Fe 1=1.15
+[basketball] Quimsa vs Union de Santa Fe 2=5.2
+[basketball] Quimsa vs Union de Santa Fe H1=1.75
+[basketball] Quimsa vs Union de Santa Fe Handicap=1.75
+[basketball] Quimsa vs Union de Santa Fe H2=1.88
+[basketball] Quimsa vs Union de Santa Fe Under=165.5
+[basketball] Quimsa vs Union de Santa Fe Handicap2=1.88
+[basketball] Quimsa vs Union de Santa Fe -> 1=1.15, 2=5.2, H1=1.75, Handicap=1.75, H2=1.88, Under=165.5, Handicap2=1.88
+[basketball] Philadelphia 76ers vs Detroit Pistons 1=2.46
+[basketball] Philadelphia 76ers vs Detroit Pistons 2=1.63
+[basketball] Philadelphia 76ers vs Detroit Pistons H1=1.84
+[basketball] Philadelphia 76ers vs Detroit Pistons Handicap=4.5
+[basketball] Philadelphia 76ers vs Detroit Pistons H2=2.06
+[basketball] Philadelphia 76ers vs Detroit Pistons Under=1.99
+[basketball] Philadelphia 76ers vs Detroit Pistons Handicap2=1.93
+[basketball] Philadelphia 76ers vs Detroit Pistons -> 1=2.46, 2=1.63, H1=1.84, Handicap=4.5, H2=2.06, Under=1.99, Handicap2=1.93
+[basketball] Cearense vs Mogi 1=2.5
+[basketball] Cearense vs Mogi 2=1.49
+[basketball] Cearense vs Mogi H1=1.75
+[basketball] Cearense vs Mogi Handicap=4.5
+[basketball] Cearense vs Mogi H2=1.9
+[basketball] Cearense vs Mogi Under=1.9
+[basketball] Cearense vs Mogi Handicap2=155.5
+[basketball] Cearense vs Mogi Over=1.95
+[basketball] Cearense vs Mogi -> 1=2.5, 2=1.49, H1=1.75, Handicap=4.5, H2=1.9, Under=1.9, Handicap2=155.5, Over=1.95
+[basketball] Golden State Warriors vs Indiana Pacers 1=1.17
+[basketball] Golden State Warriors vs Indiana Pacers 2=6.1
+[basketball] Golden State Warriors vs Indiana Pacers H1=1.96
+[basketball] Golden State Warriors vs Indiana Pacers Handicap=1.96
+[basketball] Golden State Warriors vs Indiana Pacers H2=1.96
+[basketball] Golden State Warriors vs Indiana Pacers Under=1.96
+[basketball] Golden State Warriors vs Indiana Pacers -> 1=1.17, 2=6.1, H1=1.96, Handicap=1.96, H2=1.96, Under=1.96
+[basketball] Sacramento vs Minnesota Timberwolves 1=2.9
+[basketball] Sacramento vs Minnesota Timberwolves 2=1.49
+[basketball] Sacramento vs Minnesota Timberwolves H1=1.96
+[basketball] Sacramento vs Minnesota Timberwolves Handicap=6.5
+[basketball] Sacramento vs Minnesota Timberwolves H2=2.14
+[basketball] Sacramento vs Minnesota Timberwolves Under=1.9
+[basketball] Sacramento vs Minnesota Timberwolves Handicap2=2.09
+[basketball] Sacramento vs Minnesota Timberwolves -> 1=2.9, 2=1.49, H1=1.96, Handicap=6.5, H2=2.14, Under=1.9, Handicap2=2.09
+[basketball] LG Sakers vs KCC Egis 1=1.58
+[basketball] LG Sakers vs KCC Egis 2=2.3
+[basketball] LG Sakers vs KCC Egis H1=1.87
+[basketball] LG Sakers vs KCC Egis Handicap=1.87
+[basketball] LG Sakers vs KCC Egis H2=1.87
+[basketball] LG Sakers vs KCC Egis Under=149.5
+[basketball] LG Sakers vs KCC Egis Handicap2=1.87
+[basketball] LG Sakers vs KCC Egis -> 1=1.58, 2=2.3, H1=1.87, Handicap=1.87, H2=1.87, Under=149.5, Handicap2=1.87
+[basketball] SeaHorses Mikawa vs Sendai 89Ers 1=1.25
+[basketball] SeaHorses Mikawa vs Sendai 89Ers 2=3.85
+[basketball] SeaHorses Mikawa vs Sendai 89Ers H1=1.85
+[basketball] SeaHorses Mikawa vs Sendai 89Ers Handicap=1.86
+[basketball] SeaHorses Mikawa vs Sendai 89Ers H2=1.85
+[basketball] SeaHorses Mikawa vs Sendai 89Ers Under=163.5
+[basketball] SeaHorses Mikawa vs Sendai 89Ers Handicap2=1.85
+[basketball] SeaHorses Mikawa vs Sendai 89Ers -> 1=1.25, 2=3.85, H1=1.85, Handicap=1.86, H2=1.85, Under=163.5, Handicap2=1.85
+[basketball] KD Ilirija vs Spartak Subotica 1=2.9
+[basketball] KD Ilirija vs Spartak Subotica 2=1.41
+[basketball] KD Ilirija vs Spartak Subotica H1=1.75
+[basketball] KD Ilirija vs Spartak Subotica Handicap=5.5
+[basketball] KD Ilirija vs Spartak Subotica H2=1.92
+[basketball] KD Ilirija vs Spartak Subotica Under=1.85
+[basketball] KD Ilirija vs Spartak Subotica Handicap2=170.5
+[basketball] KD Ilirija vs Spartak Subotica Over=1.92
+[basketball] KD Ilirija vs Spartak Subotica -> 1=2.9, 2=1.41, H1=1.75, Handicap=5.5, H2=1.92, Under=1.85, Handicap2=170.5, Over=1.92
+[basketball] Dubai vs Crvena Zvezda 1=1.7
+[basketball] Dubai vs Crvena Zvezda 2=2.25
+[basketball] Dubai vs Crvena Zvezda H1=1.93
+[basketball] Dubai vs Crvena Zvezda Handicap=1.93
+[basketball] Dubai vs Crvena Zvezda H2=1.93
+[basketball] Dubai vs Crvena Zvezda Under=164.5
+[basketball] Dubai vs Crvena Zvezda Handicap2=1.93
+[basketball] Dubai vs Crvena Zvezda -> 1=1.7, 2=2.25, H1=1.93, Handicap=1.93, H2=1.93, Under=164.5, Handicap2=1.93
+[basketball] Fenerbahce vs Maccabi Tel Aviv 1=1.3
+[basketball] Fenerbahce vs Maccabi Tel Aviv 2=3.7
+[basketball] Fenerbahce vs Maccabi Tel Aviv H1=1.9
+[basketball] Fenerbahce vs Maccabi Tel Aviv Handicap=1.9
+[basketball] Fenerbahce vs Maccabi Tel Aviv H2=1.9
+[basketball] Fenerbahce vs Maccabi Tel Aviv Under=169.5
+[basketball] Fenerbahce vs Maccabi Tel Aviv Handicap2=1.95
+[basketball] Fenerbahce vs Maccabi Tel Aviv -> 1=1.3, 2=3.7, H1=1.9, Handicap=1.9, H2=1.9, Under=169.5, Handicap2=1.95
+[basketball] Hapoel Tel Aviv vs Baskonia 1=1.2
+[basketball] Hapoel Tel Aviv vs Baskonia 2=5.0
+[basketball] Hapoel Tel Aviv vs Baskonia H1=1.93
+[basketball] Hapoel Tel Aviv vs Baskonia Handicap=1.93
+[basketball] Hapoel Tel Aviv vs Baskonia H2=1.91
+[basketball] Hapoel Tel Aviv vs Baskonia Under=177.5
+[basketball] Hapoel Tel Aviv vs Baskonia Handicap2=1.95
+[basketball] Hapoel Tel Aviv vs Baskonia -> 1=1.2, 2=5.0, H1=1.93, Handicap=1.93, H2=1.91, Under=177.5, Handicap2=1.95
+[basketball] Virtus Bologna vs Anadolu Efes 1=2.08
+[basketball] Virtus Bologna vs Anadolu Efes 2=1.81
+[basketball] Virtus Bologna vs Anadolu Efes H1=1.77
+[basketball] Virtus Bologna vs Anadolu Efes Handicap=2.5
+[basketball] Virtus Bologna vs Anadolu Efes H2=2.05
+[basketball] Virtus Bologna vs Anadolu Efes Under=1.95
+[basketball] Virtus Bologna vs Anadolu Efes Handicap2=158.5
+[basketball] Virtus Bologna vs Anadolu Efes Over=1.95
+[basketball] Virtus Bologna vs Anadolu Efes -> 1=2.08, 2=1.81, H1=1.77, Handicap=2.5, H2=2.05, Under=1.95, Handicap2=158.5, Over=1.95
+[basketball] Partizan vs Monaco 1=2.08
+[basketball] Partizan vs Monaco 2=1.8
+[basketball] Partizan vs Monaco H1=1.77
+[basketball] Partizan vs Monaco Handicap=2.5
+[basketball] Partizan vs Monaco H2=2.02
+[basketball] Partizan vs Monaco Under=1.93
+[basketball] Partizan vs Monaco Handicap2=167.5
+[basketball] Partizan vs Monaco Over=1.93
+[basketball] Partizan vs Monaco -> 1=2.08, 2=1.8, H1=1.77, Handicap=2.5, H2=2.02, Under=1.93, Handicap2=167.5, Over=1.93
+[basketball] Valencia vs Real Madrid 1=2.13
+[basketball] Valencia vs Real Madrid 2=1.76
+[basketball] Valencia vs Real Madrid H1=1.8
+[basketball] Valencia vs Real Madrid Handicap=2.5
+[basketball] Valencia vs Real Madrid H2=1.97
+[basketball] Valencia vs Real Madrid Under=1.93
+[basketball] Valencia vs Real Madrid Handicap2=177.5
+[basketball] Valencia vs Real Madrid Over=2.0
+[basketball] Valencia vs Real Madrid -> 1=2.13, 2=1.76, H1=1.8, Handicap=2.5, H2=1.97, Under=1.93, Handicap2=177.5, Over=2.0
+[basketball] Paris vs Panathinaikos 1=2.09
+[basketball] Paris vs Panathinaikos 2=1.81
+[basketball] Paris vs Panathinaikos H1=1.78
+[basketball] Paris vs Panathinaikos Handicap=2.5
+[basketball] Paris vs Panathinaikos H2=2.05
+[basketball] Paris vs Panathinaikos Under=1.92
+[basketball] Paris vs Panathinaikos Handicap2=179.5
+[basketball] Paris vs Panathinaikos Over=1.94
+[basketball] Paris vs Panathinaikos -> 1=2.09, 2=1.81, H1=1.78, Handicap=2.5, H2=2.05, Under=1.92, Handicap2=179.5, Over=1.94
+[basketball] Total matches parsed: 91
+📊 Parsed 91 basketball matches
+💰 Found 2 basketball surebets (min-profit 0.0%)
+✅ Saved: basketball_live_matches_20251109_120243.txt & basketball_live_surebets_20251109_120243.txt
+
+🎉 BASKETBALL SUREBET SUMMARY:
+  • Derthona Basket vs Varese - Moneyline - 0.39%
+  • Virtus Bologna vs Reggiana - Moneyline - 1.17%
+📨 Basketball Telegram summary attempted.
