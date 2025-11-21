@@ -11,7 +11,7 @@ import os
 
 # Try to import telegram notifier
 try:
-    from telegram_notifier import send_telegram_message
+    from telegram_notifier import send_raw_message
     TELEGRAM_AVAILABLE = True
 except ImportError:
     TELEGRAM_AVAILABLE = False
@@ -103,7 +103,7 @@ def main():
                 summary += f"✅ {successful} scripts succeeded\n"
                 summary += f"❌ {failed} scripts failed\n\n"
                 summary += f"Check surebet files for opportunities!"
-                send_telegram_message(summary)
+                send_raw_message(summary)
                 log("📱 Telegram notification sent")
             except Exception as e:
                 log(f"⚠️ Telegram notification failed: {e}")
