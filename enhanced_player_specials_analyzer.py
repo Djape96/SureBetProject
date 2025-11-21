@@ -15,7 +15,7 @@ Usage:
     python enhanced_player_specials_analyzer.py [--pages 4] [--verbose] [--min-profit 1.0]
 """
 
-import argparse
+import argparse, sys
 import os
 import re
 import time
@@ -66,7 +66,7 @@ def check_surebet(odds):
 
 # ----------------- Live Download -----------------
 
-def download_live_player_specials(headless=True, retries=2, selenium_wait=15, scroll_steps=6, pages=None, verbose=False):
+def download_live_player_specials(headless=True, retries=2, selenium_wait=15, scroll_steps=6, pages=None, verbose=False, requests_only=False, max_runtime=120):
     """Download player specials data from TopTiket using requests first, then Selenium fallback.
 
     Features added:
@@ -78,8 +78,8 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
 
     # --- Simple requests attempt ---
     try:
-        headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36' }
-        r = requests.get(PLAYER_SPECIALS_URL, headers=headers, timeout=15)
+        headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' }
+        r = requests.get(PLAYER_SPECIALS_URL, headers=headers, timeout=20)
         if r.status_code == 200 and len(r.text) > 5000 and 'You need to enable JavaScript' not in r.text:
             with open('live_player_specials_data.txt', 'w', encoding='utf-8') as f:
                 f.write(r.text)
@@ -88,6 +88,9 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
     except Exception as e:
         if verbose:
             print(f"(requests player specials) error: {e}")
+    if requests_only:
+        print('❌ Requests response insufficient and Selenium disabled (--requests-only).')
+        return False
 
     # --- Selenium fallback ---
     try:
@@ -102,8 +105,13 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
         print('❌ Selenium not installed for player specials scraping')
         return False
 
+    start_global = time.time()
     for attempt in range(1, retries + 2):
-        print(f"🎯 (Player Specials) Selenium attempt {attempt}/{retries+1}...")
+        elapsed = time.time() - start_global
+        if elapsed > max_runtime:
+            print(f"⏱️  Player specials scraping exceeded max runtime ({max_runtime}s); aborting.")
+            return False
+        print(f"🎯 (Player Specials) Selenium attempt {attempt}/{retries+1} (elapsed {int(elapsed)}s)...")
         try:
             opts = Options()
             if headless:
@@ -112,6 +120,8 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
             opts.add_argument('--disable-gpu')
             opts.add_argument('--no-sandbox')
             opts.add_argument('--disable-dev-shm-usage')
+            opts.add_argument('--disable-browser-side-navigation')
+            opts.add_argument('--disable-features=VizDisplayCompositor')
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
             try:
                 driver.get(PLAYER_SPECIALS_URL)
@@ -142,6 +152,9 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
                         print(f'   • Scroll height={new_height} stable_pass={stable}')
                     if new_height > 3_000_000:
                         break
+                    if time.time() - start_global > max_runtime:
+                        print('⏱️  Runtime limit reached during infinite scroll; aborting.')
+                        return False
 
                 # League filter attempt
                 try:
@@ -213,16 +226,19 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
                                 driver.execute_script('arguments[0].click();', btn)
                             if verbose:
                                 print(f'  • Clicked page {p}')
-                            time.sleep(1.8)
+                            time.sleep(1.2)
                             for _ in range(2):
                                 driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-                                time.sleep(0.6)
+                                time.sleep(0.5)
                             driver.execute_script('window.scrollTo(0,0);')
                             new_src = driver.page_source
                             if len(new_src) != len(page_content):
                                 combined += f"\n<!-- PAGE {p} SPLIT -->\n" + new_src
                                 if verbose:
                                     print(f'  • Page {p} content added ({len(new_src)} chars)')
+                            if time.time() - start_global > max_runtime:
+                                print('⏱️  Runtime limit reached during pagination; aborting.')
+                                return False
                         except Exception as pag_err:
                             if verbose:
                                 print(f'  • Pagination fail page {p}: {pag_err}')
@@ -582,6 +598,8 @@ def main():
     parser.add_argument('--min-profit', type=float, default=0.0, help='Minimum profit percentage for surebets')
     parser.add_argument('--no-headless', action='store_true', help='Run browser in visible mode')
     parser.add_argument('--retries', type=int, default=2, help='Number of retry attempts')
+    parser.add_argument('--requests-only', action='store_true', help='Skip Selenium fallback and fail fast if requests HTML insufficient')
+    parser.add_argument('--max-runtime', type=int, default=int(os.environ.get('PLAYER_SPECIALS_MAX_RUNTIME','120')), help='Hard timeout (seconds) for total scraping phase')
     args = parser.parse_args()
     
     verbose = args.verbose
@@ -592,7 +610,9 @@ def main():
         headless=not args.no_headless,
         retries=args.retries,
         pages=args.pages,
-        verbose=verbose
+        verbose=verbose,
+        requests_only=args.requests_only,
+        max_runtime=args.max_runtime
     )
     
     if not success:

@@ -1,4 +1,4 @@
-import argparse, os, re, time
+import argparse, os, re, time, sys
 from datetime import datetime
 import requests
 from typing import List, Dict, Any
@@ -36,8 +36,12 @@ def check_surebet(odds):
 
 # ----------------- Live Download -----------------
 
-def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_steps=4, pages=1, verbose=False, three_days=False, all_pages=False):
+def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_steps=4, pages=1, verbose=False, three_days=False, all_pages=False, requests_only=False, max_runtime=90):
     print("🏀 Attempting to download live data from TopTiket (Basketball)...")
+    start_global = time.time()
+    if requests_only:
+        if verbose: print("📡 Requests-only mode enabled; skipping Selenium fallback.")
+    
     try:
         r = requests.get(BASKETBALL_URL, headers={'User-Agent':'Mozilla/5.0'}, timeout=10)
         if r.status_code==200 and len(r.text) > 5000 and "You need to enable JavaScript" not in r.text:
@@ -46,6 +50,9 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
             return True
     except Exception as e:
         if verbose: print("(requests basketball) error", e)
+    if requests_only:
+        print("❌ Requests response insufficient and Selenium disabled (--requests-only).")
+        return False
     try:
         from selenium import webdriver
         from selenium.webdriver.chrome.service import Service
@@ -60,12 +67,20 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
     attempt=0
     while attempt <= retries:
         attempt +=1
-        print(f"⛹️  (Basketball) Selenium attempt {attempt}/{retries+1}...")
+        elapsed = time.time() - start_global
+        if elapsed > max_runtime:
+            print(f"⏱️  Basketball scraping exceeded max runtime ({max_runtime}s); aborting.")
+            return False
+        print(f"⛹️  (Basketball) Selenium attempt {attempt}/{retries+1} (elapsed {int(elapsed)}s)...")
         try:
             opts = Options()
             if headless: opts.add_argument("--headless=new")
             opts.add_argument("--window-size=1920,1080")
             opts.add_argument("--disable-gpu"); opts.add_argument("--no-sandbox")
+            # Container stability flags
+            opts.add_argument("--disable-dev-shm-usage")
+            opts.add_argument("--disable-browser-side-navigation")
+            opts.add_argument("--disable-features=VizDisplayCompositor")
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
             try:
                 driver.get(BASKETBALL_URL)
@@ -108,8 +123,13 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
 
                 # Initial scrolling for lazy loading
                 for s in range(scroll_steps):
-                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);"); time.sleep(0.7)
+                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);"); time.sleep(0.6)
                     if s==0: driver.execute_script("window.scrollTo(0,0);")
+
+                # Guard: stop early if runtime drifting
+                if time.time() - start_global > max_runtime:
+                    print("⏱️  Runtime limit reached during initial scroll; aborting.")
+                    return False
 
                 # Auto-detect total pages if requested
                 if all_pages:
@@ -304,10 +324,12 @@ def main():
     ap.add_argument('--telegram-header', action='store_true', help='Include header lines in Telegram message')
     ap.add_argument('--notify-min-roi', type=float, default=float(os.environ.get('BASKETBALL_NOTIFY_MIN_ROI','2.5')), help='Minimum profit%% (margin) to include in Telegram notification (default 2.5)')
     ap.add_argument('--notify-max-roi', type=float, default=float(os.environ.get('BASKETBALL_NOTIFY_MAX_ROI','20')), help='Maximum profit%% to include; above treated as suspicious (default 20)')
+    ap.add_argument('--requests-only', action='store_true', help='Skip Selenium fallback and fail fast if requests HTML insufficient')
+    ap.add_argument('--max-runtime', type=int, default=int(os.environ.get('BASKETBALL_MAX_RUNTIME','90')), help='Hard timeout (seconds) for total scraping phase')
     args = ap.parse_args()
 
     verbose=args.verbose
-    ok = download_live_basketball(headless=not args.no_headless, retries=args.retries, pages=args.pages, verbose=verbose, three_days=args.three_days, all_pages=args.all_pages)
+    ok = download_live_basketball(headless=not args.no_headless, retries=args.retries, pages=args.pages, verbose=verbose, three_days=args.three_days, all_pages=args.all_pages, requests_only=args.requests_only, max_runtime=args.max_runtime)
     if not ok:
         print('❌ Could not fetch basketball live data.'); return
     flat = flatten_html_to_text('live_basketball_data.txt','live_basketball_extracted.txt')
