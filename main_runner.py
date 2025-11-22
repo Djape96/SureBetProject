@@ -115,7 +115,9 @@ def main():
         cycle_count += 1
         log("=" * 60)
         log(f"🔁 Starting cycle #{cycle_count}")
-        log("=" * 60)        successful = 0
+        log("=" * 60)
+        
+        successful = 0
         failed = 0
         
         for script in SCRIPTS_TO_RUN:
