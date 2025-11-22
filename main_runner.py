@@ -101,14 +101,7 @@ def main():
     if HEALTH_ENABLED:
         update_health(status="running")
     
-    # Send startup notification
-    if TELEGRAM_AVAILABLE:
-        try:
-            startup_msg = "🚀 SureBet Runner Started!\n\nMonitoring:\n• Tennis\n• Basketball\n• Football\n• Player Specials\n\nChecking every 5 minutes..."
-            send_raw_message(startup_msg)
-            log("📱 Startup notification sent to Telegram")
-        except Exception as e:
-            log(f"⚠️ Telegram startup notification failed: {e}")
+    # Startup notification removed - only send when surebets found
     
     cycle_count = 0
     
@@ -140,17 +133,7 @@ def main():
                 last_cycle=datetime.now().isoformat()
             )
         
-        # Send Telegram notification after each cycle
-        if TELEGRAM_AVAILABLE:
-            try:
-                summary = f"🔄 Cycle #{cycle_count} Complete\n"
-                summary += f"✅ {successful} scripts succeeded\n"
-                summary += f"❌ {failed} scripts failed\n\n"
-                summary += f"Check surebet files for opportunities!"
-                send_raw_message(summary)
-                log("📱 Telegram notification sent")
-            except Exception as e:
-                log(f"⚠️ Telegram notification failed: {e}")
+        # Cycle completion notification removed - only send when surebets found
         
         log(f"⏳ Waiting {CHECK_INTERVAL} seconds until next cycle...")
         log("")
