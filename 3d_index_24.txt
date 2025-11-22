@@ -18,48 +18,50 @@ Ostali sportovi
 ​
 OMILJENE LIGE
 Engleska 1
-9
+10
 Francuska 1
-9
-Italija 1
 8
+Italija 1
+10
 Nemačka 1
-9
+8
 Srbija 1
 7
 Španija 1
 9
 SVE LIGE
+Albanija
+3
 Alžir
-1
+15
 Argentina
-9
+11
 Australija
-12
-Austrija
-13
-Austrija Amateri
 6
+Austrija
+12
 Azerbejdžan
 4
 Belgija
-14
+7
 Belorusija
-2
-Bolivija
 8
+Bolivija
+6
 Bosna i Hercegovina
 4
 Brazil
-16
+18
 Bugarska
-7
+11
+Crna Gora
+5
 Danska
-10
+9
 Egipat
 6
 Ekvador
-8
+7
 Engleska
 56
 Engleska Amateri
@@ -67,25 +69,23 @@ Engleska Amateri
 Estonija
 1
 Francuska
-25
-Gruzija
-1
+12
 Grčka
-5
-Gvatemala
-1
+7
 Holandija
-19
+10
 Hrvatska
-11
+10
 Indonezija
 5
 Irak
-1
+3
+Iran
+6
 Italija
-45
+52
 Japan
-11
+10
 Jermenija
 3
 Jordan
@@ -93,85 +93,91 @@ Jordan
 Južna Afrika
 4
 Južna Koreja
-13
-Katar
-5
-Kina
 8
+Katar
+4
 Kipar
 6
 Kolumbija
 4
 Kostarika
-4
+5
 Litvanija
 1
-Mađarska
-6
-Meksiko
+Malta
 1
+Mađarska
+5
+Meksiko
+3
 Međunarodne klupske
 7
 Nemačka
-28
+24
 Nemačka Amateri
-42
+34
 Norveška
-10
+9
 Paragvaj
-4
+2
 Peru
 6
 Poljska
-17
+14
 Portugalija
-16
+15
 Rumunija
 6
 Rusija
 15
 SAD
-4
+5
 Saudijska Arabija
-7
-Severna Irska
 6
+Severna Irska
+4
+Singapur
+1
 Slovačka
 6
 Slovenija
-12
+9
 Srbija
 7
 Tajland
-8
+11
 Tanzanija
 1
+Tunis
+8
 Turska
-15
+18
 UAE
-1
+3
 Uganda
 1
 Ukrajina
-6
+7
 Urugvaj
 1
+Uzbekistan
+2
 Vels
-4
+3
 Venecuela
 1
 Češka
 8
 Čile
-7
+5
 Škotska
-16
+15
 Španija
-39
+41
 Švajcarska
-11
+8
 Švedska
-3
+5
 1h
 12h
 1 dan
@@ -187,245 +193,245 @@ GG
 GG3+
 Naredne utakmice
 ned, 23. 11.
-06:00
-Fujieda MYFC
-Sagan Tosu
-2.75
-3.45
-2.50
-1.91
-1.90
-1.73
-2.26
-+295
-ned, 23. 11.
-06:00
-Imabari
-Hokkaido Consadole Sapporo
-2.15
-3.50
-3.40
-1.96
-1.88
-1.74
+13:30
+Septemvri Sofia
+Ludogorets
+10.20
+5.40
+1.33
 2.27
+1.68
+2.09
+2.50
 +295
 ned, 23. 11.
-06:00
-Iwaki
-Renofa Yamaguchi
-2.30
-3.35
-3.31
-1.80
-2.03
-1.87
-2.46
+13:30
+Karlsruher
+Elversberg
+3.20
+3.85
+2.23
+2.34
+1.63
+1.58
+1.92
 +295
 ned, 23. 11.
-06:00
-Iwata
-Montedio Yamagata
-2.22
-3.46
-3.25
-2.03
-1.79
-1.67
-2.14
-+295
-ned, 23. 11.
-06:00
-Omiya Ardija
-Tokushima
-2.40
-3.28
-3.16
-1.81
-2.01
-1.81
-2.42
-+295
-ned, 23. 11.
-06:00
-Blaublitz Akita
-Vegalta Sendai
-4.25
-3.40
-1.95
-1.69
+13:30
+Bremer
+Kickers Emden
+2.98
+3.95
 2.20
-2.03
-2.72
+2.64
+1.45
+1.43
+1.68
 +295
 ned, 23. 11.
-06:00
-Kofu
-Toyama
-2.55
-3.21
-2.88
-1.65
-2.26
-1.98
-2.74
-+295
-ned, 23. 11.
-06:00
-Jeju United
-Daegu
-2.33
-3.75
-2.95
-2.19
-1.73
-1.61
-2.01
-+295
-ned, 23. 11.
-06:00
-Seoul E Land
-Ansan Greeners
-1.38
-4.85
-9
-1.95
+13:30
+Nd Dravinja
+Jadran Dekani
 1.83
-2.30
-2.80
-+295
-ned, 23. 11.
-06:00
-Asan
-Jeonnam Dragons
-2.68
-3.55
-2.60
-1.97
-1.81
-1.67
-2.15
-+295
-ned, 23. 11.
-06:00
-Gyeongnam
-Cheonan City
-2.28
-3.30
-3.06
-1.89
-1.88
-1.72
-2.26
-+295
-ned, 23. 11.
-06:00
-Seongnam
-Busan
-1.97
-3.40
-3.90
-1.72
-2.10
+3.52
+4.80
+1.76
+2
 1.95
 2.56
 +295
 ned, 23. 11.
-06:00
-Incheon United
-Cheongju
-1.50
-4.05
-7.90
-1.78
-2.03
-2.31
-3
-+295
+14:00
+Moss
+Brattvag
+1.93
+3.74
+4.20
+2.11
+1.77
+1.75
+2.10
++296
 ned, 23. 11.
-06:00
-Suwon Bluewings
-Gimpo
-1.82
-3.80
-4.50
-2.03
-1.76
-1.72
-2.16
-+295
-ned, 23. 11.
-06:00
-Bucheon 1995
-Hwaseong
+14:00
+Aarhus Fremad
+Koge
 1.80
-3.65
-4.65
-1.83
-1.94
-1.90
-2.45
+3.95
+4.20
+2.29
+1.61
+1.60
+1.93
 +295
 ned, 23. 11.
-06:00
-Sydney W
-CC Mariners W
-2.25
-3.60
-3.05
-2.02
+14:00
+Viborg
+Vejle
+1.78
+4
+4.90
+2.18
+1.73
+1.70
+2.10
++295
+ned, 23. 11.
+14:00
+Sion
+Zurich
+2.20
+3.55
+3.36
+2.12
 1.75
 1.63
 2.07
 +295
 ned, 23. 11.
-07:00
-Newcastle Jets
-Perth Glory
-1.92
-4.25
-3.78
-3.06
-1.40
-1.42
-1.62
+14:00
+Luebeck
+Oldenburg
+5.65
+4.90
+1.53
+2.99
+1.38
+1.50
+1.71
 +295
 ned, 23. 11.
-08:00
-Ehime
-Kumamoto
-4.20
-3.70
-1.90
-2.06
-1.77
-1.75
-2.17
-+295
-ned, 23. 11.
-08:00
-Yenisey Krasnoyarsk
-Rodina Moscow
-3.42
-3.22
+14:00
+Real Oviedo
+Rayo Vallecano
+3.60
+3.40
 2.30
-1.54
-2.53
-2.16
-3.14
+1.71
+2.32
+2.02
+2.80
 +295
 ned, 23. 11.
-09:30
-Persita Tangerang
-Malut United
-2.94
-3.20
+14:00
+Radnicki Nis
+TSC Backa Topola
 2.45
-1.72
-2.10
-1.85
-2.51
+3.50
+2.95
+1.89
+1.94
+1.75
+2.25
 +295
+ned, 23. 11.
+14:00
+Vanspor
+Keciorengucu
+2.75
+3.50
+2.45
+2.03
+1.81
+1.66
+2.14
++295
+ned, 23. 11.
+14:00
+Norderstedt
+FC Phonix Lubeck
+3.55
+3.70
+1.98
+2.10
+1.68
+1.62
+2.02
++295
+ned, 23. 11.
+14:00
+Hannoverscher
+SC Weiche 08
+3.71
+4.20
+1.87
+3.02
+1.35
+1.40
+1.58
++295
+ned, 23. 11.
+14:00
+Augsburg 2
+Burghausen
+3.42
+3.75
+2.02
+2.20
+1.62
+1.57
+1.95
++295
+ned, 23. 11.
+14:00
+Freiburg 2
+Freiberg
+2.93
+4.15
+2.07
+3.13
+1.35
+1.35
+1.53
++295
+ned, 23. 11.
+14:00
+Altglienicke
+Hertha BSC 2
+1.82
+3.80
+4.35
+2.13
+1.67
+1.70
+2.05
++295
+ned, 23. 11.
+14:00
+Deportivo La Coruna
+AD Ceuta
+1.70
+4.10
+5.50
+1.86
+1.98
+2
+2.55
++295
+ned, 23. 11.
+14:00
+Zhodino
+Isloch Minsk
+2.15
+3.20
+3.78
+1.60
+2.33
+2.07
+2.90
++294
+ned, 23. 11.
+14:00
+Slavia Mozyr
+FC Minsk
+1.50
+4.27
+6.50
+1.99
+1.80
+1.99
+2.49
++294
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
 1
 …
@@ -433,7 +439,7 @@ Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicam
 24
 25
 …
-35
+34
 top
 tiket
 Mečevi

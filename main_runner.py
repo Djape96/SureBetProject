@@ -31,7 +31,7 @@ CHECK_INTERVAL = 300  # 5 minutes between checks (adjust as needed)
 SCRIPTS_TO_RUN = [
     ('arbitrage_tennis.py', []),
     ('enhanced_basketball_analyzer.py', ['--max-runtime', '90', '--retries', '1']),
-    ('enhanced_football_analyzer.py', ['--live-force', '--retries', '1', '--min-profit', '1.5']),
+    ('arbitrage_football.py', []),  # Using simpler working version
     ('enhanced_player_specials_analyzer.py', ['--max-runtime', '90', '--retries', '1']),
 ]
 

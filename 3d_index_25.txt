@@ -18,48 +18,50 @@ Ostali sportovi
 ​
 OMILJENE LIGE
 Engleska 1
-9
+10
 Francuska 1
-9
-Italija 1
 8
+Italija 1
+10
 Nemačka 1
-9
+8
 Srbija 1
 7
 Španija 1
 9
 SVE LIGE
+Albanija
+3
 Alžir
-1
+15
 Argentina
-9
+11
 Australija
-12
-Austrija
-13
-Austrija Amateri
 6
+Austrija
+12
 Azerbejdžan
 4
 Belgija
-14
+7
 Belorusija
-2
-Bolivija
 8
+Bolivija
+6
 Bosna i Hercegovina
 4
 Brazil
-16
+18
 Bugarska
-7
+11
+Crna Gora
+5
 Danska
-10
+9
 Egipat
 6
 Ekvador
-8
+7
 Engleska
 56
 Engleska Amateri
@@ -67,25 +69,23 @@ Engleska Amateri
 Estonija
 1
 Francuska
-25
-Gruzija
-1
+12
 Grčka
-5
-Gvatemala
-1
+7
 Holandija
-19
+10
 Hrvatska
-11
+10
 Indonezija
 5
 Irak
-1
+3
+Iran
+6
 Italija
-45
+52
 Japan
-11
+10
 Jermenija
 3
 Jordan
@@ -93,85 +93,91 @@ Jordan
 Južna Afrika
 4
 Južna Koreja
-13
-Katar
-5
-Kina
 8
+Katar
+4
 Kipar
 6
 Kolumbija
 4
 Kostarika
-4
+5
 Litvanija
 1
-Mađarska
-6
-Meksiko
+Malta
 1
+Mađarska
+5
+Meksiko
+3
 Međunarodne klupske
 7
 Nemačka
-28
+24
 Nemačka Amateri
-42
+34
 Norveška
-10
+9
 Paragvaj
-4
+2
 Peru
 6
 Poljska
-17
+14
 Portugalija
-16
+15
 Rumunija
 6
 Rusija
 15
 SAD
-4
+5
 Saudijska Arabija
-7
-Severna Irska
 6
+Severna Irska
+4
+Singapur
+1
 Slovačka
 6
 Slovenija
-12
+9
 Srbija
 7
 Tajland
-8
+11
 Tanzanija
 1
+Tunis
+8
 Turska
-15
+18
 UAE
-1
+3
 Uganda
 1
 Ukrajina
-6
+7
 Urugvaj
 1
+Uzbekistan
+2
 Vels
-4
+3
 Venecuela
 1
 Češka
 8
 Čile
-7
+5
 Škotska
-16
+15
 Španija
-39
+41
 Švajcarska
-11
+8
 Švedska
-3
+5
 1h
 12h
 1 dan
@@ -187,244 +193,244 @@ GG
 GG3+
 Naredne utakmice
 ned, 23. 11.
-10:30
-St. Polten
-Kapfenberg
-1.45
-4.75
-6.79
-2.32
-1.60
-1.80
-2.15
-+295
-ned, 23. 11.
-11:00
-Krylya Sovetov Samara
-FK Rostov
-3.50
-3.40
-2.34
-1.71
-2.33
-1.97
+14:30
+Cosenza
+Benevento
+2.85
+3.25
+2.55
+1.63
+2.22
+1.95
 2.71
 +295
 ned, 23. 11.
-11:00
-Dobrudzha Dobrich
-Lokomotiv Plovdiv
-3.37
-3.25
-2.20
+14:30
+Feyenoord
+NEC Nijmegen
+1.42
+5.35
+7
+3.20
+1.40
+1.60
+1.82
++295
+ned, 23. 11.
+14:30
+Telstar
+Utrecht
+3.50
+3.85
+2.10
+2.22
+1.74
+1.63
+2.02
++295
+ned, 23. 11.
+14:30
+Pogon Siedlce
+Wisla Krakow
+6
+4.30
+1.55
+2.29
+1.61
 1.72
-2.16
-1.89
-2.55
+2.05
 +295
 ned, 23. 11.
-11:30
-Umraniyespor
-Bodrumspor
-7.50
-4.35
-1.46
-1.93
+14:30
+Salzburg
+Tirol
+1.53
+4.75
+6.75
+2.42
+1.63
+1.75
+2.08
++295
+ned, 23. 11.
+14:30
+Sturm Graz
+LASK Linz
+2.05
+3.85
+3.78
+2.10
 1.81
-2.05
-2.55
-+295
-ned, 23. 11.
-11:30
-Igdir
-Erzurumspor
-2.17
-3.35
-3.49
-1.69
-2.18
-1.95
-2.69
-+295
-ned, 23. 11.
-12:00
-FC Copenhagen
-Brondby
-2.15
-3.70
-3.52
-2.05
-1.80
-1.70
+1.73
 2.13
 +295
 ned, 23. 11.
-12:00
-Ufa
-Fakel Voronezh
-3.83
+14:30
+Novara
+Renate
+2.42
+3.05
+3.35
+1.48
+2.53
+2.15
 3.13
++295
+ned, 23. 11.
+14:30
+Ternana
+Juventus U23
+1.67
+3.45
+5.40
+1.69
 2.15
-1.41
-2.80
-2.37
-3.54
+2.12
+2.79
 +295
 ned, 23. 11.
-12:00
-Celta B
-Ponferradina
-2.29
-3.20
-3.30
-1.56
-2.32
-2.05
-2.83
+14:30
+Catania
+Latina
+1.48
+4
+8
+1.70
+2.12
+2.40
+3.18
 +295
 ned, 23. 11.
-12:00
-Porto B
-Portimonense
-2.48
-3.40
-2.85
-1.91
-1.90
-1.74
-2.27
-+295
-ned, 23. 11.
-12:00
-Lusitania
-Torreense
-2.95
-3.65
-2.30
-2.15
-1.68
-1.60
-1.98
-+297
-ned, 23. 11.
-12:00
-Chaves
-Sporting B
-2.25
-3.35
-3.32
-1.82
-2.06
-1.82
-2.43
-+295
-ned, 23. 11.
-12:00
-Alcorcon
-Tarazona
-1.75
-3.35
-5.25
-1.47
-2.60
-2.47
-3.53
-+295
-ned, 23. 11.
-12:00
-Algeciras
-Sanluqueno
-1.88
-3.25
-4.85
-1.50
+14:30
+Union Brescia
+L.R.Vicenza
 2.50
-2.25
-3.16
+3
+3.35
+1.47
+2.67
+2.23
+3.31
 +295
 ned, 23. 11.
-12:00
-Ruch Chorzow
-Pruszkow
-1.86
-3.75
-4.50
-2.09
-1.73
-1.72
-2.10
-+295
-ned, 23. 11.
-12:00
-Kryvbas 2000
-Veres Rivne
-2.34
-3.30
-3.50
-1.78
-2.10
-1.92
-2.55
-+295
-ned, 23. 11.
-12:00
-Van
-BKMA Yerevan
-1.86
-3.52
-4.10
-1.96
-1.80
-1.75
-2.19
-+295
-ned, 23. 11.
-12:00
-Sabah Baku
-Shamakhi
+14:30
+Ham Kam
+Haugesund
+1.42
+5.50
+7.75
+2.87
 1.45
-4.10
-7.50
-1.85
-1.89
-2.20
-2.78
+1.67
+1.97
 +295
 ned, 23. 11.
-12:00
-Nakhon Ratchasima
-Ayutthaya
-2.45
-3.50
-2.88
-1.89
-1.86
-1.75
-2.25
-+295
-ned, 23. 11.
-12:15
-Heerenveen
-AZ Alkmaar
-3.17
-3.90
-2.22
+14:30
+TS Galaxy
+Lamontville Golden Arrows
+1.90
+3.25
+4.60
+1.48
 2.65
-1.55
-1.50
-1.75
+2.36
+3.38
 +295
 ned, 23. 11.
-12:15
-Jagiellonia
-GKS Katowice
-1.83
+14:30
+Bryne
+Sarpsborg 08
+2.40
 3.90
-4.80
-2.33
-1.63
+2.95
+2.55
+1.59
+1.52
+1.80
++295
+ned, 23. 11.
+14:30
+Ascoli
+US Arezzo
+2.80
+2.95
+2.71
+1.53
+2.40
+2.05
+2.93
++295
+ned, 23. 11.
+14:30
+Polissya Zhytomyr
+Epicentr Dunaivtsi
+1.42
+4.60
+7.75
+2.05
+1.79
+2.10
+2.61
++295
+ned, 23. 11.
+14:30
+Neftci Baku
+Imisli FK
+1.41
+4.50
+8.50
+1.94
+1.80
+2.15
+2.66
++295
+ned, 23. 11.
+14:45
+Lech Poznan
+Radomiak Radom
+1.68
+4.25
+5.60
+2.30
 1.65
-2
+1.70
+2.04
++295
+ned, 23. 11.
+15:00
+Leeds
+Aston Villa
+3.06
+3.35
+2.60
+1.77
+2.22
+1.92
+2.60
++295
+ned, 23. 11.
+15:00
+Auxerre
+Lyon
+3.80
+3.60
+2.20
+1.93
+2.01
+1.81
+2.40
++295
+ned, 23. 11.
+15:00
+Maribor
+Olimpija Ljubljana
+2.05
+3.62
+3.55
+2.07
+1.75
+1.63
+2.03
 +295
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
 1
@@ -433,7 +439,7 @@ Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicam
 25
 26
 …
-35
+34
 top
 tiket
 Mečevi

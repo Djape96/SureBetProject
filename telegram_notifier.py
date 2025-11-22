@@ -106,7 +106,10 @@ def format_surebets_summary(
     for sb in top:
         m = sb['match']
         tm = m.get('time') or '?'  # time
-        vs = f"{m['player1']} vs {m['player2']}"
+        # Handle both player1/player2 (tennis/player specials) and team1/team2 (football/basketball)
+        p1 = m.get('player1') or m.get('team1') or '?'
+        p2 = m.get('player2') or m.get('team2') or '?'
+        vs = f"{p1} vs {p2}"
         t = sb['type']
         roi = sb['roi_pct']
         margin = sb['margin_pct']

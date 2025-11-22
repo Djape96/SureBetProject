@@ -18,48 +18,50 @@ Ostali sportovi
 ​
 OMILJENE LIGE
 Engleska 1
-9
+10
 Francuska 1
-9
-Italija 1
 8
+Italija 1
+10
 Nemačka 1
-9
+8
 Srbija 1
 7
 Španija 1
 9
 SVE LIGE
+Albanija
+3
 Alžir
-1
+15
 Argentina
-9
+11
 Australija
-12
-Austrija
-13
-Austrija Amateri
 6
+Austrija
+12
 Azerbejdžan
 4
 Belgija
-14
+7
 Belorusija
-2
-Bolivija
 8
+Bolivija
+6
 Bosna i Hercegovina
 4
 Brazil
-16
+18
 Bugarska
-7
+11
+Crna Gora
+5
 Danska
-10
+9
 Egipat
 6
 Ekvador
-8
+7
 Engleska
 56
 Engleska Amateri
@@ -67,25 +69,23 @@ Engleska Amateri
 Estonija
 1
 Francuska
-25
-Gruzija
-1
+12
 Grčka
-5
-Gvatemala
-1
+7
 Holandija
-19
+10
 Hrvatska
-11
+10
 Indonezija
 5
 Irak
-1
+3
+Iran
+6
 Italija
-45
+52
 Japan
-11
+10
 Jermenija
 3
 Jordan
@@ -93,85 +93,91 @@ Jordan
 Južna Afrika
 4
 Južna Koreja
-13
-Katar
-5
-Kina
 8
+Katar
+4
 Kipar
 6
 Kolumbija
 4
 Kostarika
-4
+5
 Litvanija
 1
-Mađarska
-6
-Meksiko
+Malta
 1
+Mađarska
+5
+Meksiko
+3
 Međunarodne klupske
 7
 Nemačka
-28
+24
 Nemačka Amateri
-42
+34
 Norveška
-10
+9
 Paragvaj
-4
+2
 Peru
 6
 Poljska
-17
+14
 Portugalija
-16
+15
 Rumunija
 6
 Rusija
 15
 SAD
-4
+5
 Saudijska Arabija
-7
-Severna Irska
 6
+Severna Irska
+4
+Singapur
+1
 Slovačka
 6
 Slovenija
-12
+9
 Srbija
 7
 Tajland
-8
+11
 Tanzanija
 1
+Tunis
+8
 Turska
-15
+18
 UAE
-1
+3
 Uganda
 1
 Ukrajina
-6
+7
 Urugvaj
 1
+Uzbekistan
+2
 Vels
-4
+3
 Venecuela
 1
 Češka
 8
 Čile
-7
+5
 Škotska
-16
+15
 Španija
-39
+41
 Švajcarska
-11
+8
 Švedska
-3
+5
 1h
 12h
 1 dan
@@ -186,246 +192,246 @@ X
 GG
 GG3+
 Naredne utakmice
-pet, 21. 11.
-20:30
-First Vienna
-Rapid 2
-2.20
-3.70
-3.20
-2.03
-1.77
-1.66
-2.11
-+295
-pet, 21. 11.
-20:45
-Nice
-Marseille
-4
-3.83
-2
-2.22
-1.77
-1.65
-2.04
-+295
-pet, 21. 11.
-20:45
-Queens Park
-Ross County
-3.92
-3.55
-1.98
-1.91
-1.85
-1.78
-2.25
-+295
-pet, 21. 11.
-20:45
-Standard Liege
-Zulte Waregem
-2.37
-3.42
-3.10
-2.01
-1.85
-1.71
-2.20
-+295
-pet, 21. 11.
-20:45
-Cambrian & Clydach Vale
-Penybont
-4.50
-3.95
-1.77
-2.39
-1.57
-1.58
-1.97
-+297
-pet, 21. 11.
-20:45
-Cardiff Metropolitan
-TNS
-6.25
-5.15
-1.45
-3.36
+sub, 22. 11.
+14:00
+Hansa Rostock
+Schweinfurt
 1.31
-1.45
-1.60
-+297
-pet, 21. 11.
-20:45
-Glentoran
-Dungannon Swifts
-1.63
-3.90
-5.40
-1.92
-1.85
-1.91
-2.42
-+295
-pet, 21. 11.
-20:45
-Llandudno
-Connahs Quay Nomads
-6
-4.35
-1.52
-2.38
-1.55
-1.67
-1.99
-+297
-pet, 21. 11.
-20:45
-Llanelli
-Barry
-4.60
-3.40
-1.87
-1.76
-2.08
-1.93
-2.53
-+297
-pet, 21. 11.
-21:00
-Preston
-Blackburn
-2.60
-3.15
-3.10
-1.67
-2.25
-1.97
-2.70
-+295
-pet, 21. 11.
-21:00
-Valencia
-Levante
-2.10
-3.70
-3.80
-2.08
-1.88
-1.76
-2.28
-+295
-pet, 21. 11.
-21:00
-Larne
-Glenavon
-1.25
-5.60
-13
-2.05
-1.75
-2.60
-3.21
-+295
-pet, 21. 11.
-21:00
-Club Sportivo Luqueno
-Olimpia Asuncion
-4.02
-3.85
-1.87
-2.21
-1.70
-1.63
-1.93
-+295
-pet, 21. 11.
-21:15
-Unionistas
-Real Madrid B
-2.40
-3
-3.48
-1.48
-2.52
-2.15
-3.10
-+295
-pet, 21. 11.
-21:30
-Atletico CP
-Benfica
-21.50
-7.80
-1.14
-2.57
-1.50
-2.75
-3.16
-+292
-pet, 21. 11.
-22:30
-GV San Jose de Oruro
-Aurora
-1.90
-3.88
-3.90
-2.47
-1.56
-1.53
-1.82
-+295
-pet, 21. 11.
-23:00
-2 De Mayo
-Recoleta
-2.19
-3.32
-3.30
+5.90
+9.15
+2.82
+1.42
 1.78
 2
-1.81
-2.45
 +295
 sub, 22. 11.
-00:00
-A.Italiano
-Everton
-2.40
-3.23
-3.15
-1.77
-2.09
-1.85
-2.50
+14:00
+Aschaffenburg
+Hankofen Hailing
+2.05
+3.72
+3.45
+2.25
+1.65
+1.58
+1.96
 +295
 sub, 22. 11.
-00:00
-Deportes Iquique
-Cobresal
-2.14
-3.57
-3.25
-2.14
-1.72
-1.63
-2.04
+14:00
+TSV Aubstadt
+Greuther Furth 2
+2.22
+3.70
+3.10
+2.15
+1.70
+1.60
+1.96
 +295
 sub, 22. 11.
-00:00
-Limache
-U. Espanola
-2.40
+14:00
+Vilzing
+Wurzburger Kickers
+4.55
+4.05
+1.75
+2.27
+1.65
+1.65
+2
++295
+sub, 22. 11.
+14:00
+Havelse
+Ulm
+2.65
+3.80
+2.46
+2.57
+1.55
+1.52
+1.75
++295
+sub, 22. 11.
+14:00
+Kickers Offenbach
+Bahlinger
+1.62
+4.50
+4.76
+2.82
+1.40
+1.48
+1.71
++295
+sub, 22. 11.
+14:00
+Hessen Kassel
+08 Homburg
+2.20
+3.86
+2.86
+2.65
+1.45
+1.42
+1.68
++295
+sub, 22. 11.
+14:00
+Hertha Zehlendorf
+Erfurt
+4.11
+4.09
+1.80
+2.35
+1.58
+1.58
+1.88
++295
+sub, 22. 11.
+14:00
+Zwickau
+Chemnitzer
+2.27
 3.60
-2.87
-2.11
-1.74
-1.63
-2.06
+3.30
+1.71
+2.07
+1.84
+2.51
 +295
+sub, 22. 11.
+14:00
+Young Africans
+FAR Rabat
+2.90
+3.02
+2.56
+1.57
+2.32
+2
+2.81
++295
+sub, 22. 11.
+14:00
+Antequera
+Murcia
+2.70
+2.98
+2.87
+1.47
+2.71
+2.25
+3.34
++295
+sub, 22. 11.
+14:00
+Tixeraine
+Temouchent
+3.45
+3.05
+2.38
+1.43
+2.70
+2.22
+3.26
++292
+sub, 22. 11.
+14:00
+Arba
+GC Mascara
+1.60
+3.40
+6.16
+1.55
+2.31
+2.37
+3.21
++276
+sub, 22. 11.
+14:00
+Tlemcen
+RC Kouba
+2.60
+2.95
+3.10
+1.41
+3.36
+2.62
+4.25
++290
+sub, 22. 11.
+14:00
+Kolea
+Saida
+1.72
+3.40
+5.90
+1.47
+2.75
+2.55
+3.70
++290
+sub, 22. 11.
+14:00
+Beni Oulbene
+MO Constantine
+2.12
+3.12
+3.92
+1.47
+2.63
+2.23
+3.31
++290
+sub, 22. 11.
+14:00
+Telaghema
+CA Batna
+2.28
+3.05
+3.64
+1.47
+2.60
+2.18
+3.23
++290
+sub, 22. 11.
+14:00
+ASM Oran
+Harrach
+2.95
+2.75
+2.90
+1.40
+3.06
+2.45
+3.81
++292
+sub, 22. 11.
+14:00
+Hammam Sousse
+Croissant Sportif de Msaken
+1.72
+3.13
+5.35
+1.46
+2.59
+2.47
+3.53
++275
+sub, 22. 11.
+14:00
+Kalaa Sport
+Stade Gabesien
+2.75
+2.75
+2.86
+1.47
+2.60
+2.14
+3.17
++274
 Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicama. Ne snosimo odgovornost za eventualna nepoklapanja.
 1
 …
@@ -433,7 +439,7 @@ Nastojimo da sve kvote u svakom trenutku budu ažurirane u skladu sa kladionicam
 5
 6
 …
-35
+34
 top
 tiket
 Mečevi
