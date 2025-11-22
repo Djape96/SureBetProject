@@ -61,15 +61,21 @@ def run_script(script_config):
             return True
         else:
             log(f"❌ {script_name} failed with code {result.returncode}")
+            if result.stdout:
+                print("STDOUT:", result.stdout)
             if result.stderr:
-                print(result.stderr)
+                print("STDERR:", result.stderr)
             return False
             
     except subprocess.TimeoutExpired:
-        log(f"⏱️  {script_name} timed out after 2 minutes")
+        log(f"⏱️  {script_name} timed out after 180 seconds")
         return False
+    except KeyboardInterrupt:
+        raise  # Re-raise to allow clean shutdown
     except Exception as e:
-        log(f"❌ Error running {script_name}: {str(e)}")
+        log(f"❌ Error running {script_name}: {type(e).__name__}: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return False
 
 def main():

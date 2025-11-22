@@ -95,11 +95,19 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
             opts = Options()
             if headless: opts.add_argument("--headless=new")
             opts.add_argument("--window-size=1920,1080")
-            opts.add_argument("--disable-gpu"); opts.add_argument("--no-sandbox")
-            # Container stability flags
+            opts.add_argument("--disable-gpu")
+            opts.add_argument("--no-sandbox")
+            # Container stability flags - prevent crashes
             opts.add_argument("--disable-dev-shm-usage")
             opts.add_argument("--disable-browser-side-navigation")
             opts.add_argument("--disable-features=VizDisplayCompositor")
+            opts.add_argument("--disable-software-rasterizer")
+            opts.add_argument("--disable-extensions")
+            opts.add_argument("--disable-setuid-sandbox")
+            opts.add_argument("--single-process")  # Critical for containers
+            # Logging
+            opts.add_argument("--log-level=3")  # Reduce noise
+            opts.add_experimental_option('excludeSwitches', ['enable-logging'])
             install_start = time.time()
             debug("Provisioning ChromeDriver via webdriver_manager...")
             driver_path = ChromeDriverManager().install()

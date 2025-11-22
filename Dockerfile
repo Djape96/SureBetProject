@@ -36,6 +36,8 @@ RUN apt-get update && apt-get install -y \
 ENV CHROME_BIN=/usr/bin/google-chrome-stable
 ENV DISPLAY=:99
 ENV PYTHONUNBUFFERED=1
+# Prevent Chrome crashes in containers
+ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 
 # Set working directory
 WORKDIR /app
