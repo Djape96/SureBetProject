@@ -104,10 +104,29 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
             opts.add_argument("--disable-software-rasterizer")
             opts.add_argument("--disable-extensions")
             opts.add_argument("--disable-setuid-sandbox")
-            opts.add_argument("--single-process")  # Critical for containers
+            # Memory and process management for containers
+            opts.add_argument("--disable-web-security")
+            opts.add_argument("--disable-features=IsolateOrigins,site-per-process")
+            opts.add_argument("--disable-blink-features=AutomationControlled")
+            opts.add_argument("--disable-background-networking")
+            opts.add_argument("--disable-background-timer-throttling")
+            opts.add_argument("--disable-backgrounding-occluded-windows")
+            opts.add_argument("--disable-breakpad")
+            opts.add_argument("--disable-component-extensions-with-background-pages")
+            opts.add_argument("--disable-ipc-flooding-protection")
+            opts.add_argument("--disable-renderer-backgrounding")
+            opts.add_argument("--enable-features=NetworkService,NetworkServiceInProcess")
+            opts.add_argument("--force-color-profile=srgb")
+            opts.add_argument("--hide-scrollbars")
+            opts.add_argument("--metrics-recording-only")
+            opts.add_argument("--mute-audio")
+            # Increase stability
+            opts.add_argument("--disable-crash-reporter")
+            opts.add_argument("--crash-dumps-dir=/tmp")
             # Logging
-            opts.add_argument("--log-level=3")  # Reduce noise
-            opts.add_experimental_option('excludeSwitches', ['enable-logging'])
+            opts.add_argument("--log-level=3")
+            opts.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
+            opts.add_experimental_option('useAutomationExtension', False)
             install_start = time.time()
             debug("Provisioning ChromeDriver via webdriver_manager...")
             driver_path = ChromeDriverManager().install()

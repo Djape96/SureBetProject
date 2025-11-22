@@ -38,9 +38,14 @@ ENV DISPLAY=:99
 ENV PYTHONUNBUFFERED=1
 # Prevent Chrome crashes in containers
 ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
+# Increase shared memory for Chrome (prevents crashes)
+ENV CHROME_DEVEL_SANDBOX=/usr/local/sbin/chrome-devel-sandbox
 
 # Set working directory
 WORKDIR /app
+
+# Create tmp directory for Chrome
+RUN mkdir -p /tmp/.X11-unix && chmod 1777 /tmp/.X11-unix
 
 # Copy requirements and install Python dependencies
 COPY requirements.txt .
