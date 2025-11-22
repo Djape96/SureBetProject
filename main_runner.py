@@ -20,9 +20,9 @@ except ImportError:
 # Configuration
 CHECK_INTERVAL = 300  # 5 minutes between checks (adjust as needed)
 SCRIPTS_TO_RUN = [
-    'arbitrage_tennis.py',
-    'enhanced_basketball_analyzer.py',
-    'enhanced_player_specials_analyzer.py',
+    ('arbitrage_tennis.py', []),
+    ('enhanced_basketball_analyzer.py', ['--max-runtime', '90', '--retries', '1']),
+    ('enhanced_player_specials_analyzer.py', ['--max-runtime', '90', '--retries', '1']),
 ]
 
 def log(message):
@@ -31,19 +31,27 @@ def log(message):
     print(f"[{timestamp}] {message}")
     sys.stdout.flush()  # Ensure logs appear immediately
 
-def run_script(script_name):
+def run_script(script_config):
     """Run a single arbitrage script"""
+    # Handle both old string format and new tuple format
+    if isinstance(script_config, str):
+        script_name = script_config
+        script_args = []
+    else:
+        script_name, script_args = script_config
+    
     if not os.path.exists(script_name):
         log(f"⚠️  Script not found: {script_name}")
         return False
     
     try:
-        log(f"🔄 Running {script_name}...")
+        cmd = [sys.executable, script_name] + script_args
+        log(f"🔄 Running {script_name} {' '.join(script_args)}...")
         result = subprocess.run(
-            [sys.executable, script_name],
+            cmd,
             capture_output=True,
             text=True,
-            timeout=120  # 2 minute timeout per script
+            timeout=180  # 3 minute timeout per script
         )
         
         if result.returncode == 0:

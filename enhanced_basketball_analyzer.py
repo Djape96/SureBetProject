@@ -36,24 +36,42 @@ def check_surebet(odds):
 
 # ----------------- Live Download -----------------
 
-def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_steps=4, pages=1, verbose=False, three_days=False, all_pages=False, requests_only=False, max_runtime=90):
-    print("🏀 Attempting to download live data from TopTiket (Basketball)...")
+def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_steps=4, pages=1, verbose=False, three_days=False, all_pages=False, requests_only=False, max_runtime=90,
+                             fast=False, request_min_len=5000, per_phase_limit=30):
     start_global = time.time()
+
+    def debug(msg):
+        # Centralized timestamped logger for this scraping phase
+        print(f"[{datetime.now():%H:%M:%S}] 🏀 {msg}")
+
+    debug("Starting basketball live data acquisition")
+    debug(f"Params headless={headless} retries={retries} pages={pages} three_days={three_days} all_pages={all_pages} requests_only={requests_only} fast={fast} request_min_len={request_min_len} max_runtime={max_runtime}")
     if requests_only:
-        if verbose: print("📡 Requests-only mode enabled; skipping Selenium fallback.")
+        if verbose: debug("Requests-only mode enabled; skipping Selenium fallback.")
     
     try:
-        r = requests.get(BASKETBALL_URL, headers={'User-Agent':'Mozilla/5.0'}, timeout=10)
-        if r.status_code==200 and len(r.text) > 5000 and "You need to enable JavaScript" not in r.text:
+        debug("Attempting simple requests fetch...")
+        req_start = time.time()
+        r = requests.get(BASKETBALL_URL, headers={'User-Agent':'Mozilla/5.0'}, timeout=12)
+        debug(f"Requests status={r.status_code} size={len(r.text)} took={round(time.time()-req_start,2)}s")
+        # Allow smaller threshold in fast/request-only mode
+        effective_min_len = request_min_len if not fast else min(request_min_len, 2500)
+        if r.status_code==200 and len(r.text) > effective_min_len and "You need to enable JavaScript" not in r.text:
             with open("live_basketball_data.txt","w",encoding="utf-8") as f: f.write(r.text)
-            print("✅ Basketball live data via simple request")
+            debug("✅ Basketball live data via simple request (sufficient content)")
             return True
+        else:
+            if verbose: debug(f"Requests response insufficient (len {len(r.text)} < {effective_min_len}); will consider Selenium")
     except Exception as e:
-        if verbose: print("(requests basketball) error", e)
-    if requests_only:
-        print("❌ Requests response insufficient and Selenium disabled (--requests-only).")
+        if verbose: debug(f"(requests basketball) error: {type(e).__name__}: {e}")
+    if requests_only or fast:
+        print("❌ Requests response insufficient and Selenium disabled (requests-only/fast mode).")
+        return False
+    if os.environ.get('BASKETBALL_DISABLE_SELENIUM','0')=='1':
+        print("❌ Selenium disabled by env BASKETBALL_DISABLE_SELENIUM=1.")
         return False
     try:
+        debug("Importing Selenium stack...")
         from selenium import webdriver
         from selenium.webdriver.chrome.service import Service
         from selenium.webdriver.chrome.options import Options
@@ -61,8 +79,9 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
         from selenium.webdriver.support.ui import WebDriverWait
         from selenium.webdriver.support import expected_conditions as EC
         from webdriver_manager.chrome import ChromeDriverManager
+        debug("Selenium imports successful")
     except ImportError:
-        print("❌ Selenium not installed for basketball scraping")
+        debug("❌ Selenium not installed for basketball scraping")
         return False
     attempt=0
     while attempt <= retries:
@@ -71,7 +90,7 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
         if elapsed > max_runtime:
             print(f"⏱️  Basketball scraping exceeded max runtime ({max_runtime}s); aborting.")
             return False
-        print(f"⛹️  (Basketball) Selenium attempt {attempt}/{retries+1} (elapsed {int(elapsed)}s)...")
+        debug(f"Selenium attempt {attempt}/{retries+1} (elapsed {int(elapsed)}s)")
         try:
             opts = Options()
             if headless: opts.add_argument("--headless=new")
@@ -81,23 +100,35 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
             opts.add_argument("--disable-dev-shm-usage")
             opts.add_argument("--disable-browser-side-navigation")
             opts.add_argument("--disable-features=VizDisplayCompositor")
-            driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
+            install_start = time.time()
+            debug("Provisioning ChromeDriver via webdriver_manager...")
+            driver_path = ChromeDriverManager().install()
+            install_dur = time.time() - install_start
+            debug(f"Driver path resolved: {driver_path} (install {round(install_dur,2)}s)")
+            if install_dur > per_phase_limit:
+                debug(f"Driver install exceeded per_phase_limit {per_phase_limit}s; aborting Selenium attempts.")
+                return False
+            driver = webdriver.Chrome(service=Service(driver_path), options=opts)
+            debug("WebDriver instance created")
             try:
+                nav_start = time.time()
+                debug("Navigating to basketball URL...")
                 driver.get(BASKETBALL_URL)
                 WebDriverWait(driver, selenium_wait).until(EC.presence_of_element_located((By.TAG_NAME,'body')))
+                debug(f"Page body detected (nav {round(time.time()-nav_start,2)}s)")
 
                 # Attempt cookie consent acceptance (non-fatal)
                 try:
                     cbtn = WebDriverWait(driver,2).until(EC.element_to_be_clickable((By.CSS_SELECTOR,'.cookie-consent-container .accept-button')))
                     cbtn.click(); time.sleep(0.3)
-                    if verbose: print('🍪 Basketball cookies accepted')
+                    if verbose: debug('Cookies acceptance attempted (possibly succeeded)')
                 except Exception:
                     pass
 
                 # Activate 3-day filter if requested
                 if three_days:
                     clicked=False
-                    if verbose: print('🗓️ Attempting 3-day filter (Basketball)')
+                    if verbose: debug('Attempting 3-day filter (Basketball)')
                     path_candidates=[
                         (By.XPATH,"//button[contains(.,'3 dana') or contains(.,'3 Dana') or contains(.,'3 DANA')][not(@disabled)]"),
                         (By.XPATH,"//*[contains(@class,'day') and (contains(.,'3 dana') or contains(.,'3 Dana'))]"),
@@ -118,13 +149,16 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
                             if js_clicked: clicked=True
                         except Exception: pass
                     if verbose:
-                        print('✅ 3-day filter clicked (Basketball)' if clicked else "⚠️ '3 dana' control not found (Basketball)")
+                        debug('3-day filter clicked' if clicked else "'3 dana' control not found")
                     time.sleep(1)
 
                 # Initial scrolling for lazy loading
+                debug(f"Initial lazy-load scrolling steps: {scroll_steps}")
+                scroll_start = time.time()
                 for s in range(scroll_steps):
                     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);"); time.sleep(0.6)
                     if s==0: driver.execute_script("window.scrollTo(0,0);")
+                debug(f"Finished initial scrolling phase (scroll {round(time.time()-scroll_start,2)}s)")
 
                 # Guard: stop early if runtime drifting
                 if time.time() - start_global > max_runtime:
@@ -134,6 +168,7 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
                 # Auto-detect total pages if requested
                 if all_pages:
                     try:
+                        debug("Auto-detecting pagination buttons...")
                         elems = driver.find_elements(By.CSS_SELECTOR,'button,a')
                         nums=[]
                         for el in elems:
@@ -144,14 +179,14 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
                         if nums:
                             auto_max=max(nums)
                             if auto_max > pages:
-                                if verbose: print(f'🔢 Auto-detected basketball pages: {auto_max}')
+                                if verbose: debug(f'Auto-detected basketball pages: {auto_max}')
                                 pages=auto_max
                     except Exception:
                         pass
                 page_content = driver.page_source
                 combined=page_content
                 if pages>1:
-                    if verbose: print(f"↪️  Basketball pagination pages= {pages}")
+                    if verbose: debug(f"Pagination target pages={pages}")
                     for p in range(2,pages+1):
                         try:
                             btn=None
@@ -162,7 +197,7 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
                             if not btn:
                                 btn = driver.execute_script("return Array.from(document.querySelectorAll('button,a')).find(el=>el.textContent.trim()==='"+str(p)+"')")
                             if not btn:
-                                if verbose: print(f"  • Basketball page {p} control not found")
+                                if verbose: debug(f"Page {p} control not found")
                                 break
                             try: btn.click()
                             except Exception: driver.execute_script("arguments[0].click();", btn)
@@ -173,20 +208,25 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
                             if len(new_src)!=len(page_content):
                                 combined += f"\n<!-- PAGE {p} SPLIT -->\n" + new_src
                         except Exception as pe:
-                            if verbose: print("  • Basketball pagination fail", pe)
+                            if verbose: debug(f"Pagination fail p={p} err={pe}")
                             break
                     page_content=combined
                 decs = re.findall(r">\s*(\d+\.\d{2})\s*<", page_content)
-                if len(page_content)>18_000 and len(decs)>10:
+                debug(f"Collected decimals count={len(decs)} page_source_len={len(page_content)}")
+                # Relax thresholds if fast mode
+                min_page_len = 18_000 if not fast else 9_000
+                min_decs = 10 if not fast else 6
+                if len(page_content)>min_page_len and len(decs)>min_decs:
                     with open("live_basketball_data.txt","w",encoding="utf-8") as f: f.write(page_content)
-                    print("✅ Basketball live data via Selenium")
+                    debug("✅ Basketball live data via Selenium (content threshold met)")
                     return True
                 else:
-                    print("⚠️ Basketball content insufficient; retrying" if attempt<=retries else "❌ Basketball giving up")
+                    debug("Content insufficient; will retry" if attempt<=retries else "Giving up after final attempt")
             finally:
+                debug("Quitting WebDriver")
                 driver.quit()
         except Exception as e:
-            print("❌ Basketball Selenium attempt error", e)
+            debug(f"Basketball Selenium attempt error: {type(e).__name__}: {e}")
             time.sleep(1.5)
     return False
 
@@ -326,10 +366,38 @@ def main():
     ap.add_argument('--notify-max-roi', type=float, default=float(os.environ.get('BASKETBALL_NOTIFY_MAX_ROI','20')), help='Maximum profit%% to include; above treated as suspicious (default 20)')
     ap.add_argument('--requests-only', action='store_true', help='Skip Selenium fallback and fail fast if requests HTML insufficient')
     ap.add_argument('--max-runtime', type=int, default=int(os.environ.get('BASKETBALL_MAX_RUNTIME','90')), help='Hard timeout (seconds) for total scraping phase')
+    ap.add_argument('--fast', action='store_true', help='Fast mode: force requests-only attempt with relaxed thresholds; if insufficient skip Selenium')
     args = ap.parse_args()
 
     verbose=args.verbose
-    ok = download_live_basketball(headless=not args.no_headless, retries=args.retries, pages=args.pages, verbose=verbose, three_days=args.three_days, all_pages=args.all_pages, requests_only=args.requests_only, max_runtime=args.max_runtime)
+    # Environment-driven overrides
+    env_force_requests = os.environ.get('BASKETBALL_FORCE_REQUESTS','0')=='1'
+    env_disable_selenium = os.environ.get('BASKETBALL_DISABLE_SELENIUM','0')=='1'
+    env_request_min_len = int(os.environ.get('BASKETBALL_REQUEST_MIN_LEN', '5000'))
+    env_scroll_steps = int(os.environ.get('BASKETBALL_SCROLL_STEPS', '4'))
+    env_selenium_retries = os.environ.get('BASKETBALL_SELENIUM_RETRIES')
+    effective_retries = args.retries
+    if env_selenium_retries is not None:
+        try:
+            effective_retries = max(0, int(env_selenium_retries))
+        except: pass
+    # Fast mode implies requests-only semantics
+    effective_requests_only = args.requests_only or env_force_requests or env_disable_selenium or args.fast
+    # Adjust scroll steps for fast mode
+    if args.fast:
+        env_scroll_steps = min(env_scroll_steps, 2)
+    ok = download_live_basketball(headless=not args.no_headless,
+                                  retries=effective_retries,
+                                  pages=args.pages,
+                                  verbose=verbose,
+                                  three_days=args.three_days,
+                                  all_pages=args.all_pages,
+                                  requests_only=effective_requests_only,
+                                  max_runtime=args.max_runtime,
+                                  fast=args.fast,
+                                  request_min_len=env_request_min_len,
+                                  per_phase_limit=int(os.environ.get('BASKETBALL_PER_PHASE_LIMIT','30')),
+                                  scroll_steps=env_scroll_steps)
     if not ok:
         print('❌ Could not fetch basketball live data.'); return
     flat = flatten_html_to_text('live_basketball_data.txt','live_basketball_extracted.txt')

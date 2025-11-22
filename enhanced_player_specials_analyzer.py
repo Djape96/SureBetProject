@@ -22,6 +22,10 @@ import time
 from datetime import datetime
 from typing import List, Dict, Any, Tuple, Optional
 import requests
+try:
+    from telegram_notifier import send_long_message
+except Exception:
+    send_long_message = None
 
 # Default settings
 DEFAULT_TOTAL_STAKE = 100
@@ -134,12 +138,15 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
                     if s == 0:
                         driver.execute_script('window.scrollTo(0,0);')
 
-                # Infinite scroll stabilization
+                # Infinite scroll stabilization (limited iterations)
                 if verbose:
                     print('↪️ Starting infinite scroll phase')
                 stable = 0
+                scroll_iterations = 0
+                max_scroll_iterations = 15  # Limit to prevent infinite loops
                 last_height = driver.execute_script('return document.body.scrollHeight')
-                while stable < 3:
+                while stable < 3 and scroll_iterations < max_scroll_iterations:
+                    scroll_iterations += 1
                     driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
                     time.sleep(1.1)
                     new_height = driver.execute_script('return document.body.scrollHeight')
@@ -149,12 +156,14 @@ def download_live_player_specials(headless=True, retries=2, selenium_wait=15, sc
                         stable = 0
                         last_height = new_height
                     if verbose:
-                        print(f'   • Scroll height={new_height} stable_pass={stable}')
+                        print(f'   • Scroll height={new_height} stable_pass={stable} iter={scroll_iterations}')
                     if new_height > 3_000_000:
                         break
                     if time.time() - start_global > max_runtime:
                         print('⏱️  Runtime limit reached during infinite scroll; aborting.')
                         return False
+                if scroll_iterations >= max_scroll_iterations and verbose:
+                    print(f'⚠️  Infinite scroll stopped at max iterations ({max_scroll_iterations})')
 
                 # League filter attempt
                 try:
@@ -545,6 +554,52 @@ def analyze_player_specials_surebets(matches, min_profit=0.0, verbose=False):
     
     return surebets
 
+# ----------------- Deduplication & Formatting -----------------
+
+def deduplicate_player_specials(matches, verbose=False):
+    filtered = []
+    seen = set()
+    for m in matches:
+        # Skip heuristic artifacts where player == team
+        if m.get('player') == m.get('team'):
+            if verbose:
+                print(f"[dedup:skip-team] {m['player']}")
+            continue
+        key = (m.get('player'), m.get('stat_type'), m.get('stat_value'))
+        if key in seen:
+            if verbose:
+                print(f"[dedup:duplicate] {key}")
+            continue
+        seen.add(key)
+        filtered.append(m)
+    if verbose:
+        print(f"[dedup] Reduced matches from {len(matches)} to {len(filtered)}")
+    return filtered
+
+def format_player_specials_summary(surebets: List[Dict[str, Any]], total_matches: int, include_header: bool=False) -> str:
+    lines=[]
+    if include_header:
+        lines.extend([
+            "🎯 Player Specials Surebets Report",
+            f"Total parsed player specials: {total_matches}",
+            f"Surebets detected: {len(surebets)}",
+            ""
+        ])
+    if not surebets:
+        if include_header:
+            lines.append('No player specials surebets.')
+            return '\n'.join(lines)
+        return 'No player specials surebets.'
+    top = sorted(surebets, key=lambda x: x['profit'], reverse=True)[:15]
+    if include_header:
+        lines.append('Top opportunities (profit desc):')
+    for sb in top:
+        match = sb['match']
+        profit = sb['profit']
+        odds_line = ', '.join(f"{k}={v[0]}" for k,v in sb['odds'].items())
+        lines.append(f"{match}\n  Profit {profit}% | {odds_line}")
+    return '\n'.join(lines)
+
 # ----------------- Output -----------------
 
 def save_player_specials(matches, surebets, source_type):
@@ -599,7 +654,11 @@ def main():
     parser.add_argument('--no-headless', action='store_true', help='Run browser in visible mode')
     parser.add_argument('--retries', type=int, default=2, help='Number of retry attempts')
     parser.add_argument('--requests-only', action='store_true', help='Skip Selenium fallback and fail fast if requests HTML insufficient')
-    parser.add_argument('--max-runtime', type=int, default=int(os.environ.get('PLAYER_SPECIALS_MAX_RUNTIME','120')), help='Hard timeout (seconds) for total scraping phase')
+    parser.add_argument('--max-runtime', type=int, default=int(os.environ.get('PLAYER_SPECIALS_MAX_RUNTIME','90')), help='Hard timeout (seconds) for total scraping phase')
+    parser.add_argument('--no-telegram', action='store_true', help='Disable Telegram sending for this run')
+    parser.add_argument('--telegram-header', action='store_true', help='Include header lines in Telegram message')
+    parser.add_argument('--notify-min-roi', type=float, default=float(os.environ.get('PLAYER_SPECIALS_NOTIFY_MIN_ROI','1.0')), help='Minimum profit% to include in Telegram notification')
+    parser.add_argument('--notify-max-roi', type=float, default=float(os.environ.get('PLAYER_SPECIALS_NOTIFY_MAX_ROI','25')), help='Maximum profit% to include (above treated as suspicious)')
     args = parser.parse_args()
     
     verbose = args.verbose
@@ -630,6 +689,9 @@ def main():
         lines = [l.strip() for l in f if l.strip()]
     
     matches = parse_player_specials_flat(lines, verbose=verbose)
+
+    # Deduplicate
+    matches = deduplicate_player_specials(matches, verbose=verbose)
     
     # If text parsing didn't work well, try DOM parsing
     if not matches:
@@ -658,6 +720,22 @@ def main():
             print(f"  • {sb['player']} ({sb['stat_type']}) - {sb['profit']}%")
     else:
         print('\nℹ️ No surebet opportunities identified in player specials.')
+
+    # Telegram notification (filtered by ROI range)
+    filtered_notify = [sb for sb in surebets if args.notify_min_roi <= sb['profit'] <= args.notify_max_roi]
+    print(f"🔎 Player specials notify filter: profit between {args.notify_min_roi}% and {args.notify_max_roi}% -> {len(filtered_notify)} candidates")
+    if not args.no_telegram and send_long_message:
+        if not filtered_notify:
+            print('ℹ️ No player specials surebets within desired profit range; skipping Telegram send.')
+        else:
+            try:
+                msg = format_player_specials_summary(filtered_notify, len(matches), include_header=args.telegram_header)
+                send_long_message(msg)
+                print('📨 Player specials Telegram summary attempted (filtered).')
+            except Exception as e:
+                print(f'⚠️ Player specials Telegram send failed: {e}')
+    elif not send_long_message:
+        print('ℹ Telegram notifier not available (import failed).')
 
 if __name__ == '__main__':
     main()
