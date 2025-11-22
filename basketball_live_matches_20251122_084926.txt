@@ -1,0 +1,190 @@
+Basketball Matches (live) - 2025-11-22 08:49:26
+============================================================
+
+South East Melbourne vs Adelaide
+  1: 1.74 @ AUTO
+  2: 2.2 @ AUTO
+  H1: 1.92 @ AUTO
+  Handicap: 1.92 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 185.5 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Besiktas vs Manisa BBSK
+  1: 1.03 @ AUTO
+  2: 13.0 @ AUTO
+  H1: 1.89 @ AUTO
+  Handicap: 1.99 @ AUTO
+  H2: 1.97 @ AUTO
+  Under: 170.5 @ AUTO
+  Handicap2: 1.88 @ AUTO
+
+Final Genclik vs Balikesir Belediye Spor
+  1: 2.05 @ AUTO
+  2: 1.7 @ AUTO
+  H1: 1.8 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 1.96 @ AUTO
+  Under: 1.85 @ AUTO
+  Handicap2: 163.5 @ AUTO
+  Over: 1.88 @ AUTO
+
+Hogsbo Basket vs Sodertalje
+  1: 2.55 @ AUTO
+  2: 1.5 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 165.5 @ AUTO
+  Over: 1.85 @ AUTO
+
+Fenerbahce Koleji vs Kocaeli Bsb
+  1: 2.1 @ AUTO
+  2: 1.7 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 1.85 @ AUTO
+  Handicap2: 154.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+Parma Permsky Kray vs Unics Kazan
+  1: 3.81 @ AUTO
+  2: 1.34 @ AUTO
+  H1: 2.05 @ AUTO
+  Handicap: 8.5 @ AUTO
+  H2: 2.1 @ AUTO
+  Under: 1.9 @ AUTO
+  Handicap2: 162.5 @ AUTO
+  Over: 1.95 @ AUTO
+
+Omega Tauras LSU vs Alytaus Alytus
+  1: 1.12 @ AUTO
+  2: 5.9 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 171.5 @ AUTO
+  Handicap2: 1.86 @ AUTO
+
+Bahcesehir Koleji vs Trabzonspor Medical Park
+  1: 1.26 @ AUTO
+  2: 4.5 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 167.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Kataja vs Lahti Basketball
+  1: 1.47 @ AUTO
+  2: 2.9 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.87 @ AUTO
+  Under: 174.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Koping Stars vs Sloga Uppsala
+  1: 1.15 @ AUTO
+  2: 5.7 @ AUTO
+  H1: 1.93 @ AUTO
+  Handicap: 1.95 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 172.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Cayirova Belediyesi vs Konya Basket
+  1: 1.37 @ AUTO
+  2: 3.3 @ AUTO
+  H1: 1.91 @ AUTO
+  Handicap: 1.82 @ AUTO
+  H2: 1.86 @ AUTO
+  Under: 165.5 @ AUTO
+  Handicap2: 1.85 @ AUTO
+
+Mykonos vs Panathinaikos
+  1: 13.0 @ AUTO
+  2: 1.03 @ AUTO
+  H1: 1.95 @ AUTO
+  Handicap: 18.5 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 1.97 @ AUTO
+  Handicap2: 165.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+BC Zalgiris Kaunas 2 vs Silute
+  1: 1.47 @ AUTO
+  2: 2.7 @ AUTO
+  H1: 1.93 @ AUTO
+  Handicap: 1.85 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 170.5 @ AUTO
+  Handicap2: 1.82 @ AUTO
+
+Suduva Mantinga Marijampole vs Vilniaus Stekas
+  1: 1.1 @ AUTO
+  2: 7.1 @ AUTO
+  H1: 1.83 @ AUTO
+  Handicap: 1.94 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 165.5 @ AUTO
+  Handicap2: 1.87 @ AUTO
+
+Vaerlose vs Bears Academy
+  1: 1.26 @ AUTO
+  2: 4.3 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 166.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Kolossos Rhodes vs Peristeri Athens
+  1: 1.69 @ AUTO
+  2: 2.2 @ AUTO
+  H1: 2.02 @ AUTO
+  Handicap: 1.91 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 159.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+
+Kursiai Palanga vs BC Jurbarkas-Karys
+  1: 2.25 @ AUTO
+  2: 1.75 @ AUTO
+  H1: 1.78 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.88 @ AUTO
+  Handicap2: 152.5 @ AUTO
+  Over: 1.83 @ AUTO
+
+Nidaros Jets vs Tnt Towers
+  1: 2.1 @ AUTO
+  2: 1.71 @ AUTO
+  H1: 1.81 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.82 @ AUTO
+  Handicap2: 171.5 @ AUTO
+  Over: 1.89 @ AUTO
+
+Neptunas Akvaservis Klaipeda vs Plunges Olimpas
+  1: 1.62 @ AUTO
+  2: 2.3 @ AUTO
+  H1: 1.98 @ AUTO
+  Handicap: 1.79 @ AUTO
+  H2: 1.89 @ AUTO
+  Under: 159.5 @ AUTO
+  Handicap2: 1.81 @ AUTO
+
+Telsiai vs Kedainiu Sporto Centras
+  1: 1.76 @ AUTO
+  2: 2.0 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.85 @ AUTO
+  Under: 174.5 @ AUTO
+  Handicap2: 1.9 @ AUTO
+

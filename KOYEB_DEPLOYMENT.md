@@ -51,12 +51,28 @@ git push origin main
 
 Add these environment variables in Koyeb dashboard:
 
+**Required:**
+
 | Variable | Value | Description |
 |----------|-------|-------------|
 | `TELEGRAM_BOT_TOKEN` | `123456:ABC...` | Your Telegram bot token |
 | `TELEGRAM_CHAT_ID` | `987654321` | Your Telegram chat ID |
-| `BASKETBALL_MAX_RUNTIME` | `90` | Basketball scraper timeout (optional) |
-| `PLAYER_SPECIALS_MAX_RUNTIME` | `90` | Player specials timeout (optional) |
+
+**IMPORTANT - Remove or set to 0 if present from old deployments:**
+
+| Variable | Value | Description |
+|----------|-------|-------------|
+| `BASKETBALL_FORCE_REQUESTS` | `0` | Do NOT force requests-only mode |
+| `BASKETBALL_DISABLE_SELENIUM` | `0` | Do NOT disable Selenium |
+| `PLAYER_SPECIALS_FORCE_REQUESTS` | `0` | Do NOT force requests-only mode |
+| `BASKETBALL_REQUEST_MIN_LEN` | DELETE | Remove if exists |
+
+**Optional (only if you need to tune performance):**
+
+| Variable | Value | Description |
+|----------|-------|-------------|
+| `BASKETBALL_MAX_RUNTIME` | `90` | Basketball scraper timeout |
+| `PLAYER_SPECIALS_MAX_RUNTIME` | `90` | Player specials timeout |
 
 **Get your Telegram credentials:**
 ```bash
