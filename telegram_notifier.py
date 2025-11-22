@@ -113,7 +113,8 @@ def format_surebets_summary(
         t = sb['type']
         roi = sb['roi_pct']
         margin = sb['margin_pct']
-        odds = sb['odds_str']
+        # Handle both 'odds_str' and 'odds' keys
+        odds = sb.get('odds_str') or sb.get('odds') or '?'
         # Simplified line (no stakes, no aggregate stats section)
         lines.append(f"{tm} | {vs}\n  {t}: ROI {roi}% | Margin {margin}% | {odds}")
     return "\n".join(lines)
