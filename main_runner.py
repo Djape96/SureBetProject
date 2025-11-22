@@ -31,6 +31,7 @@ CHECK_INTERVAL = 300  # 5 minutes between checks (adjust as needed)
 SCRIPTS_TO_RUN = [
     ('arbitrage_tennis.py', []),
     ('enhanced_basketball_analyzer.py', ['--max-runtime', '90', '--retries', '1']),
+    ('enhanced_football_analyzer.py', ['--live-force', '--retries', '1', '--min-profit', '1.5']),
     ('enhanced_player_specials_analyzer.py', ['--max-runtime', '90', '--retries', '1']),
 ]
 
@@ -103,7 +104,7 @@ def main():
     # Send startup notification
     if TELEGRAM_AVAILABLE:
         try:
-            startup_msg = "🚀 SureBet Runner Started!\n\nMonitoring:\n• Tennis\n• Basketball\n• Player Specials\n\nChecking every 5 minutes..."
+            startup_msg = "🚀 SureBet Runner Started!\n\nMonitoring:\n• Tennis\n• Basketball\n• Football\n• Player Specials\n\nChecking every 5 minutes..."
             send_raw_message(startup_msg)
             log("📱 Startup notification sent to Telegram")
         except Exception as e:
