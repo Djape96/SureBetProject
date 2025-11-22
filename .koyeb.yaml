@@ -1,0 +1,57 @@
+# Koyeb Configuration for SureBet Project
+
+# Service Configuration
+name: surebet-analyzer
+region: fra  # Frankfurt (or choose closest to you)
+
+# Instance Configuration
+instance_type: nano  # Can upgrade to 'small' if nano has issues
+
+# Build Configuration
+builder: dockerfile
+dockerfile: Dockerfile
+
+# Deployment Configuration
+docker:
+  args: []
+  
+# Health Check Configuration
+health_checks:
+  readiness:
+    http:
+      port: 8000
+      path: /health
+  liveness:
+    http:
+      port: 8000
+      path: /health
+    initial_delay_seconds: 60
+    period_seconds: 30
+    timeout_seconds: 10
+    failure_threshold: 3
+
+# Environment Variables (set these in Koyeb dashboard)
+env:
+  - name: TELEGRAM_BOT_TOKEN
+    value: "YOUR_BOT_TOKEN_HERE"
+  - name: TELEGRAM_CHAT_ID
+    value: "YOUR_CHAT_ID_HERE"
+  # Optional performance tuning
+  - name: BASKETBALL_MAX_RUNTIME
+    value: "90"
+  - name: PLAYER_SPECIALS_MAX_RUNTIME
+    value: "90"
+
+# Scaling Configuration
+scaling:
+  min: 1
+  max: 1
+
+# Port Configuration
+ports:
+  - port: 8000
+    protocol: http
+
+# Volumes (for /dev/shm - Chrome shared memory)
+# Note: Koyeb doesn't support custom volumes via config file
+# You may need to upgrade to a larger instance if Chrome keeps crashing

@@ -9,6 +9,15 @@ import sys
 from datetime import datetime
 import os
 
+# Start health check server for Koyeb
+try:
+    from health_server import start_health_server, update_health
+    start_health_server(port=8000)
+    HEALTH_ENABLED = True
+except Exception as e:
+    print(f"⚠️ Health server not started: {e}")
+    HEALTH_ENABLED = False
+
 # Try to import telegram notifier
 try:
     from telegram_notifier import send_raw_message
@@ -87,6 +96,10 @@ def main():
     log(f"Scripts to run: {len(SCRIPTS_TO_RUN)}")
     log("")
     
+    # Update health status
+    if HEALTH_ENABLED:
+        update_health(status="running")
+    
     # Send startup notification
     if TELEGRAM_AVAILABLE:
         try:
@@ -102,9 +115,7 @@ def main():
         cycle_count += 1
         log("=" * 60)
         log(f"🔁 Starting cycle #{cycle_count}")
-        log("=" * 60)
-        
-        successful = 0
+        log("=" * 60)        successful = 0
         failed = 0
         
         for script in SCRIPTS_TO_RUN:
@@ -118,6 +129,13 @@ def main():
         
         log("")
         log(f"📊 Cycle #{cycle_count} complete - ✅ {successful} succeeded, ❌ {failed} failed")
+        
+        # Update health status
+        if HEALTH_ENABLED:
+            update_health(
+                status="healthy" if failed == 0 else "degraded",
+                last_cycle=datetime.now().isoformat()
+            )
         
         # Send Telegram notification after each cycle
         if TELEGRAM_AVAILABLE:
