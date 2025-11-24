@@ -11,7 +11,8 @@ DEFAULT_TOTAL_STAKE = 100
 BASKETBALL_URL = "https://toptiket.rs/odds/basketball"
 
 # Market order provided: 1,2,H1,spread,H2,manje (Under), spread, vise (Over)
-MARKET_SEQ = ['1','2','H1','Handicap','H2','Under','Handicap2','Over']
+# We track: Moneyline (1,2), Handicap (H1,Handicap,H2), and Point Totals (Under,Handicap2/Spread,Over)
+MARKET_SEQ = ['1','2','H1','Handicap','H2','Under','Spread','Over']
 
 # ----------------- Generic Utility -----------------
 
@@ -97,6 +98,8 @@ def download_live_basketball(headless=True, retries=2, selenium_wait=8, scroll_s
             opts.add_argument("--window-size=1920,1080")
             opts.add_argument("--disable-gpu")
             opts.add_argument("--no-sandbox")
+            # CRITICAL: Single-process mode prevents ChromeDriver crashes in containers
+            opts.add_argument("--single-process")
             # Container stability flags - prevent crashes
             opts.add_argument("--disable-dev-shm-usage")
             opts.add_argument("--disable-browser-side-navigation")
@@ -304,22 +307,39 @@ def parse_basketball_flat(lines, verbose=False):
     if verbose: print(f"[basketball] Total matches parsed: {len(matches)}")
     return matches
 
-# ----------------- Surebet Logic (only 1/2 and Under/Over) -----------------
+# ----------------- Surebet Logic (1/2 and Over/Under Point Totals) -----------------
 
 def analyze_basketball_surebets(matches, min_profit=0.0, verbose=False):
     surebets=[]
     for m in matches:
         labels=m['odds']
+        # Moneyline (1 vs 2)
         if all(x in labels for x in ['1','2']):
             profit = check_surebet([labels['1'], labels['2']])
             if profit and profit >= min_profit:
                 stakes, abs_p = compute_stakes([labels['1'], labels['2']])
                 surebets.append({'match':m['teams'],'type':'Moneyline','profit':profit,'odds':{'1':labels['1'],'2':labels['2']},'stakes':stakes,'abs_profit':abs_p})
+        # Point Totals (Under vs Over with spread value)
         if 'Under' in labels and 'Over' in labels:
             profit = check_surebet([labels['Under'], labels['Over']])
             if profit and profit >= min_profit:
                 stakes, abs_p = compute_stakes([labels['Under'], labels['Over']])
-                surebets.append({'match':m['teams'],'type':'Totals','profit':profit,'odds':{'Under':labels['Under'],'Over':labels['Over']},'stakes':stakes,'abs_profit':abs_p})
+                # Extract spread/total points value if available
+                spread_value = None
+                if 'Spread' in labels:
+                    spread_value = labels['Spread'][0] if isinstance(labels['Spread'], tuple) else labels['Spread']
+                surebet_entry = {
+                    'match':m['teams'],
+                    'type':'Totals',
+                    'profit':profit,
+                    'odds':{'Under':labels['Under'],'Over':labels['Over']},
+                    'stakes':stakes,
+                    'abs_profit':abs_p
+                }
+                if spread_value is not None:
+                    surebet_entry['spread'] = spread_value
+                    surebet_entry['type'] = f'Totals ({spread_value})'
+                surebets.append(surebet_entry)
     return surebets
 
 # ----------------- Telegram Formatting -----------------
@@ -373,7 +393,10 @@ def save_basketball(matches, surebets, source_type):
             for sb in surebets:
                 f.write(f"{sb['match']}\n  ✅ {sb['type']} SUREBET → Profit: {sb['profit']}%\n")
                 odds_line = ', '.join(f"{k}={v[0]}" for k,v in sb['odds'].items())
-                f.write(f"  Odds: {odds_line}\n\n")
+                f.write(f"  Odds: {odds_line}\n")
+                if 'spread' in sb:
+                    f.write(f"  Point Total: {sb['spread']}\n")
+                f.write('\n')
     return mf, sf
 
 # ----------------- Main -----------------
