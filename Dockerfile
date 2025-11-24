@@ -27,6 +27,13 @@ RUN apt-get update && apt-get install -y \
     fonts-liberation \
     libgbm1 \
     ca-certificates \
+    libdrm2 \
+    libatspi2.0-0 \
+    libgtk-3-0 \
+    libwayland-client0 \
+    libxkbcommon0 \
+    xdg-utils \
+    procps \
     && wget -q -O /tmp/google-chrome-stable_current_amd64.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
     && apt-get install -y /tmp/google-chrome-stable_current_amd64.deb \
     && rm /tmp/google-chrome-stable_current_amd64.deb \
@@ -40,12 +47,15 @@ ENV PYTHONUNBUFFERED=1
 ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 # Increase shared memory for Chrome (prevents crashes)
 ENV CHROME_DEVEL_SANDBOX=/usr/local/sbin/chrome-devel-sandbox
+# Force single-process mode to prevent crashes
+ENV CHROME_FLAGS="--single-process --disable-dev-shm-usage"
 
 # Set working directory
 WORKDIR /app
 
-# Create tmp directory for Chrome
-RUN mkdir -p /tmp/.X11-unix && chmod 1777 /tmp/.X11-unix
+# Create tmp directory for Chrome and ensure proper /dev/shm setup
+RUN mkdir -p /tmp/.X11-unix && chmod 1777 /tmp/.X11-unix \
+    && mkdir -p /dev/shm && chmod 1777 /dev/shm
 
 # Copy requirements and install Python dependencies
 COPY requirements.txt .

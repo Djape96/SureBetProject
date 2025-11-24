@@ -135,6 +135,8 @@ def download_fresh_data():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--window-size=1920,1080')
+    # CRITICAL: Single-process mode prevents ChromeDriver crashes in containers
+    chrome_options.add_argument('--single-process')
     # Container stability flags
     chrome_options.add_argument('--disable-software-rasterizer')
     chrome_options.add_argument('--disable-setuid-sandbox')
@@ -142,8 +144,15 @@ def download_fresh_data():
     chrome_options.add_argument('--disable-features=IsolateOrigins,site-per-process')
     chrome_options.add_argument('--disable-background-networking')
     chrome_options.add_argument('--disable-crash-reporter')
+    chrome_options.add_argument('--disable-breakpad')
+    chrome_options.add_argument('--crash-dumps-dir=/tmp')
     chrome_options.add_argument('--log-level=3')
     chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+    chrome_options.add_argument('--disable-extensions')
+    chrome_options.add_argument('--disable-background-timer-throttling')
+    chrome_options.add_argument('--disable-backgrounding-occluded-windows')
+    chrome_options.add_argument('--disable-renderer-backgrounding')
+    chrome_options.add_argument('--disable-ipc-flooding-protection')
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
     chrome_options.add_experimental_option('useAutomationExtension', False)
     if FAST_MODE:
