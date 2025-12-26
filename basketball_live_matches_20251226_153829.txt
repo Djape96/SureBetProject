@@ -1,0 +1,178 @@
+Basketball Matches (live) - 2025-12-26 15:38:29
+============================================================
+
+Rostock Seawolves vs Alba Berlin
+  1: 2.42 @ AUTO
+  2: 1.62 @ AUTO
+  H1: 1.92 @ AUTO
+  Handicap: 4.5 @ AUTO
+  H2: 2.1 @ AUTO
+  Under: 1.99 @ AUTO
+  Spread: 167.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Le Mans vs Saint Quentin
+  1: 1.17 @ AUTO
+  2: 7.1 @ AUTO
+  H1: 2.1 @ AUTO
+  Handicap: 1.87 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 1.97 @ AUTO
+
+Boulazac vs Dijon
+  1: 2.02 @ AUTO
+  2: 2.0 @ AUTO
+  H1: 1.88 @ AUTO
+  Handicap: 1.5 @ AUTO
+  H2: 2.25 @ AUTO
+  Under: 1.97 @ AUTO
+  Spread: 168.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+Le Portel vs Cholet
+  1: 3.5 @ AUTO
+  2: 1.35 @ AUTO
+  H1: 1.93 @ AUTO
+  Handicap: 7.5 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.93 @ AUTO
+  Spread: 171.5 @ AUTO
+  Over: 1.95 @ AUTO
+
+Nizhny Novgorod vs BC Samara
+  1: 1.03 @ AUTO
+  2: 14.0 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 2.0 @ AUTO
+  H2: 2.0 @ AUTO
+  Under: 1.99 @ AUTO
+
+Tofas vs Bahcesehir Koleji
+  1: 2.04 @ AUTO
+  2: 1.86 @ AUTO
+  H1: 1.72 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 2.11 @ AUTO
+  Under: 1.94 @ AUTO
+  Spread: 164.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Elan Chalon vs Nancy
+  1: 1.4 @ AUTO
+  2: 3.3 @ AUTO
+  H1: 1.93 @ AUTO
+  Handicap: 1.9 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 1.9 @ AUTO
+
+Strasbourg IG vs Limoges
+  1: 1.47 @ AUTO
+  2: 3.0 @ AUTO
+  H1: 2.05 @ AUTO
+  Handicap: 2.05 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.92 @ AUTO
+
+Slask Wroclaw vs Anwil Wloclawek
+  1: 1.62 @ AUTO
+  2: 2.4 @ AUTO
+  H1: 2.01 @ AUTO
+  Handicap: 1.83 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.88 @ AUTO
+
+BSC Furstenfeld Panthers vs Graz UBSC
+  1: 13.0 @ AUTO
+  2: 1.02 @ AUTO
+  H1: 1.81 @ AUTO
+  Handicap: 21.5 @ AUTO
+  H2: 1.99 @ AUTO
+  Under: 1.85 @ AUTO
+  Spread: 165.5 @ AUTO
+  Over: 1.9 @ AUTO
+
+Oberwart Gunners vs Vienna Basket
+  1: 41.0 @ AUTO
+  2: 1.91 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 1.95 @ AUTO
+  H2: 1.85 @ AUTO
+
+Partizan vs Maccabi Tel Aviv
+  1: 1.75 @ AUTO
+  2: 2.31 @ AUTO
+  H1: 2.11 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 2.03 @ AUTO
+
+Traiskirchen Lions vs BBC Nord Dragonz
+  1: 1.23 @ AUTO
+  2: 4.3 @ AUTO
+  H1: 1.85 @ AUTO
+  Handicap: 1.91 @ AUTO
+  H2: 1.9 @ AUTO
+  Under: 1.85 @ AUTO
+
+Buducnost vs Mega
+  1: 1.07 @ AUTO
+  2: 9.5 @ AUTO
+  H1: 1.84 @ AUTO
+  Handicap: 1.98 @ AUTO
+  H2: 1.92 @ AUTO
+  Under: 1.91 @ AUTO
+
+Rent4Office Nurnberg vs Giessen
+  1: 2.06 @ AUTO
+  2: 1.71 @ AUTO
+  H1: 1.8 @ AUTO
+  Handicap: 2.5 @ AUTO
+  H2: 1.95 @ AUTO
+  Under: 1.9 @ AUTO
+  Spread: 166.5 @ AUTO
+  Over: 1.85 @ AUTO
+
+Wurzburg vs TBB Trier
+  1: 1.26 @ AUTO
+  2: 4.2 @ AUTO
+  H1: 1.87 @ AUTO
+  Handicap: 2.0 @ AUTO
+  H2: 1.93 @ AUTO
+  Under: 1.92 @ AUTO
+
+St. Polten vs BK Dukes Klosterneuburg
+  1: 3.7 @ AUTO
+  2: 1.33 @ AUTO
+  H1: 1.89 @ AUTO
+  Handicap: 6.5 @ AUTO
+  H2: 1.88 @ AUTO
+  Under: 1.93 @ AUTO
+  Spread: 172.5 @ AUTO
+  Over: 1.83 @ AUTO
+
+Syntainics MBC vs BV Chemnitz 99Ers
+  1: 1.72 @ AUTO
+  2: 2.18 @ AUTO
+  H1: 2.07 @ AUTO
+  Handicap: 1.88 @ AUTO
+  H2: 1.94 @ AUTO
+  Under: 1.92 @ AUTO
+
+Nanterre vs Paris
+  1: 2.9 @ AUTO
+  2: 1.47 @ AUTO
+  H1: 1.9 @ AUTO
+  Handicap: 5.5 @ AUTO
+  H2: 1.96 @ AUTO
+  Under: 1.96 @ AUTO
+  Spread: 180.5 @ AUTO
+  Over: 1.87 @ AUTO
+
+Monaco vs Real Madrid
+  1: 1.55 @ AUTO
+  2: 2.7 @ AUTO
+  H1: 2.05 @ AUTO
+  Handicap: 1.97 @ AUTO
+  H2: 2.0 @ AUTO
+  Under: 1.95 @ AUTO
+

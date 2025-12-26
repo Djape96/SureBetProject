@@ -291,10 +291,24 @@ def parse_basketball_flat(lines, verbose=False):
                 if num_re.match(l):
                     try:
                         val=float(l)
-                        if 1.01 <= val <= 200:
-                            odds_map[MARKET_SEQ[idx]] = (val,'AUTO')
-                            if verbose: print(f"[basketball] {t1} vs {t2} {MARKET_SEQ[idx]}={val}")
+                        # Validate value ranges based on market type
+                        current_market = MARKET_SEQ[idx]
+                        # Odds should be between 1.01 and 50 (reasonable betting odds)
+                        # Spreads/Handicaps can be larger (e.g., 168.5 points total)
+                        if current_market in ['Handicap', 'Spread']:
+                            # Handicap/Spread values can be any positive number
+                            if val > 0:
+                                odds_map[current_market] = (val,'AUTO')
+                                if verbose: print(f"[basketball] {t1} vs {t2} {current_market}={val}")
+                                idx+=1
+                        elif 1.01 <= val <= 50:
+                            # Regular odds
+                            odds_map[current_market] = (val,'AUTO')
+                            if verbose: print(f"[basketball] {t1} vs {t2} {current_market}={val}")
                             idx+=1
+                        else:
+                            # Value out of range for current position, skip it
+                            if verbose: print(f"[basketball] {t1} vs {t2} skipping value {val} for {current_market} (out of range)")
                     except: pass
                 i+=1
             if len(odds_map) >= 2:
@@ -317,6 +331,13 @@ def analyze_basketball_surebets(matches, min_profit=0.0, verbose=False):
         if all(x in labels for x in ['1','2']):
             profit = check_surebet([labels['1'], labels['2']])
             if profit and profit >= min_profit:
+                # Sanity check: filter out extreme odds mismatches (likely data errors)
+                # If one odd is > 20 and the other < 3, it's suspicious
+                o1, o2 = labels['1'][0], labels['2'][0]
+                if (o1 > 20 and o2 < 3) or (o2 > 20 and o1 < 3):
+                    if verbose:
+                        print(f"[basketball] Skipping suspicious moneyline surebet: {m['teams']} (odds {o1} vs {o2}, profit {profit}%)")
+                    continue
                 stakes, abs_p = compute_stakes([labels['1'], labels['2']])
                 surebets.append({'match':m['teams'],'type':'Moneyline','profit':profit,'odds':{'1':labels['1'],'2':labels['2']},'stakes':stakes,'abs_profit':abs_p})
         # Point Totals (Under vs Over with spread value)
